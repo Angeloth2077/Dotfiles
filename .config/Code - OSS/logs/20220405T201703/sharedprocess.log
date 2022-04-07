@@ -1,0 +1,17 @@
+[2022-04-05 20:17:06.292] [sharedprocess] [info] Starting worker process with pid 32270 (type: fileWatcher, window: 1).
+[2022-04-05 20:17:09.314] [sharedprocess] [info] Getting Manifest... ms-vscode.js-debug-companion
+[2022-04-05 20:17:09.315] [sharedprocess] [info] Getting Manifest... ms-vscode.references-view
+[2022-04-05 20:17:09.317] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter
+[2022-04-05 20:17:11.085] [sharedprocess] [info] Installing extension: ms-vscode.js-debug-companion
+[2022-04-05 20:17:11.094] [sharedprocess] [info] Installing extension: ms-vscode.references-view
+[2022-04-05 20:17:11.564] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2022-04-05 20:17:12.312] [sharedprocess] [info] Downloaded extension: ms-vscode.references-view /home/angel/.config/Code - OSS/CachedExtensionVSIXs/ms-vscode.references-view-0.0.89
+[2022-04-05 20:17:12.339] [sharedprocess] [info] Extracted extension to /home/angel/.vscode-oss/extensions/.763c2168-c93b-4b2e-b6d9-eb554460736b: ms-vscode.references-view
+[2022-04-05 20:17:12.360] [sharedprocess] [info] Renamed to /home/angel/.vscode-oss/extensions/ms-vscode.references-view-0.0.89
+[2022-04-05 20:17:12.362] [sharedprocess] [info] Extracting completed. ms-vscode.references-view
+[2022-04-05 20:17:12.385] [sharedprocess] [info] Extension installed successfully: ms-vscode.references-view
+[2022-04-05 20:17:12.533] [sharedprocess] [info] Downloaded extension: ms-vscode.js-debug-companion /home/angel/.config/Code - OSS/CachedExtensionVSIXs/ms-vscode.js-debug-companion-1.0.17
+[2022-04-05 20:17:12.573] [sharedprocess] [info] Extracted extension to /home/angel/.vscode-oss/extensions/.4677863a-0b05-4188-a83f-3cf282e21536: ms-vscode.js-debug-companion
+[2022-04-05 20:17:12.577] [sharedprocess] [info] Renamed to /home/angel/.vscode-oss/extensions/ms-vscode.js-debug-companion-1.0.17
+[2022-04-05 20:17:12.578] [sharedprocess] [info] Extracting completed. ms-vscode.js-debug-companion
+[2022-04-05 20:17:12.581] [sharedprocess] [info] Extension installed successfully: ms-vscode.js-debug-companion

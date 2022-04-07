@@ -1,0 +1,7 @@
+2022/04/04-09:26:02.615 753 Creating DB /home/angel/.config/google-chrome/Default/IndexedDB/https_odysee.com_0.indexeddb.leveldb since it was missing.
+2022/04/04-09:26:02.621 753 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_odysee.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/04-09:26:02.644 6bf Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/04/04-09:26:03.128 827 Level-0 table #5: started
+2022/04/04-09:26:03.130 827 Level-0 table #5: 4232 bytes OK
+2022/04/04-09:26:03.131 827 Delete type=0 #3
+2022/04/04-09:26:03.131 827 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)

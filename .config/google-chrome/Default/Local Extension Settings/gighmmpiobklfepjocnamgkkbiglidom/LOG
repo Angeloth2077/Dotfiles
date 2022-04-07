@@ -1,0 +1,17 @@
+2022/04/07-19:31:12.928 5781 Reusing MANIFEST /home/angel/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2022/04/07-19:31:12.929 5781 Recovering log #1652
+2022/04/07-19:31:12.929 5781 Reusing old log /home/angel/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/001652.log 
+2022/04/07-19:32:16.113 5772 Level-0 table #1656: started
+2022/04/07-19:32:16.186 5772 Level-0 table #1656: 7566903 bytes OK
+2022/04/07-19:32:16.190 5772 Delete type=0 #1652
+2022/04/07-19:32:16.193 5758 Compacting 4@0 + 2@1 files
+2022/04/07-19:32:16.383 5758 Generated table #1657@0: 2 keys, 7566763 bytes
+2022/04/07-19:32:16.387 5758 Generated table #1658@0: 6 keys, 406 bytes
+2022/04/07-19:32:16.387 5758 Compacted 4@0 + 2@1 files => 7567169 bytes
+2022/04/07-19:32:16.388 5758 compacted to: files[ 0 2 1 0 0 0 0 ]
+2022/04/07-19:32:16.388 5758 Delete type=2 #1646
+2022/04/07-19:32:16.388 5758 Delete type=2 #1649
+2022/04/07-19:32:16.388 5758 Delete type=2 #1647
+2022/04/07-19:32:16.388 5758 Delete type=2 #1656
+2022/04/07-19:32:16.388 5758 Delete type=2 #1651
+2022/04/07-19:32:16.388 5758 Delete type=2 #1653

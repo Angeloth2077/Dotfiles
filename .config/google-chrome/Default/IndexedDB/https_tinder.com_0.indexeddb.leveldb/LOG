@@ -1,0 +1,6 @@
+2022/04/06-22:13:13.910 f420 Creating DB /home/angel/.config/google-chrome/Default/IndexedDB/https_tinder.com_0.indexeddb.leveldb since it was missing.
+2022/04/06-22:13:13.914 f420 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_tinder.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/06-22:13:35.272 f194 Level-0 table #5: started
+2022/04/06-22:13:35.273 f194 Level-0 table #5: 10131 bytes OK
+2022/04/06-22:13:35.275 f194 Delete type=0 #3
+2022/04/06-22:13:35.275 f194 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

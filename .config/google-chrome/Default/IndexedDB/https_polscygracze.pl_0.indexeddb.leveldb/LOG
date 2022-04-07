@@ -1,0 +1,6 @@
+2022/04/06-18:05:16.998 c0f5 Creating DB /home/angel/.config/google-chrome/Default/IndexedDB/https_polscygracze.pl_0.indexeddb.leveldb since it was missing.
+2022/04/06-18:05:17.002 c0f5 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_polscygracze.pl_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/06-18:06:14.996 c190 Level-0 table #5: started
+2022/04/06-18:06:14.998 c190 Level-0 table #5: 6106 bytes OK
+2022/04/06-18:06:14.999 c190 Delete type=0 #3
+2022/04/06-18:06:14.999 c190 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

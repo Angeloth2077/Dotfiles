@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "브라우저 창 외부 또는 다른 응용 프로그램의 상단에 떠있는 창 (Picture-in-Picture 모드)에서 비디오를 시청하십시오."
+   },
+   "name": {
+      "message": "Floating Video in Pop-up"
+   },
+   "title": {
+      "message": "Floating Video in Pop-up"
+   }
+}

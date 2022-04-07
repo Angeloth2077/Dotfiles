@@ -1,0 +1,12 @@
+[2022-04-05 20:17:06.155] [exthost] [info] Extension host with pid 32218 started
+[2022-04-05 20:17:06.219] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-04-05 20:17:06.444] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-04-05 20:17:06.825] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-05 20:17:06.829] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-04-05 20:17:06.833] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-05 20:17:06.907] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-05 20:17:07.054] [exthost] [info] Eager extensions activated
+[2022-04-05 20:17:07.102] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-05 20:17:07.122] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-05 20:17:25.975] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-04-05 20:17:25.987] [exthost] [info] Extension host with pid 32218 exiting with code 0

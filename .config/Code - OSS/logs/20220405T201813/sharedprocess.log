@@ -1,0 +1,8 @@
+[2022-04-05 20:18:15.389] [sharedprocess] [info] Starting worker process with pid 32485 (type: fileWatcher, window: 1).
+[2022-04-05 20:18:18.444] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter
+[2022-04-05 20:18:19.965] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2022-04-05 20:18:23.463] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/angel/.config/Code - OSS/CachedExtensionVSIXs/ms-toolsai.jupyter-2022.3.1000901801
+[2022-04-05 20:18:23.938] [sharedprocess] [info] Extracted extension to /home/angel/.vscode-oss/extensions/.f669519a-5fa7-47af-9505-b5bacab6a3cf: ms-toolsai.jupyter
+[2022-04-05 20:18:23.945] [sharedprocess] [info] Renamed to /home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000901801
+[2022-04-05 20:18:23.948] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter
+[2022-04-05 20:18:23.952] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter

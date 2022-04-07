@@ -1,0 +1,41 @@
+2022/04/06-09:42:31.445 37e Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/06-09:42:31.445 37e Recovering log #370
+2022/04/06-09:42:31.452 37e Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000370.log 
+2022/04/06-11:24:26.674 230a Level-0 table #382: started
+2022/04/06-11:24:26.716 230a Level-0 table #382: 1275431 bytes OK
+2022/04/06-11:24:26.718 230a Delete type=0 #370
+2022/04/06-11:26:33.338 230a Compacting 1@1 + 8@2 files
+2022/04/06-11:26:33.422 230a Generated table #383@1: 37072 keys, 2249316 bytes
+2022/04/06-11:26:33.463 230a Generated table #384@1: 58474 keys, 2304181 bytes
+2022/04/06-11:26:33.485 230a Generated table #385@1: 7827 keys, 2230616 bytes
+2022/04/06-11:26:33.502 230a Generated table #386@1: 2838 keys, 2151673 bytes
+2022/04/06-11:26:33.532 230a Generated table #387@1: 19180 keys, 2215673 bytes
+2022/04/06-11:26:33.602 230a Generated table #388@1: 27432 keys, 2249303 bytes
+2022/04/06-11:26:33.642 230a Generated table #389@1: 60790 keys, 2200304 bytes
+2022/04/06-11:26:33.687 230a Generated table #390@1: 92793 keys, 2029541 bytes
+2022/04/06-11:26:33.687 230a Compacted 1@1 + 8@2 files => 17630607 bytes
+2022/04/06-11:26:33.690 230a compacted to: files[ 0 0 8 0 0 0 0 ]
+2022/04/06-11:26:33.690 230a Delete type=2 #379
+2022/04/06-11:26:33.690 230a Delete type=2 #378
+2022/04/06-11:26:33.690 230a Delete type=2 #375
+2022/04/06-11:26:33.690 230a Delete type=2 #373
+2022/04/06-11:26:33.690 230a Delete type=2 #372
+2022/04/06-11:26:33.690 230a Delete type=2 #382
+2022/04/06-11:26:33.690 230a Delete type=2 #376
+2022/04/06-11:26:33.690 230a Delete type=2 #374
+2022/04/06-11:26:33.690 230a Delete type=2 #377
+2022/04/06-12:17:32.806 38ce Level-0 table #392: started
+2022/04/06-12:17:32.823 38ce Level-0 table #392: 1105320 bytes OK
+2022/04/06-12:17:32.825 38ce Delete type=0 #381
+2022/04/06-12:17:32.825 38ce Compacting 1@1 + 6@2 files
+2022/04/06-12:17:32.874 38ce Generated table #393@1: 34385 keys, 2240313 bytes
+2022/04/06-12:17:32.904 38ce Level-0 table #396: started
+2022/04/06-12:17:32.920 38ce Level-0 table #396: 1352291 bytes OK
+2022/04/06-12:17:32.924 38ce Delete type=0 #391
+2022/04/06-12:17:32.967 38ce Generated table #394@1: 53940 keys, 2348567 bytes
+2022/04/06-12:17:32.986 38ce Generated table #397@1: 3312 keys, 2154247 bytes
+2022/04/06-12:17:33.002 38ce Generated table #398@1: 2803 keys, 2150320 bytes
+2022/04/06-12:17:33.041 38ce Generated table #399@1: 26712 keys, 2256718 bytes
+2022/04/06-12:17:33.066 38ce Generated table #400@1: 18932 keys, 1483747 bytes
+2022/04/06-12:17:33.066 38ce Compacted 1@1 + 6@2 files => 12633912 bytes
+2022/04/06-12:17:33.068 38ce compacted to: files[ 1 0 8 0 0 0 0 ]

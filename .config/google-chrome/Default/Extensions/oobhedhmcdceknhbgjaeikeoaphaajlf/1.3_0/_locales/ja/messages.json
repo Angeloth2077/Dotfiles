@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "ブラウザウィンドウの外側または他のアプリケーションの上にあるフローティングウィンドウ（Picture-in-Pictureモード）でビデオを視聴します。"
+   },
+   "name": {
+      "message": "Floating Player - Picture-in-Picture Mode"
+   },
+   "title": {
+      "message": "Floating Player - Picture-in-Picture Mode"
+   }
+}

@@ -1,0 +1,60 @@
+2022/04/06-17:37:08.807 b4e5 Reusing MANIFEST /home/angel/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/04/06-17:37:08.808 b4e5 Recovering log #175
+2022/04/06-17:37:08.808 b4e5 Reusing old log /home/angel/.config/discord/Local Storage/leveldb/000175.log 
+2022/04/06-17:39:09.598 b4f4 Level-0 table #179: started
+2022/04/06-17:39:09.602 b4f4 Level-0 table #179: 365094 bytes OK
+2022/04/06-17:39:09.604 b4f4 Delete type=0 #175
+2022/04/06-17:39:09.604 b4f4 Compacting 4@0 + 1@1 files
+2022/04/06-17:39:09.611 b4f4 Generated table #180@0: 125 keys, 731986 bytes
+2022/04/06-17:39:09.611 b4f4 Compacted 4@0 + 1@1 files => 731986 bytes
+2022/04/06-17:39:09.612 b4f4 compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/04/06-17:39:09.612 b4f4 Delete type=2 #169
+2022/04/06-17:39:09.612 b4f4 Delete type=2 #171
+2022/04/06-17:39:09.612 b4f4 Delete type=2 #174
+2022/04/06-17:39:09.612 b4f4 Delete type=2 #179
+2022/04/06-17:39:09.612 b4f4 Delete type=2 #176
+2022/04/06-18:16:09.598 b4f4 Level-0 table #182: started
+2022/04/06-18:16:09.599 b4f4 Level-0 table #182: 19874 bytes OK
+2022/04/06-18:16:09.601 b4f4 Delete type=0 #178
+2022/04/06-19:00:09.598 b4f4 Level-0 table #184: started
+2022/04/06-19:00:09.599 b4f4 Level-0 table #184: 12849 bytes OK
+2022/04/06-19:00:09.601 b4f4 Delete type=0 #181
+2022/04/06-19:42:09.732 b4f4 Level-0 table #186: started
+2022/04/06-19:42:09.733 b4f4 Level-0 table #186: 13539 bytes OK
+2022/04/06-19:42:09.735 b4f4 Delete type=0 #183
+2022/04/06-20:30:09.732 b4f4 Level-0 table #188: started
+2022/04/06-20:30:09.734 b4f4 Level-0 table #188: 12964 bytes OK
+2022/04/06-20:30:09.736 b4f4 Delete type=0 #185
+2022/04/06-20:30:09.736 b4f4 Compacting 4@0 + 1@1 files
+2022/04/06-20:30:09.750 b4f4 Generated table #189@0: 125 keys, 732652 bytes
+2022/04/06-20:30:09.750 b4f4 Compacted 4@0 + 1@1 files => 732652 bytes
+2022/04/06-20:30:09.752 b4f4 compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/04/06-20:30:09.752 b4f4 Delete type=2 #188
+2022/04/06-20:30:09.752 b4f4 Delete type=2 #186
+2022/04/06-20:30:09.752 b4f4 Delete type=2 #180
+2022/04/06-20:30:09.752 b4f4 Delete type=2 #182
+2022/04/06-20:30:09.752 b4f4 Delete type=2 #184
+2022/04/06-21:15:09.599 b4f4 Level-0 table #191: started
+2022/04/06-21:15:09.601 b4f4 Level-0 table #191: 13412 bytes OK
+2022/04/06-21:15:09.602 b4f4 Delete type=0 #187
+2022/04/06-21:55:09.599 b4e2 Level-0 table #193: started
+2022/04/06-21:55:09.600 b4e2 Level-0 table #193: 13175 bytes OK
+2022/04/06-21:55:09.602 b4e2 Delete type=0 #190
+2022/04/06-22:40:09.598 b4f4 Level-0 table #195: started
+2022/04/06-22:40:09.599 b4f4 Level-0 table #195: 13558 bytes OK
+2022/04/06-22:40:09.601 b4f4 Delete type=0 #192
+2022/04/06-23:24:09.599 b4e2 Level-0 table #197: started
+2022/04/06-23:24:09.600 b4e2 Level-0 table #197: 13066 bytes OK
+2022/04/06-23:24:09.602 b4e2 Delete type=0 #194
+2022/04/06-23:24:09.602 b4e2 Compacting 4@0 + 1@1 files
+2022/04/06-23:24:09.610 b4e2 Generated table #198@0: 125 keys, 732817 bytes
+2022/04/06-23:24:09.610 b4e2 Compacted 4@0 + 1@1 files => 732817 bytes
+2022/04/06-23:24:09.611 b4e2 compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/04/06-23:24:09.612 b4e2 Delete type=2 #189
+2022/04/06-23:24:09.612 b4e2 Delete type=2 #197
+2022/04/06-23:24:09.612 b4e2 Delete type=2 #191
+2022/04/06-23:24:09.612 b4e2 Delete type=2 #195
+2022/04/06-23:24:09.612 b4e2 Delete type=2 #193
+2022/04/07-00:12:09.599 b4f4 Level-0 table #200: started
+2022/04/07-00:12:09.600 b4f4 Level-0 table #200: 13345 bytes OK
+2022/04/07-00:12:09.602 b4f4 Delete type=0 #196

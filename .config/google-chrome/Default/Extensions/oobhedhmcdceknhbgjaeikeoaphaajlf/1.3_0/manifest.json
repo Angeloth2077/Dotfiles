@@ -1,0 +1,36 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js", "ga.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "assets/icon19.png",
+         "38": "assets/icon38.png"
+      }
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "chromeos": "Alt+P",
+            "linux": "Alt+P",
+            "mac": "Alt+P",
+            "windows": "Alt+P"
+         }
+      }
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_desc__",
+   "icons": {
+      "128": "assets/icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvHaJ3OdHvz4RIUt8+rDxvYqBWftlWpEN5+uGqbwReZ8WC0Q/y9IQR8nT11vONNaFhYZfoYALdmwgPeRpBOliWyA3tO6D20ZMXPlMmd3XS/FhYzSqUef3dbL9/1gPKNpOynTZ93nzv0y8xMtRRSCby4rBpBz8vtl+Dt6VyiKzHKx6cVDceMjGIQrls5qEcGu88TYVHWRyNCbUv6kOV4EFIuauoFYgNuA5+ssrZ2ABbCwcU6ApB+re5WKvhZaVVDhPUc8Q4A6R9lKTZbk/nhQRAMbfzA/1asob7iwdxUHLqWpH1AkeBHrIpL9GPxaUHq9vXuqEAAR7K4q/YDNoNjcCeQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "69.0.0",
+   "name": "__MSG_name__",
+   "permissions": [ "\u003Call_urls>" ],
+   "short_name": "__MSG_name__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3"
+}

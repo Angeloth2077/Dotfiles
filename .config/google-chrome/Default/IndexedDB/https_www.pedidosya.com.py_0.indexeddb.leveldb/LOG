@@ -1,0 +1,6 @@
+2022/04/06-21:19:23.865 e56a Creating DB /home/angel/.config/google-chrome/Default/IndexedDB/https_www.pedidosya.com.py_0.indexeddb.leveldb since it was missing.
+2022/04/06-21:19:23.869 e56a Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.pedidosya.com.py_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/06-21:19:28.153 e681 Level-0 table #5: started
+2022/04/06-21:19:28.156 e681 Level-0 table #5: 62719 bytes OK
+2022/04/06-21:19:28.158 e681 Delete type=0 #3
+2022/04/06-21:19:28.159 e681 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

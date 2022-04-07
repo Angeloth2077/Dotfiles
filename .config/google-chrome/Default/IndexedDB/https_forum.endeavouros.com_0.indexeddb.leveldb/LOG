@@ -1,0 +1,6 @@
+2022/03/24-13:17:51.438 115f Creating DB /home/angel/.config/google-chrome/Default/IndexedDB/https_forum.endeavouros.com_0.indexeddb.leveldb since it was missing.
+2022/03/24-13:17:51.445 115f Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_forum.endeavouros.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/24-13:18:35.320 115f Level-0 table #5: started
+2022/03/24-13:18:35.326 115f Level-0 table #5: 134100 bytes OK
+2022/03/24-13:18:35.328 115f Delete type=0 #3
+2022/03/24-13:18:35.328 115f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

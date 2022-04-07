@@ -1,0 +1,8 @@
+[2022-04-05 20:18:13.114] [main] [info] window#load: attempt to load window (id: 1)
+[2022-04-05 20:18:13.121] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-04-05 20:18:13.151] [main] [info] ExtensionHostStarterWorker created
+[2022-04-05 20:18:14.280] [main] [info] window#load: window reported ready (id: 1)
+[2022-04-05 20:18:14.427] [main] [info] Starting extension host with pid 32427 (fork() took 11 ms).
+[2022-04-05 20:18:14.427] [main] [info] ExtensionHostStarterWorker.start() took 14 ms.
+[2022-04-05 20:18:29.216] [main] [info] Waiting for extension host with pid 32427 to exit.
+[2022-04-05 20:18:29.232] [main] [info] Extension host with pid 32427 exited with code: 0, signal: null.

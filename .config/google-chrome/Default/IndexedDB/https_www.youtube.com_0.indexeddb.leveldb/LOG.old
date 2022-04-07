@@ -1,0 +1,51 @@
+2022/04/07-10:42:28.120 3f9 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/07-10:42:28.120 3f9 Recovering log #265
+2022/04/07-10:42:28.173 3f9 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000265.log 
+2022/04/07-11:04:31.061 45c Level-0 table #270: started
+2022/04/07-11:04:31.076 45c Level-0 table #270: 1185112 bytes OK
+2022/04/07-11:04:31.078 45c Delete type=0 #265
+2022/04/07-11:05:12.087 45c Compacting 1@1 + 1@2 files
+2022/04/07-11:05:12.097 45c Generated table #271@1: 456 keys, 37686 bytes
+2022/04/07-11:05:12.097 45c Compacted 1@1 + 1@2 files => 37686 bytes
+2022/04/07-11:05:12.098 45c compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/07-11:05:12.099 45c Delete type=2 #267
+2022/04/07-11:05:12.099 45c Delete type=2 #270
+2022/04/07-12:15:38.002 9a7 Level-0 table #273: started
+2022/04/07-12:15:38.019 9a7 Level-0 table #273: 1161501 bytes OK
+2022/04/07-12:15:38.021 9a7 Delete type=0 #269
+2022/04/07-12:20:02.689 9a7 Compacting 1@1 + 1@2 files
+2022/04/07-12:20:02.704 9a7 Generated table #274@1: 802 keys, 47988 bytes
+2022/04/07-12:20:02.704 9a7 Compacted 1@1 + 1@2 files => 47988 bytes
+2022/04/07-12:20:02.706 9a7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/07-12:20:02.707 9a7 Delete type=2 #273
+2022/04/07-12:20:02.707 9a7 Delete type=2 #271
+2022/04/07-14:23:46.457 f50 Level-0 table #276: started
+2022/04/07-14:23:46.472 f50 Level-0 table #276: 1291394 bytes OK
+2022/04/07-14:23:46.474 f50 Delete type=0 #272
+2022/04/07-14:27:16.941 f50 Compacting 1@1 + 1@2 files
+2022/04/07-14:27:16.955 f50 Generated table #277@1: 536 keys, 35506 bytes
+2022/04/07-14:27:16.955 f50 Compacted 1@1 + 1@2 files => 35506 bytes
+2022/04/07-14:27:16.956 f50 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/07-14:27:16.957 f50 Delete type=2 #276
+2022/04/07-14:27:16.957 f50 Delete type=2 #274
+2022/04/07-17:32:40.879 1478 Level-0 table #279: started
+2022/04/07-17:32:40.897 1478 Level-0 table #279: 1360827 bytes OK
+2022/04/07-17:32:40.899 1478 Delete type=0 #275
+2022/04/07-17:34:08.703 1478 Compacting 1@1 + 1@2 files
+2022/04/07-17:34:08.711 1478 Generated table #280@1: 396 keys, 32317 bytes
+2022/04/07-17:34:08.711 1478 Compacted 1@1 + 1@2 files => 32317 bytes
+2022/04/07-17:34:08.713 1478 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/07-17:34:08.713 1478 Delete type=2 #279
+2022/04/07-17:34:08.713 1478 Delete type=2 #277
+2022/04/07-18:20:45.062 3bf0 Level-0 table #282: started
+2022/04/07-18:20:45.079 3bf0 Level-0 table #282: 817595 bytes OK
+2022/04/07-18:20:45.081 3bf0 Delete type=0 #278
+2022/04/07-18:20:45.081 3bf0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/04/07-18:20:45.082 3bf0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x09\x01\x1f\x03\xcdl\x13\xc3\xdcuxB\x00\x01\x1c\x00y\x00t\x00-\x00m\x00i\x00n\x00i\x00p\x00l\x00a\x00y\x00e\x00r\x00-\x00s\x00h\x00o\x00w\x00n\x00-\x00v\x00i\x00d\x00e\x00o\x00-\x00i\x00d' @ 1038977 : 1
+2022/04/07-18:20:45.082 3bf0 Compacting 1@1 + 1@2 files
+2022/04/07-18:20:45.086 3bf0 Generated table #283@1: 660 keys, 40744 bytes
+2022/04/07-18:20:45.086 3bf0 Compacted 1@1 + 1@2 files => 40744 bytes
+2022/04/07-18:20:45.087 3bf0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/07-18:20:45.088 3bf0 Delete type=2 #282
+2022/04/07-18:20:45.088 3bf0 Delete type=2 #280
+2022/04/07-18:20:45.088 3bf0 Manual compaction at level-1 from '\x00\x09\x01\x1f\x03\xcdl\x13\xc3\xdcuxB\x00\x01\x1c\x00y\x00t\x00-\x00m\x00i\x00n\x00i\x00p\x00l\x00a\x00y\x00e\x00r\x00-\x00s\x00h\x00o\x00w\x00n\x00-\x00v\x00i\x00d\x00e\x00o\x00-\x00i\x00d' @ 1038977 : 1 .. (end); will stop at (end)

@@ -1,0 +1,22 @@
+2022/04/05-19:10:25.101 63fc Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_wchat.freshchat.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/05-19:10:25.101 63fc Recovering log #7
+2022/04/05-19:10:25.108 63fc Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_wchat.freshchat.com_0.indexeddb.leveldb/000007.log 
+2022/04/05-19:12:53.577 658f Level-0 table #11: started
+2022/04/05-19:12:53.591 658f Level-0 table #11: 1097246 bytes OK
+2022/04/05-19:12:53.593 658f Delete type=0 #7
+2022/04/05-19:12:53.594 658f Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0f\x001\x009\x008\x004\x008\x004\x008\x003\x000\x006\x007\x002\x009\x003\x001' @ 2062 : 1
+2022/04/05-19:12:53.594 658f Compacting 1@0 + 1@1 files
+2022/04/05-19:12:53.601 658f Generated table #12@0: 437 keys, 16547 bytes
+2022/04/05-19:12:53.601 658f Compacted 1@0 + 1@1 files => 16547 bytes
+2022/04/05-19:12:53.603 658f compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/04/05-19:12:53.603 658f Delete type=2 #8
+2022/04/05-19:12:53.603 658f Delete type=2 #11
+2022/04/05-19:12:53.604 658f Manual compaction at level-0 from '\x00\x01\x01\x02\x01\x0f\x001\x009\x008\x004\x008\x004\x008\x003\x000\x006\x007\x002\x009\x003\x001' @ 2062 : 1 .. (end); will stop at (end)
+2022/04/05-19:12:53.604 658f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0f\x001\x009\x008\x004\x008\x004\x008\x003\x000\x006\x007\x002\x009\x003\x001' @ 2614 : 1
+2022/04/05-19:12:53.604 658f Compacting 1@1 + 1@2 files
+2022/04/05-19:12:53.606 658f Generated table #13@1: 30 keys, 12932 bytes
+2022/04/05-19:12:53.606 658f Compacted 1@1 + 1@2 files => 12932 bytes
+2022/04/05-19:12:53.607 658f compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/05-19:12:53.607 658f Delete type=2 #12
+2022/04/05-19:12:53.607 658f Delete type=2 #5
+2022/04/05-19:12:53.607 658f Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0f\x001\x009\x008\x004\x008\x004\x008\x003\x000\x006\x007\x002\x009\x003\x001' @ 2614 : 1 .. (end); will stop at (end)

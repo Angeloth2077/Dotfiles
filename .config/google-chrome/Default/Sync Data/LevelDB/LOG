@@ -1,0 +1,6 @@
+2022/04/07-19:31:12.611 575b Reusing MANIFEST /home/angel/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/04/07-19:31:12.611 575b Recovering log #448
+2022/04/07-19:31:12.612 575b Reusing old log /home/angel/.config/google-chrome/Default/Sync Data/LevelDB/000448.log 
+2022/04/07-19:31:30.244 5758 Level-0 table #452: started
+2022/04/07-19:31:30.248 5758 Level-0 table #452: 101897 bytes OK
+2022/04/07-19:31:30.251 5758 Delete type=0 #448

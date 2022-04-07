@@ -1,0 +1,48 @@
+[2022-03-23 14:15:29.564] [exthost] [info] Extension host with pid 24168 started
+[2022-03-23 14:15:29.565] [exthost] [info] Skipping acquiring lock for /home/angel/.config/Code - OSS/User/workspaceStorage/9024f9f56bd58588334ba0652dd3a078.
+[2022-03-23 14:15:29.626] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-23 14:15:29.630] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-23 14:15:29.633] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-03-23 14:15:29.637] [exthost] [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: true, activationEvent: '*'
+[2022-03-23 14:15:29.669] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-03-23 14:15:29.685] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-23 14:15:29.737] [exthost] [info] Eager extensions activated
+[2022-03-23 14:15:29.751] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-23 14:15:29.757] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-23 14:15:34.714] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-03-23 14:15:34.797] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-03-23 14:23:56.194] [exthost] [error] [ms-python.python] provider FAILED
+[2022-03-23 14:23:56.194] [exthost] [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/out/client/extension.js:67:139263
+	at /home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/out/client/extension.js:67:139557
+	at Immediate.<anonymous> (/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/out/client/extension.js:67:139920)
+	at processImmediate (internal/timers.js:461:21)
+[2022-03-23 14:23:57.679] [exthost] [error] [ms-python.python] provider FAILED
+[2022-03-23 14:23:57.679] [exthost] [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/out/client/extension.js:67:139263
+	at /home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/out/client/extension.js:67:139557
+	at Immediate.<anonymous> (/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/out/client/extension.js:67:139920)
+	at processImmediate (internal/timers.js:461:21)
+[2022-03-23 14:24:54.851] [exthost] [error] [ms-python.python] provider FAILED
+[2022-03-23 14:24:54.852] [exthost] [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/out/client/extension.js:67:139263
+	at /home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/out/client/extension.js:67:139557
+	at Immediate.<anonymous> (/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/out/client/extension.js:67:139920)
+	at processImmediate (internal/timers.js:461:21)
+[2022-03-23 14:24:55.930] [exthost] [error] [ms-python.python] provider FAILED
+[2022-03-23 14:24:55.930] [exthost] [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/out/client/extension.js:67:139263
+	at /home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/out/client/extension.js:67:139557
+	at Immediate.<anonymous> (/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/out/client/extension.js:67:139920)
+	at processImmediate (internal/timers.js:461:21)
+[2022-03-23 14:25:03.528] [exthost] [error] [ms-python.python] provider FAILED
+[2022-03-23 14:25:03.528] [exthost] [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/out/client/extension.js:67:139263
+	at /home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/out/client/extension.js:67:139557
+	at Immediate.<anonymous> (/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/out/client/extension.js:67:139920)
+	at processImmediate (internal/timers.js:461:21)
+[2022-03-23 14:28:57.980] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-03-23 14:28:57.990] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-03-23 14:28:58.002] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-03-23 14:53:22.924] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-03-23 14:53:22.948] [exthost] [info] Extension host with pid 24168 exiting with code 0

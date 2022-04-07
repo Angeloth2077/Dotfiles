@@ -1,0 +1,6 @@
+2022/03/18-21:18:49.347 abc4 Creating DB /home/angel/.config/google-chrome/Default/IndexedDB/https_analyticsindiamag.com_0.indexeddb.leveldb since it was missing.
+2022/03/18-21:18:49.357 abc4 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_analyticsindiamag.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/18-21:18:59.188 a980 Level-0 table #5: started
+2022/03/18-21:18:59.190 a980 Level-0 table #5: 5858 bytes OK
+2022/03/18-21:18:59.192 a980 Delete type=0 #3
+2022/03/18-21:18:59.192 a980 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

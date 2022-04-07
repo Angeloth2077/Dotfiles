@@ -1,0 +1,85 @@
+config|config=''|tabnine|S
+s|spotify|file|
+sna|snap|file|
+|angel|file|
+histor|history=''|tabnine|S
+separ|separated by " + str()|tabnine|S
+numb|number|tabnine|
+toge|together|tabnine|
+3|3, 4, 5, 6, 7, 8, 9|tabnine|
+number|number = ""|tabnine|S
+num|number|tabnine|
+3|3, 4, 5, 6, 7, 8, 9|tabnine|
+return|return 0;|tabnine
+Hello|Hello, world|tabnine
+stdio.h>|stdio.h>|tabnine
+cyan|cyan ctermfg=|tabnine
+fg_group|fg_group = "#"|tabnine
+fore|foreground = bg_widget,|tabnine
+groupco|groupColor,|tabnine
+group|groupColor|around
+bac|background|tabnine
+Sp|Spacer(width=10),|tabnine
+wid|widget.|tabnine
+width|width = 10|tabnine
+Space|Spacer()|tabnine
+w|will|tabnine
+marg|margin_x|around
+back|background = bg,|tabnine
+open|open_menu|tabnine
+button|Button1|tabnine
+text|text = ''|tabnine
+format|format|tabnine
+location|location|tabnine
+Co|Columns|tabnine
+back|background =|tabnine
+back|background = bg|tabnine
+bg_li|bg_light|tabnine
+paddin|padding =|tabnine
+font|fontsize = 18,|tabnine
+bg|bg_light|tabnine
+foreg|foreground|tabnine
+back|background|tabnine
+ba|background = bg|tabnine
+fg_|fg_light = "#"|tabnine
+repeat|repeat_text = ''|tabnine
+variation|variation[]|tabnine
+foreg|foregrount|tabnine
+fore|foregrount|tabnine
+variatio|variation[1],|tabnine
+variation|variation = []|tabnine
+vlc|vlc.set|tabnine
+text|text = ""|tabnine
+vol|volume|tabnine
+channel|channels = 2|tabnine
+bg_color|bg_color =|tabnine
+w|window|tabnine
+off|offset: -|tabnine
+locaton|location:|tabnine
+font|fontsize = 50|tabnine
+foreg|foreground = colors[|tabnine
+co|colors[0][1],|tabnine
+color|colors[]|tabnine
+active|active_color =|tabnine
+font|fontsize =|tabnine
+colo|colors[1][0],|tabnine
+widg|widget.TextBox()|tabnine
+colo|colors[1][]|tabnine
+wid|widget|tabnine
+cc|CC000000|tabnine
+panding|panding|tabnine
+alig|align = 'center',|tabnine
+font|fontsize = 15,|tabnine
+foregro|foreground = colors[2][1],|tabnine
+border|border_color =|tabnine
+hig|highlight_color|tabnine
+00fff|00ffff|tabnine
+ffff|ffffff|around
+foreground|foreground = ''|tabnine
+border_focus|border_focus|tabnine
+backgrou|background =|tabnine
+resto|restore|tabnine
+|1217194.jpg|tabnine
+RANDOM|RANDOM|tabnine
+wall|wallpapers|file
+sh|sh|file

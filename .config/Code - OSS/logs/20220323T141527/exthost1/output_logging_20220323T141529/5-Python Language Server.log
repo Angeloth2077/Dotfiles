@@ -1,0 +1,125 @@
+ERROR:pygls.protocol:Failed to handle request 267 textDocument/codeAction partial_result_token=None work_done_token=None text_document=TextDocumentIdentifier(uri='file:///home/angel/Desktop/Teaching%20Cesar%20%28re%20gay%20es%20el%20tiop%20QUE%20PUCHA%29/HelloHeal.py') range=3:37-3:37 context=CodeActionContext(diagnostics=[], only=None)
+Traceback (most recent call last):
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 551, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+[Error - 2:23:56 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 551, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+ERROR:pygls.protocol:Failed to handle request 271 textDocument/codeAction partial_result_token=None work_done_token=None text_document=TextDocumentIdentifier(uri='file:///home/angel/Desktop/Teaching%20Cesar%20%28re%20gay%20es%20el%20tiop%20QUE%20PUCHA%29/HelloHeal.py') range=3:36-3:36 context=CodeActionContext(diagnostics=[], only=None)
+Traceback (most recent call last):
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 551, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+[Error - 2:23:57 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 551, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+ERROR:pygls.protocol:Failed to handle request 315 textDocument/codeAction partial_result_token=None work_done_token=None text_document=TextDocumentIdentifier(uri='file:///home/angel/Desktop/Teaching%20Cesar%20%28re%20gay%20es%20el%20tiop%20QUE%20PUCHA%29/HelloHeal.py') range=3:35-3:35 context=CodeActionContext(diagnostics=[], only=None)
+Traceback (most recent call last):
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 551, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+[Error - 2:24:54 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 551, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+ERROR:pygls.protocol:Failed to handle request 316 textDocument/codeAction partial_result_token=None work_done_token=None text_document=TextDocumentIdentifier(uri='file:///home/angel/Desktop/Teaching%20Cesar%20%28re%20gay%20es%20el%20tiop%20QUE%20PUCHA%29/HelloHeal.py') range=3:34-3:34 context=CodeActionContext(diagnostics=[], only=None)
+Traceback (most recent call last):
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 551, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+[Error - 2:24:55 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 551, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+ERROR:pygls.protocol:Failed to handle request 320 textDocument/codeAction partial_result_token=None work_done_token=None text_document=TextDocumentIdentifier(uri='file:///home/angel/Desktop/Teaching%20Cesar%20%28re%20gay%20es%20el%20tiop%20QUE%20PUCHA%29/HelloHeal.py') range=3:35-3:35 context=CodeActionContext(diagnostics=[], only=None)
+Traceback (most recent call last):
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 551, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+[Error - 2:25:03 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 551, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/home/angel/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}

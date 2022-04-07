@@ -1,0 +1,25 @@
+2022/03/28-10:44:23.492 3a1a Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/28-10:44:23.492 3a1a Recovering log #4
+2022/03/28-10:44:23.501 3a1a Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000004.log 
+2022/03/28-10:45:07.964 35df Level-0 table #8: started
+2022/03/28-10:45:07.982 35df Level-0 table #8: 609951 bytes OK
+2022/03/28-10:45:07.985 35df Delete type=0 #4
+2022/03/28-11:01:00.616 3bcf Level-0 table #10: started
+2022/03/28-11:01:00.620 3bcf Level-0 table #10: 356871 bytes OK
+2022/03/28-11:01:00.622 3bcf Delete type=0 #7
+2022/03/28-11:01:00.623 3bcf Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x01\x01\x03\x01\x0b\x00u\x00s\x00e\x00r\x00s\x00.\x00u\x00s\x00e\x00r\x00s' @ 1374 : 0
+2022/03/28-11:01:00.623 3bcf Compacting 1@0 + 1@1 files
+2022/03/28-11:01:00.627 3bcf Generated table #11@0: 530 keys, 23971 bytes
+2022/03/28-11:01:00.627 3bcf Compacted 1@0 + 1@1 files => 23971 bytes
+2022/03/28-11:01:00.628 3bcf compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/03/28-11:01:00.629 3bcf Delete type=2 #8
+2022/03/28-11:01:00.629 3bcf Delete type=2 #10
+2022/03/28-11:01:00.629 3bcf Manual compaction at level-0 from '\x00\x01\x01\x03\x01\x0b\x00u\x00s\x00e\x00r\x00s\x00.\x00u\x00s\x00e\x00r\x00s' @ 1374 : 0 .. (end); will stop at (end)
+2022/03/28-11:01:00.629 3bcf Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x03\x01\x0b\x00u\x00s\x00e\x00r\x00s\x00.\x00u\x00s\x00e\x00r\x00s' @ 2150 : 1
+2022/03/28-11:01:00.629 3bcf Compacting 1@1 + 1@2 files
+2022/03/28-11:01:00.630 3bcf Generated table #12@1: 47 keys, 19987 bytes
+2022/03/28-11:01:00.630 3bcf Compacted 1@1 + 1@2 files => 19987 bytes
+2022/03/28-11:01:00.632 3bcf compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/03/28-11:01:00.632 3bcf Delete type=2 #11
+2022/03/28-11:01:00.632 3bcf Delete type=2 #5
+2022/03/28-11:01:00.632 3bcf Manual compaction at level-1 from '\x00\x01\x01\x03\x01\x0b\x00u\x00s\x00e\x00r\x00s\x00.\x00u\x00s\x00e\x00r\x00s' @ 2150 : 1 .. (end); will stop at (end)

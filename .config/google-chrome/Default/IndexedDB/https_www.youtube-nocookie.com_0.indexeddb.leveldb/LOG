@@ -1,0 +1,6 @@
+2022/03/23-15:51:15.562 99ba Creating DB /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube-nocookie.com_0.indexeddb.leveldb since it was missing.
+2022/03/23-15:51:15.566 99ba Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/23-15:51:59.066 989c Level-0 table #5: started
+2022/03/23-15:51:59.068 989c Level-0 table #5: 1203 bytes OK
+2022/03/23-15:51:59.069 989c Delete type=0 #3
+2022/03/23-15:51:59.069 989c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

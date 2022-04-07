@@ -1,0 +1,3 @@
+> /bin/python ~/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2022.2.1924087327/pythonFiles/interpreterInfo.py
+Only Pylance is supported in untrusted workspaces, setting language server to None.
+Editor support is inactive since language server is set to None.

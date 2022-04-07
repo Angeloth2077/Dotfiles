@@ -1,0 +1,5 @@
+--------------------------------------------------------------------------------
+[Mar 31, 2022, 3:31:04.0 PM:ERROR:publisher.cc(845)] Failed to retrieve publisher info while updating media duration
+[Mar 31, 2022, 3:31:18.5 PM:ERROR:publisher.cc(774)] Publisher info not found
+[Mar 31, 2022, 3:31:59.4 PM:ERROR:refill_unblinded_tokens.cc(194)] Failed to get signed tokens
+[Mar 31, 2022, 3:42:37.5 PM:ERROR:publisher.cc(774)] Publisher info not found

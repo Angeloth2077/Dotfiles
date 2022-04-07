@@ -1,0 +1,64 @@
+Code - OSS (1.66.0, undefined, desktop)
+Jupyter Extension Version: 2022.3.1000752054.
+Python Extension Version: 2022.2.1924087327.
+Info 20:17:06: ZMQ install verified.
+Error 20:17:07: extension activation failed [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookEditor.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookEditor.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:66154)
+	at Object.onDidChangeCellMetadata (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:99:52439)
+	at u.addEventHandlers (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:49093)
+	at new u (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:47758)
+	at Object.t.resolveInstance (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2746346)
+	at /home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2748242
+	at Array.map (<anonymous>)
+	at Object.t.resolveInstance (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2746120)
+	at /home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2748242
+	at /home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2747190
+	at Array.map (<anonymous>)
+	at /home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2747162
+	at Array.map (<anonymous>)
+	at Object.t.resolveInstance (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2746120)
+	at /home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2748242
+	at Object.t.resolve (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2748505)
+	at /home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2734575
+	at e._get (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2734341)
+	at e.get (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2733053)
+	at a.get (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:1077063)
+	at /home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:1073203
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async /home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:4550901
+	at async e.activate (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:4550578)
+	at async g._activate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:8154)
+	at async g._waitForDepsThenActivate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:8096)
+	at async g._initialize (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:7460)]
+Error 20:17:07: Failed to active the Jupyter Extension [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookEditor.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookEditor.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:66154)
+	at Object.onDidChangeCellMetadata (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:99:52439)
+	at u.addEventHandlers (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:49093)
+	at new u (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:47758)
+	at Object.t.resolveInstance (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2746346)
+	at /home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2748242
+	at Array.map (<anonymous>)
+	at Object.t.resolveInstance (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2746120)
+	at /home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2748242
+	at /home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2747190
+	at Array.map (<anonymous>)
+	at /home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2747162
+	at Array.map (<anonymous>)
+	at Object.t.resolveInstance (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2746120)
+	at /home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2748242
+	at Object.t.resolve (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2748505)
+	at /home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2734575
+	at e._get (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2734341)
+	at e.get (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:2733053)
+	at a.get (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:1077063)
+	at /home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:1073203
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async /home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:4550901
+	at async e.activate (/home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:4550578)
+	at async g._activate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:8154)
+	at async g._waitForDepsThenActivate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:8096)
+	at async g._initialize (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:7460)]

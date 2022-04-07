@@ -1,0 +1,110 @@
+{
+   "checksum": "7e4983dfe7b1c3fd93bc3f9d93021445",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13292105917000000",
+            "guid": "1f0ecfd3-3fcb-48d5-8008-3440cceadf21",
+            "id": "5",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "date_added": "13292105922000000",
+            "guid": "4acfb4f9-9fe7-439d-ab41-c5519efcfef4",
+            "id": "6",
+            "name": "Translate",
+            "type": "url",
+            "url": "https://translate.google.com/"
+         }, {
+            "date_added": "13275427923000000",
+            "guid": "20266304-ea7a-4dc7-bd71-eb0c3e73a7d0",
+            "id": "7",
+            "name": "Roberts Space Industries | Follow the development of Star Citizen and Squadron 42",
+            "type": "url",
+            "url": "https://robertsspaceindustries.com/"
+         }, {
+            "date_added": "13275625092000000",
+            "guid": "18dbced2-1e1b-4531-a0dc-2007b67111a4",
+            "id": "8",
+            "name": "Watch Steven Universe Online - Steven Universe",
+            "type": "url",
+            "url": "https://www.wcoforever.net/anime/steven-universe"
+         }, {
+            "date_added": "13277263340000000",
+            "guid": "45a62a78-642d-4d68-8e03-3b8ac4c1762b",
+            "id": "9",
+            "name": "Prime Video",
+            "type": "url",
+            "url": "https://www.primevideo.com/?ref_=dvm_pds_amz_py_dc_s_g_mkw_soBsIUhIF-dc_pcrid_292961318866&mrntrk=slid__pgrid_44142119498_pgeo_9069967_x__ptid_kwd-297838409925"
+         }, {
+            "date_added": "13280952548000000",
+            "guid": "ff2df88a-c7b5-49ae-bd38-88105d8e1cb1",
+            "id": "10",
+            "name": "BECAS - INFORMACIONES GENERALES | Embajada del Japón en la República del Paraguay",
+            "type": "url",
+            "url": "https://www.py.emb-japan.go.jp/itpr_ja/00_000105.html"
+         }, {
+            "date_added": "13281015593000000",
+            "guid": "51dd17c1-67ae-4bcb-a2fc-cad458f66c0c",
+            "id": "11",
+            "name": "Æ - Google Search",
+            "type": "url",
+            "url": "https://www.google.com/search?rlz=1C1BNSD_enPY976PY976&sxsrf=AOaemvIVj7xuGU8lHRmO6hLr14ezL_sStw:1636541989404&q=%C3%86&stick=H4sIAAAAAAAAAONgecS4h5Fb4OWPe8JSmxgnrTl5jXE1IxdXcEZ-uWteSWZJpZAuFxuUxSvFzcWpn6tvYGhpmpNiJMLFq5-ub2iYVVBkkJ1UkCTw8O0MRqVgI_ddl6adY3MUZACCGe0BDlKaWkJc7J7FPvnJiTmCQpnrso0-t9hrCXNxhCRW5Ofl51YKMlz8_1_t_3t7JU5OoKYDy2_NtddiaNq34hAbCwejAEMQP9SqtNzKoqyMjKIGxjXvfj3paPjCxLOIlelwGwDD0jYFxwAAAA&sa=X&ved=2ahUKEwjhrcD_0Y30AhXmLLkGHSQdDkIQ6RN6BAgzEAE&biw=1920&bih=961&dpr=1"
+         }, {
+            "date_added": "13281035616000000",
+            "guid": "7d50de16-4d76-4f04-b4d7-c2056e7fc685",
+            "id": "12",
+            "name": "Loquendo voice",
+            "type": "url",
+            "url": "https://nuancevocalizerexpressive.sodels.com/"
+         }, {
+            "date_added": "13281894858000000",
+            "guid": "d08e28e4-a0b4-4c8a-a579-c9af46fecafe",
+            "id": "13",
+            "name": "Informacion-examen-ingreso-2022.pdf",
+            "type": "url",
+            "url": "https://www.uptp.edu.py/wp-content/uploads/2021/08/Informacion-examen-ingreso-2022.pdf"
+         }, {
+            "date_added": "13292105917000000",
+            "guid": "af5cc07e-9249-4ecc-b09f-21a3692b0c1a",
+            "id": "14",
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "date_added": "13292105917000000",
+            "guid": "e1415cb4-b7b0-419f-952a-4aa288b40af0",
+            "id": "15",
+            "name": "Maps",
+            "type": "url",
+            "url": "https://maps.google.com/"
+         } ],
+         "date_added": "13293227062906581",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13293227062906582",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13293227062906584",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

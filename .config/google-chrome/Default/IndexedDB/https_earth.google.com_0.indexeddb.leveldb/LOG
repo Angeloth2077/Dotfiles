@@ -1,0 +1,6 @@
+2022/04/04-14:39:28.281 33d0 Creating DB /home/angel/.config/google-chrome/Default/IndexedDB/https_earth.google.com_0.indexeddb.leveldb since it was missing.
+2022/04/04-14:39:28.285 33d0 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_earth.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/04-18:38:45.015 4fc8 Level-0 table #5: started
+2022/04/04-18:38:45.017 4fc8 Level-0 table #5: 859 bytes OK
+2022/04/04-18:38:45.019 4fc8 Delete type=0 #3
+2022/04/04-18:38:45.019 4fc8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

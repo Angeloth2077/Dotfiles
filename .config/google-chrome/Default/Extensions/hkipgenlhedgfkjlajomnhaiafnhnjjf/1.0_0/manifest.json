@@ -1,0 +1,36 @@
+{
+   "action": {
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "return-youtube-dislike.background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "content-style.css" ],
+      "js": [ "return-youtube-dislike.content-script.js" ],
+      "matches": [ "*://*.youtube.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Returns ability to see dislikes on YouTube",
+   "externally_connectable": {
+      "matches": [ "*://*.youtube.com/*" ]
+   },
+   "host_permissions": [ "*://*.youtube.com/*" ],
+   "icons": {
+      "128": "icons/icon128.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmOxSC9GwVrIDJmsiBg8ukrIxyP6j5Hfb9cJe8J+YQZ6nvT1zvWpq+rX8V9uBtd6H/f6yEk3yjQgDNkS3pBhINUMYUxz4+9FZ/jCZ9NBxuSctswOL7C88e+2vYavHkVi7oIDm+ccLryvOstUxPQJbazdZsQsvjPiYFTSOQKsrToQ9ONK6BTN270XfOlj1HAef2iOWyzmfB9aC5dFv8sn0uPu+CMGF8ThkMiZvF/5Rful03lVYh9WKoEmtBAOxUb7pcORbOHPal3Kp1MIawZfq+biR7kclqSklAlAaJLHMPiB3rusU0lI55jBj1MdRA6cWvqLKtaI1oJcubV4Y/pZtbwIDAQAB",
+   "manifest_version": 3,
+   "name": "Return YouTube Dislike Button",
+   "oauth2": {
+      "client_id": "292556337651-kbmq2pduaejrol457a5s1089ut6ug0u9.apps.googleusercontent.com",
+      "scopes": [ "openid" ]
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*.youtube.com/*" ],
+      "resources": [ "return-youtube-dislike.script.js" ]
+   } ]
+}

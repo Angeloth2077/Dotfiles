@@ -1,0 +1,7 @@
+2022/04/06-21:49:47.617 eebe Recovering log #3
+2022/04/06-21:49:47.712 eebe Level-0 table #5: started
+2022/04/06-21:49:47.801 eebe Level-0 table #5: 2784740 bytes OK
+2022/04/06-21:49:47.808 eebe Recovering log #6
+2022/04/06-21:49:47.815 eebe Delete type=0 #3
+2022/04/06-21:49:47.815 eebe Delete type=0 #6
+2022/04/06-21:49:47.815 eebe Delete type=3 #2
