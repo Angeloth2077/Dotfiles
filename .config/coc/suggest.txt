@@ -1,3 +1,6 @@
+acce|accent|tabnine|
+a|accent|tabnine|
+accen|accent|tabnine|
 config|config=''|tabnine|S
 s|spotify|file|
 sna|snap|file|

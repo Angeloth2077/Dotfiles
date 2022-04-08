@@ -56,7 +56,7 @@ terminal = guess_terminal()
 
 keys = [
 
-    #Setting media keys
+    ###Setting media keys###
 
     Key([], "XF86AudioMute", lazy.spawn("amixer -q sset PCM toggle")),
     Key([], "XF86AudioLowerVolume", lazy.spawn("amixer -q sset PCM 5%-")),
@@ -139,8 +139,8 @@ bg = "#0c1a27"
 bg_widget = "#13263a"
 fg_group = "#254b74"
 fg = "#78a4d3"
-accent = "#C24CA3"
-
+accent = "#93BFB3"
+fg = accent
 
 layouts = [
     layout.Max(),
@@ -174,12 +174,12 @@ screens = [
 
                 widget.GroupBox(
                     background = bg_widget,
-                    block_highlight_text_color = accent,
+                    block_highlight_text_color = "#000000",
                     fontsize = 18,
                     margin_x = 20,
                     highlight_method='line',
                     borderwidth = 0,
-                    highlight_color = [bg_widget, bg_widget],
+                    highlight_color = [accent, accent],
                     active = fg,
                     inactive = fg_group,
                 ),

@@ -1,7 +1,21 @@
-2022/04/07-00:47:34.849 11011 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
-2022/04/07-00:47:34.849 11011 Recovering log #113
-2022/04/07-00:47:34.849 11011 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000113.log 
-2022/04/07-00:47:35.765 10ed6 Level-0 table #118: started
-2022/04/07-00:47:35.767 10ed6 Level-0 table #118: 685 bytes OK
-2022/04/07-00:47:35.769 10ed6 Delete type=0 #113
-2022/04/07-00:47:35.769 10ed6 Manual compaction at level-0 from '\x00\x1c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/04/07-19:39:06.835 5e17 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/07-19:39:06.835 5e17 Recovering log #120
+2022/04/07-19:39:06.836 5e17 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000120.log 
+2022/04/07-19:39:06.836 5e17 Delete type=2 #118
+2022/04/07-19:39:07.634 5e26 Level-0 table #125: started
+2022/04/07-19:39:07.635 5e26 Level-0 table #125: 4717 bytes OK
+2022/04/07-19:39:07.637 5e26 Delete type=0 #120
+2022/04/07-19:39:07.637 5e26 Manual compaction at level-0 from '\x00\x1e\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1f\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1e\x00\x00\x05' @ 68523 : 1
+2022/04/07-19:39:07.637 5e26 Compacting 1@0 + 1@1 files
+2022/04/07-19:39:07.638 5e26 Generated table #126@0: 95 keys, 1713 bytes
+2022/04/07-19:39:07.638 5e26 Compacted 1@0 + 1@1 files => 1713 bytes
+2022/04/07-19:39:07.640 5e26 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/04/07-19:39:07.640 5e26 Delete type=2 #125
+2022/04/07-19:39:07.640 5e26 Manual compaction at level-0 from '\x00\x1e\x00\x00\x05' @ 68523 : 1 .. '\x00\x1f\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/04/08-00:06:00.276 737f Compacting 1@1 + 1@2 files
+2022/04/08-00:06:00.282 737f Generated table #127@1: 3545 keys, 128701 bytes
+2022/04/08-00:06:00.282 737f Compacted 1@1 + 1@2 files => 128701 bytes
+2022/04/08-00:06:00.284 737f compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/08-00:06:00.284 737f Delete type=2 #122
+2022/04/08-00:06:00.284 737f Delete type=2 #115
+2022/04/08-00:06:00.284 737f Delete type=2 #126

@@ -13,85 +13,14 @@ env:
   TERM: alacritty
   LANG: "en_US.UTF-8"
   LC_CTYPE: en_US.UTF-8
-window:
-  # Window dimensions (changes require restart)
-  #
-  # Specified in number of columns/lines, not pixels.
-  # If both are `0`, this setting is ignored.
-  #dimensions:
-  #  columns: 0
-  #  lines: 0
-  # Window position (changes require restart)
-  #
-  # Specified in number of pixels.
-  # If the position is not set, the window manager will handle the placement.
- position:
-  x: 10
-  y: 10
-  # Window padding (changes require restart)
-  #
-  # Blank space added around the window in pixels. This padding is scaled
-  # by DPI and the specified value is always added at both opposing sides.
- padding:
-  x: 10
-  y: 10
-  # Spread additional padding evenly around the terminal content.
-  #dynamic_padding: false
-  # Window decorations
-  #
-  # Values for `decorations`:
-  #     - full: Borders and title bar
-  #     - none: Neither borders nor title bar
-  #
-  # Values for `decorations` (macOS only):
-  #     - transparent: Title bar, transparent background and title bar buttons
-  #     - buttonless: Title bar, transparent background, but no title bar buttons
-  #decorations: full
-  # Startup Mode (changes require restart)
-  #
-  # Values for `startup_mode`:
-  #   - Windowed
-  #   - Maximized
-  #   - Fullscreen
-  #
-  # Values for `startup_mode` (macOS only):
-  #   - SimpleFullscreen
-  #startup_mode: Windowed
-  # Window title
-  #title: Alacritty
-  # Window class (Linux/BSD only):
-  #class:
-  # Application instance name
-  #instance: Alacritty
-  # General application class
-  #general: Alacritty
-  # GTK theme variant (Linux/BSD only)
-  #
-  # Override the variant of the GTK theme. Commonly supported values are `dark` and `light`.
-  # Set this to `None` to use the default theme variant.
-  #gtk_theme_variant: None
-  #scrolling:
-  # Maximum number of lines in the scrollback buffer.
-  # Specifying '0' will disable scrolling.
-  #history: 10000
-  # Number of lines the viewport will move for every line scrolled when
-  # scrollback is enabled (history > 0).
-  #multiplier: 3
+
 
 # Font configuration
 font:
-  # Normal (roman) font face
   normal:
-    # Font family
-    #
-    # Default:
-    #   - (macOS) Menlo
-    #   - (Linux/BSD) monospace
-    #   - (Windows) Consolas
     family: "RobotoMono Nerd Font"
-
-    # The `style` can be specified to pick a specific face.
     style: Regular
+
     # Bold font face
     #bold:
     # Font family
@@ -155,8 +84,8 @@ font:
 # Colors (Tomorrow Night Bright)
 colors:
   primary:
-    background: "#000b1e"
-    foreground: '#94d2eb'
+    background: "#0c1a27"
+    foreground: '#a6a6a6'
 
   cursor:
     text:   '#94d2eb'
@@ -165,11 +94,11 @@ colors:
   normal:
     black:   '#01000D'
     red:     '#CC3E92'
-    green:   '#3dffd9'
+    green:   '#93BFB3'
     yellow:  '#ffcc00'
     blue:    '#0C46F2'
     magenta: '#D959C3'
-    cyan:    '#00ccff'
+    cyan:    '#93BFB3'
     white:   '#cccccc'
 
   bright:
@@ -182,5 +111,9 @@ colors:
     cyan:    '#2d5986'
     white:   '#cccccc'
 window:
-  opacity: 0.9
-theme: One-Dark
+  opacity: 0.8
+  padding:
+    x: 15
+    y: 5
+  dynamic_padding: true
+
