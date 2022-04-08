@@ -1,3 +1,10 @@
+|Destop screeshot.png|tabnine|
+Des|Desktop|tabnine|
+|2022-04-08_12-36.png|tabnine|
+|desktop.png|tabnine|
+s|screenshots|around|
+T|TabNine::|tabnine|
+screensho|screenshots from|tabnine|
 acce|accent|tabnine|
 a|accent|tabnine|
 accen|accent|tabnine|
