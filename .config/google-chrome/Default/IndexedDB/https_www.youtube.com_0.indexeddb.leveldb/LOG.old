@@ -1,19 +1,23 @@
-2022/04/08-08:04:27.427 401 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/04/08-08:04:27.427 401 Recovering log #288
-2022/04/08-08:04:27.484 401 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000288.log 
-2022/04/08-08:12:12.875 3c8 Level-0 table #293: started
-2022/04/08-08:12:12.896 3c8 Level-0 table #293: 1090648 bytes OK
-2022/04/08-08:12:12.899 3c8 Delete type=0 #288
-2022/04/08-08:16:24.925 5f9 Compacting 1@1 + 1@2 files
-2022/04/08-08:16:24.932 5f9 Generated table #294@1: 487 keys, 29206 bytes
-2022/04/08-08:16:24.932 5f9 Compacted 1@1 + 1@2 files => 29206 bytes
-2022/04/08-08:16:24.933 5f9 compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/04/08-08:16:24.933 5f9 Delete type=2 #293
-2022/04/08-08:16:24.933 5f9 Delete type=2 #290
-2022/04/08-09:08:50.331 3c8 Level-0 table #296: started
-2022/04/08-09:08:50.348 3c8 Level-0 table #296: 1309088 bytes OK
-2022/04/08-09:08:50.350 3c8 Delete type=0 #292
-2022/04/08-09:10:59.885 764 Compacting 1@1 + 1@2 files
-2022/04/08-09:10:59.907 764 Generated table #297@1: 850 keys, 45512 bytes
-2022/04/08-09:10:59.907 764 Compacted 1@1 + 1@2 files => 45512 bytes
-2022/04/08-09:10:59.909 764 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/08-11:54:29.923 3222 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/08-11:54:29.923 3222 Recovering log #295
+2022/04/08-11:54:29.934 3222 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000295.log 
+2022/04/08-11:54:29.934 3222 Delete type=2 #294
+2022/04/08-11:54:29.934 3222 Delete type=2 #296
+2022/04/08-12:55:28.272 4395 Level-0 table #300: started
+2022/04/08-12:55:28.289 4395 Level-0 table #300: 1425195 bytes OK
+2022/04/08-12:55:28.291 4395 Delete type=0 #295
+2022/04/08-12:59:40.242 3acc Compacting 1@1 + 1@2 files
+2022/04/08-12:59:40.251 3acc Generated table #301@1: 785 keys, 46696 bytes
+2022/04/08-12:59:40.251 3acc Compacted 1@1 + 1@2 files => 46696 bytes
+2022/04/08-12:59:40.252 3acc compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/08-12:59:40.252 3acc Delete type=2 #297
+2022/04/08-12:59:40.252 3acc Delete type=2 #300
+2022/04/08-18:02:04.246 6aa6 Level-0 table #303: started
+2022/04/08-18:02:04.277 6aa6 Level-0 table #303: 1560961 bytes OK
+2022/04/08-18:02:04.280 6aa6 Delete type=0 #299
+2022/04/08-18:06:44.242 6c2f Compacting 1@1 + 1@2 files
+2022/04/08-18:06:44.267 6c2f Generated table #304@1: 2123 keys, 79779 bytes
+2022/04/08-18:06:44.267 6c2f Compacted 1@1 + 1@2 files => 79779 bytes
+2022/04/08-18:06:44.269 6c2f compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/08-18:06:44.270 6c2f Delete type=2 #301
+2022/04/08-18:06:44.270 6c2f Delete type=2 #303
