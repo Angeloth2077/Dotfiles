@@ -1,7 +1,14 @@
-2022/04/08-10:00:45.817 cd7 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
-2022/04/08-10:00:45.817 cd7 Recovering log #124
-2022/04/08-10:00:45.823 cd7 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000124.log 
-2022/04/08-10:00:46.910 cf9 Level-0 table #130: started
-2022/04/08-10:00:46.913 cf9 Level-0 table #130: 102507 bytes OK
-2022/04/08-10:00:46.915 cf9 Delete type=0 #124
-2022/04/08-10:00:46.915 cf9 Manual compaction at level-0 from '\x00\x1f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00 \x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/04/11-10:25:16.171 7f6 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/11-10:25:16.172 7f6 Recovering log #9
+2022/04/11-10:25:16.172 7f6 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000009.log 
+2022/04/11-10:25:16.172 7f6 Delete type=2 #7
+2022/04/11-10:25:17.802 7f7 Level-0 table #14: started
+2022/04/11-10:25:17.804 7f7 Level-0 table #14: 3374 bytes OK
+2022/04/11-10:25:17.806 7f7 Delete type=0 #9
+2022/04/11-10:25:17.806 7f7 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 3825 : 1
+2022/04/11-10:25:17.806 7f7 Compacting 1@0 + 1@1 files
+2022/04/11-10:25:17.810 7f7 Generated table #15@0: 1443 keys, 19618 bytes
+2022/04/11-10:25:17.811 7f7 Compacted 1@0 + 1@1 files => 19618 bytes
+2022/04/11-10:25:17.813 7f7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/04/11-10:25:17.814 7f7 Delete type=2 #14
+2022/04/11-10:25:17.814 7f7 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 3825 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

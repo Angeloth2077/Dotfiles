@@ -120,13 +120,13 @@ keys = [
 
 ##### GROUPS #####
 
-group_names = [("一", {'layout': 'columns'}),
-               ("二", {'layout': 'columns'}),
-               ("三", {'layout': 'columns'}),
-               ("四", {'layout': 'columns'}),
-               ("五", {'layout': 'columns'}),
-               ("六", {'layout': 'columns'}),
-               ("七", {'layout': 'columns'})]
+group_names = [("一", {'layout': 'max'}),
+               ("二", {'layout': 'max'}),
+               ("三", {'layout': 'max'}),
+               ("四", {'layout': 'max'}),
+               ("五", {'layout': 'max'}),
+               ("六", {'layout': 'max'}),
+               ("七", {'layout': 'max'})]
 
 groups = [Group(name, **kwargs) for name, kwargs in group_names]
 
@@ -328,6 +328,7 @@ mouse = [
     Drag([mod], "Button3", lazy.window.set_size_floating(), start=lazy.window.get_size()),
     Click([mod], "Button2", lazy.window.bring_to_front()),
 ]
+Key([mod], "t", lazy.window.toggle_floating(), desc='Toggle floating'),
 
 dgroups_key_binder = None
 dgroups_app_rules = []  # type: list
@@ -335,6 +336,7 @@ follow_mouse_focus = True
 bring_front_click = False
 cursor_warp = False
 floating_layout = layout.Floating(
+    border_width=0,
     float_rules=[
         # Run the utility of `xprop` to see the wm class and name of an X client.
         *layout.Floating.default_float_rules,

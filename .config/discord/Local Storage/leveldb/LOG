@@ -1,9 +1,9 @@
-2022/04/08-10:00:18.366 bdb Reusing MANIFEST /home/angel/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2022/04/08-10:00:18.366 bdb Recovering log #199
-2022/04/08-10:00:18.367 bdb Reusing old log /home/angel/.config/discord/Local Storage/leveldb/000199.log 
-2022/04/08-10:25:19.307 bdc Level-0 table #203: started
-2022/04/08-10:25:19.310 bdc Level-0 table #203: 17896 bytes OK
-2022/04/08-10:25:19.312 bdc Delete type=0 #199
-2022/04/08-11:07:21.134 bdc Level-0 table #205: started
-2022/04/08-11:07:21.136 bdc Level-0 table #205: 13288 bytes OK
-2022/04/08-11:07:21.138 bdc Delete type=0 #202
+2022/04/11-09:55:36.434 594 Reusing MANIFEST /home/angel/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/04/11-09:55:36.435 594 Recovering log #6
+2022/04/11-09:55:36.436 594 Reusing old log /home/angel/.config/discord/Local Storage/leveldb/000006.log 
+2022/04/11-11:15:45.488 594 Level-0 table #10: started
+2022/04/11-11:15:45.490 594 Level-0 table #10: 14945 bytes OK
+2022/04/11-11:15:45.493 594 Delete type=0 #6
+2022/04/11-12:23:45.489 5ae Level-0 table #12: started
+2022/04/11-12:23:45.491 5ae Level-0 table #12: 9249 bytes OK
+2022/04/11-12:23:45.493 5ae Delete type=0 #9

@@ -1,23 +1,3 @@
-2022/04/08-11:54:29.923 3222 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/04/08-11:54:29.923 3222 Recovering log #295
-2022/04/08-11:54:29.934 3222 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000295.log 
-2022/04/08-11:54:29.934 3222 Delete type=2 #294
-2022/04/08-11:54:29.934 3222 Delete type=2 #296
-2022/04/08-12:55:28.272 4395 Level-0 table #300: started
-2022/04/08-12:55:28.289 4395 Level-0 table #300: 1425195 bytes OK
-2022/04/08-12:55:28.291 4395 Delete type=0 #295
-2022/04/08-12:59:40.242 3acc Compacting 1@1 + 1@2 files
-2022/04/08-12:59:40.251 3acc Generated table #301@1: 785 keys, 46696 bytes
-2022/04/08-12:59:40.251 3acc Compacted 1@1 + 1@2 files => 46696 bytes
-2022/04/08-12:59:40.252 3acc compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/04/08-12:59:40.252 3acc Delete type=2 #297
-2022/04/08-12:59:40.252 3acc Delete type=2 #300
-2022/04/08-18:02:04.246 6aa6 Level-0 table #303: started
-2022/04/08-18:02:04.277 6aa6 Level-0 table #303: 1560961 bytes OK
-2022/04/08-18:02:04.280 6aa6 Delete type=0 #299
-2022/04/08-18:06:44.242 6c2f Compacting 1@1 + 1@2 files
-2022/04/08-18:06:44.267 6c2f Generated table #304@1: 2123 keys, 79779 bytes
-2022/04/08-18:06:44.267 6c2f Compacted 1@1 + 1@2 files => 79779 bytes
-2022/04/08-18:06:44.269 6c2f compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/04/08-18:06:44.270 6c2f Delete type=2 #301
-2022/04/08-18:06:44.270 6c2f Delete type=2 #303
+2022/04/11-09:02:40.683 278f Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/11-09:02:40.684 278f Recovering log #309
+2022/04/11-09:02:40.684 278f Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000309.log 

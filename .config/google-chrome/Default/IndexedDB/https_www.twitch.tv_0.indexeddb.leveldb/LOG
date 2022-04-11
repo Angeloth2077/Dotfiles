@@ -1,3 +1,15 @@
-2022/04/08-18:54:15.022 7ba2 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/MANIFEST-000001
-2022/04/08-18:54:15.022 7ba2 Recovering log #19
-2022/04/08-18:54:15.023 7ba2 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/000019.log 
+2022/04/11-12:00:03.217 f85 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/11-12:00:03.217 f85 Recovering log #19
+2022/04/11-12:00:03.217 f85 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/000019.log 
+2022/04/11-12:01:00.427 10e7 Level-0 table #24: started
+2022/04/11-12:01:00.428 10e7 Level-0 table #24: 932 bytes OK
+2022/04/11-12:01:00.430 10e7 Delete type=0 #19
+2022/04/11-12:01:00.430 10e7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/04/11-12:01:00.430 10e7 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0f\x00c\x00u\x00r\x00r\x00e\x00n\x00t\x00_\x00u\x00s\x00e\x00r\x00_\x00i\x00d' @ 334 : 1
+2022/04/11-12:01:00.430 10e7 Compacting 1@1 + 1@2 files
+2022/04/11-12:01:00.432 10e7 Generated table #25@1: 21 keys, 595 bytes
+2022/04/11-12:01:00.432 10e7 Compacted 1@1 + 1@2 files => 595 bytes
+2022/04/11-12:01:00.434 10e7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/11-12:01:00.434 10e7 Delete type=2 #21
+2022/04/11-12:01:00.434 10e7 Delete type=2 #24
+2022/04/11-12:01:00.434 10e7 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0f\x00c\x00u\x00r\x00r\x00e\x00n\x00t\x00_\x00u\x00s\x00e\x00r\x00_\x00i\x00d' @ 334 : 1 .. (end); will stop at (end)

@@ -1,3 +1,15 @@
-2022/04/04-16:24:43.687 3cdb Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/04/04-16:24:43.687 3cdb Recovering log #11
-2022/04/04-16:24:43.687 3cdb Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/000011.log 
+2022/04/04-19:25:57.762 578d Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/04-19:25:57.762 578d Recovering log #11
+2022/04/04-19:25:57.763 578d Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/000011.log 
+2022/04/04-20:37:47.732 6046 Level-0 table #16: started
+2022/04/04-20:37:47.736 6046 Level-0 table #16: 45148 bytes OK
+2022/04/04-20:37:47.739 6046 Delete type=0 #11
+2022/04/04-20:37:47.739 6046 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/04/04-20:37:47.739 6046 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x00\x00\xc8\x0d\x00k\x00e\x00y\x00v\x00a\x00l\x00u\x00e\x00p\x00a\x00i\x00r\x00s' @ 253 : 1
+2022/04/04-20:37:47.739 6046 Compacting 1@1 + 1@2 files
+2022/04/04-20:37:47.742 6046 Generated table #17@1: 61 keys, 2013 bytes
+2022/04/04-20:37:47.742 6046 Compacted 1@1 + 1@2 files => 2013 bytes
+2022/04/04-20:37:47.744 6046 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/04-20:37:47.745 6046 Delete type=2 #16
+2022/04/04-20:37:47.745 6046 Delete type=2 #13
+2022/04/04-20:37:47.745 6046 Manual compaction at level-1 from '\x00\x03\x00\x00\xc8\x0d\x00k\x00e\x00y\x00v\x00a\x00l\x00u\x00e\x00p\x00a\x00i\x00r\x00s' @ 253 : 1 .. (end); will stop at (end)

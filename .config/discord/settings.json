@@ -3,10 +3,10 @@
   "IS_MAXIMIZED": false,
   "IS_MINIMIZED": false,
   "WINDOW_BOUNDS": {
-    "x": 45,
-    "y": 33,
-    "width": 1857,
-    "height": 1029
+    "x": 0,
+    "y": 24,
+    "width": 1920,
+    "height": 1056
   },
   "DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true
 }

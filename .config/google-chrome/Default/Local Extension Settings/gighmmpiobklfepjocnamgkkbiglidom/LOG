@@ -1,35 +1,36 @@
-2022/04/08-10:00:44.505 d0b Reusing MANIFEST /home/angel/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
-2022/04/08-10:00:44.505 d0b Recovering log #1720
-2022/04/08-10:00:44.505 d0b Reusing old log /home/angel/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/001720.log 
-2022/04/08-10:01:47.746 cd5 Level-0 table #1726: started
-2022/04/08-10:01:47.764 d0b Current memtable full; waiting...
-2022/04/08-10:01:47.811 cd5 Level-0 table #1726: 7567375 bytes OK
-2022/04/08-10:01:47.814 cd5 Delete type=0 #1720
-2022/04/08-10:01:47.817 cd5 Level-0 table #1728: started
-2022/04/08-10:01:47.885 cd5 Level-0 table #1728: 7567246 bytes OK
-2022/04/08-10:01:47.887 cd5 Delete type=0 #1725
-2022/04/08-10:22:29.163 d0b Level-0 table #1730: started
-2022/04/08-10:22:29.252 d0b Level-0 table #1730: 7567443 bytes OK
-2022/04/08-10:22:29.255 d0b Delete type=0 #1727
-2022/04/08-11:01:47.556 1f78 Level-0 table #1732: started
-2022/04/08-11:01:47.572 1f73 Current memtable full; waiting...
-2022/04/08-11:01:47.625 1f78 Level-0 table #1732: 7567337 bytes OK
-2022/04/08-11:01:47.628 1f78 Delete type=0 #1729
-2022/04/08-11:01:47.631 1d9b Level-0 table #1734: started
-2022/04/08-11:01:47.698 1d9b Level-0 table #1734: 7567251 bytes OK
-2022/04/08-11:01:47.700 1d9b Delete type=0 #1731
-2022/04/08-11:01:47.702 1d9b Compacting 5@0 + 2@1 files
-2022/04/08-11:01:47.921 1d9b Generated table #1735@0: 2 keys, 7567261 bytes
-2022/04/08-11:01:47.926 1d9b Generated table #1736@0: 6 keys, 406 bytes
-2022/04/08-11:01:47.926 1d9b Compacted 5@0 + 2@1 files => 7567667 bytes
-2022/04/08-11:01:47.928 1d9b compacted to: files[ 0 2 1 0 0 0 0 ]
-2022/04/08-11:01:47.928 1d9b Delete type=2 #1732
-2022/04/08-11:01:47.928 1d9b Delete type=2 #1722
-2022/04/08-11:01:47.928 1d9b Delete type=2 #1723
-2022/04/08-11:01:47.928 1d9b Delete type=2 #1730
-2022/04/08-11:01:47.928 1d9b Delete type=2 #1726
-2022/04/08-11:01:47.928 1d9b Delete type=2 #1728
-2022/04/08-11:01:47.928 1d9b Delete type=2 #1734
-2022/04/08-11:17:24.455 2377 Level-0 table #1738: started
-2022/04/08-11:17:24.528 2377 Level-0 table #1738: 7567440 bytes OK
-2022/04/08-11:17:24.530 2377 Delete type=0 #1733
+2022/04/11-09:55:32.294 436 Reusing MANIFEST /home/angel/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2022/04/11-09:55:32.295 436 Recovering log #1840
+2022/04/11-09:55:32.295 436 Reusing old log /home/angel/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/001840.log 
+2022/04/11-10:25:43.872 3dc Level-0 table #1846: started
+2022/04/11-10:25:43.987 3dc Level-0 table #1846: 7574894 bytes OK
+2022/04/11-10:25:43.989 3dc Delete type=0 #1840
+2022/04/11-10:26:22.291 432 Level-0 table #1848: started
+2022/04/11-10:26:22.370 432 Level-0 table #1848: 7574725 bytes OK
+2022/04/11-10:26:22.373 432 Delete type=0 #1845
+2022/04/11-11:25:43.614 cf5 Level-0 table #1850: started
+2022/04/11-11:25:43.637 f47 Current memtable full; waiting...
+2022/04/11-11:25:43.694 cf5 Level-0 table #1850: 7574919 bytes OK
+2022/04/11-11:25:43.697 cf5 Delete type=0 #1847
+2022/04/11-11:25:43.700 cf5 Level-0 table #1852: started
+2022/04/11-11:25:43.797 cf5 Level-0 table #1852: 7574725 bytes OK
+2022/04/11-11:25:43.800 cf5 Delete type=0 #1849
+2022/04/11-11:25:43.803 cf5 Compacting 4@0 + 2@1 files
+2022/04/11-11:25:43.974 cf5 Generated table #1853@0: 3 keys, 7575064 bytes
+2022/04/11-11:25:43.978 cf5 Generated table #1854@0: 8 keys, 477 bytes
+2022/04/11-11:25:43.978 cf5 Compacted 4@0 + 2@1 files => 7575541 bytes
+2022/04/11-11:25:43.980 cf5 compacted to: files[ 0 2 0 0 0 0 0 ]
+2022/04/11-11:25:43.980 cf5 Delete type=2 #1850
+2022/04/11-11:25:43.980 cf5 Delete type=2 #1848
+2022/04/11-11:25:43.980 cf5 Delete type=2 #1843
+2022/04/11-11:25:43.980 cf5 Delete type=2 #1852
+2022/04/11-11:25:43.980 cf5 Delete type=2 #1842
+2022/04/11-11:25:43.980 cf5 Delete type=2 #1846
+2022/04/11-12:07:49.171 1253 Level-0 table #1856: started
+2022/04/11-12:07:49.260 1253 Level-0 table #1856: 7575097 bytes OK
+2022/04/11-12:07:49.263 1253 Delete type=0 #1851
+2022/04/11-12:25:43.575 1253 Level-0 table #1858: started
+2022/04/11-12:25:43.690 1253 Level-0 table #1858: 7574965 bytes OK
+2022/04/11-12:25:43.693 1253 Delete type=0 #1855
+2022/04/11-12:57:09.609 1253 Level-0 table #1860: started
+2022/04/11-12:57:09.717 1253 Level-0 table #1860: 7574905 bytes OK
+2022/04/11-12:57:09.720 1253 Delete type=0 #1857

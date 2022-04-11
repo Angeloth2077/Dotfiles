@@ -1,3 +1,8 @@
-2022/04/07-18:19:20.815 3a7d Reusing MANIFEST /home/angel/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2022/04/07-18:19:20.815 3a7d Recovering log #199
-2022/04/07-18:19:20.815 3a7d Reusing old log /home/angel/.config/discord/Local Storage/leveldb/000199.log 
+2022/04/11-07:50:06.359 7d2 Creating DB /home/angel/.config/discord/Local Storage/leveldb since it was missing.
+2022/04/11-07:50:06.367 7d2 Reusing MANIFEST /home/angel/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/04/11-07:51:21.670 7c0 Level-0 table #5: started
+2022/04/11-07:51:21.677 7c0 Level-0 table #5: 371225 bytes OK
+2022/04/11-07:51:21.679 7c0 Delete type=0 #3
+2022/04/11-09:28:56.021 7c1 Level-0 table #7: started
+2022/04/11-09:28:56.023 7c1 Level-0 table #7: 12906 bytes OK
+2022/04/11-09:28:56.024 7c1 Delete type=0 #4

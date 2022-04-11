@@ -1,3 +1,6 @@
-2022/04/08-08:04:24.457 3 Reusing MANIFEST /home/angel/.config/google-chrome/Default/Session Storage/MANIFEST-000001
-2022/04/08-08:04:24.458 3 Recovering log #130
-2022/04/08-08:04:24.459 3 Reusing old log /home/angel/.config/google-chrome/Default/Session Storage/000130.log 
+2022/04/11-07:46:28.751 3 Reusing MANIFEST /home/angel/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2022/04/11-07:46:28.754 3 Recovering log #135
+2022/04/11-07:46:28.758 3 Reusing old log /home/angel/.config/google-chrome/Default/Session Storage/000135.log 
+2022/04/11-07:55:01.443 5 Level-0 table #139: started
+2022/04/11-07:55:01.446 5 Level-0 table #139: 24156 bytes OK
+2022/04/11-07:55:01.450 5 Delete type=0 #135
