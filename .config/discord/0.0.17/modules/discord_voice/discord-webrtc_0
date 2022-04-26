@@ -1657,3 +1657,77 @@ Render pre processor: 0
 [2022-04-26 10:52:52.589] [13377] (device_info_linux.cc:45): NumberOfDevices
 [2022-04-26 10:52:55.592] [13377] (device_info_linux.cc:45): NumberOfDevices
 [2022-04-26 10:52:58.596] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:52:59.454] [13351] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-04-26 10:53:01.599] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:53:04.459] [13351] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-04-26 10:53:04.602] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:53:07.602] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:53:10.605] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:53:13.606] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:53:16.609] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:53:19.612] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:53:22.615] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:53:25.619] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:53:28.619] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:53:29.463] [13351] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-04-26 10:53:31.622] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:53:34.625] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:53:37.629] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:53:40.632] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:53:43.632] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:53:46.636] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:53:49.637] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:53:52.639] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:53:54.473] [13351] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-04-26 10:53:55.642] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:53:58.645] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:01.648] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:04.649] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:07.652] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:10.656] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:13.659] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:16.662] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:19.664] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:22.666] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:27.008] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:29.487] [13351] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-04-26 10:54:30.011] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:33.015] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:36.018] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:39.021] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:42.025] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:45.028] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:48.029] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:51.032] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:54.035] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:57.039] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:54:59.505] [13351] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-04-26 10:55:00.039] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:55:03.042] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:55:06.046] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:55:09.049] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:55:12.052] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:55:15.056] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:55:18.059] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:55:21.062] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:55:24.065] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:55:27.067] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:55:29.509] [13351] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-04-26 10:55:30.070] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:55:33.072] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:55:36.075] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:55:39.079] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:55:42.082] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:55:45.085] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:55:48.089] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:55:51.089] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:55:54.092] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:55:57.095] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:56:00.096] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:56:03.099] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:56:06.102] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:56:09.103] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:56:12.106] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:56:14.520] [13351] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-04-26 10:56:15.109] [13377] (device_info_linux.cc:45): NumberOfDevices
+[2022-04-26 10:56:18.113] [13377] (device_info_linux.cc:45): NumberOfDevices
