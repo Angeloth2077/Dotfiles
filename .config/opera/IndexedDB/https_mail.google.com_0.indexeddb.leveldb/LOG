@@ -1,0 +1,6 @@
+2022/04/21-16:44:46.231 cdab Creating DB /home/angel/.config/opera/IndexedDB/https_mail.google.com_0.indexeddb.leveldb since it was missing.
+2022/04/21-16:44:46.238 cdab Reusing MANIFEST /home/angel/.config/opera/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/21-17:08:50.205 d7a9 Level-0 table #5: started
+2022/04/21-17:08:50.207 d7a9 Level-0 table #5: 2125 bytes OK
+2022/04/21-17:08:50.208 d7a9 Delete type=0 #3
+2022/04/21-17:08:50.208 d7a9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

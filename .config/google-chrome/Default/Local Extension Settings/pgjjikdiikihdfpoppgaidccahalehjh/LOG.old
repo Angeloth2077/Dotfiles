@@ -1,11 +1,15 @@
-2022/04/11-07:46:30.078 3fc Reusing MANIFEST /home/angel/.config/google-chrome/Default/Local Extension Settings/pgjjikdiikihdfpoppgaidccahalehjh/MANIFEST-000001
-2022/04/11-08:36:07.718 1934 Compacting 3@0 + 0@1 files
-2022/04/11-08:36:07.722 1934 Generated table #112@0: 5 keys, 31202 bytes
-2022/04/11-08:36:07.722 1934 Compacted 3@0 + 0@1 files => 31202 bytes
-2022/04/11-08:36:07.724 1934 compacted to: files[ 0 1 0 0 0 0 0 ]
-2022/04/11-08:36:07.724 1934 Delete type=2 #109
-2022/04/11-08:36:07.724 1934 Delete type=2 #108
-2022/04/11-08:36:07.724 1934 Delete type=2 #64
-2022/04/11-09:30:46.997 3891 Level-0 table #114: started
-2022/04/11-09:30:47.013 3891 Level-0 table #114: 1634154 bytes OK
-2022/04/11-09:30:47.016 3891 Delete type=0 #111
+2022/04/25-09:31:04.818 eb2 Reusing MANIFEST /home/angel/.config/google-chrome/Default/Local Extension Settings/pgjjikdiikihdfpoppgaidccahalehjh/MANIFEST-000001
+2022/04/25-09:31:04.820 eb2 Recovering log #170
+2022/04/25-09:31:04.826 eb2 Reusing old log /home/angel/.config/google-chrome/Default/Local Extension Settings/pgjjikdiikihdfpoppgaidccahalehjh/000170.log 
+2022/04/25-13:58:00.920 53da Level-0 table #174: started
+2022/04/25-13:58:00.935 53da Level-0 table #174: 1720094 bytes OK
+2022/04/25-13:58:00.937 53da Delete type=0 #170
+2022/04/25-13:58:00.938 53da Compacting 4@0 + 1@1 files
+2022/04/25-13:58:00.951 53da Generated table #175@0: 5 keys, 39835 bytes
+2022/04/25-13:58:00.951 53da Compacted 4@0 + 1@1 files => 39835 bytes
+2022/04/25-13:58:00.952 53da compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/04/25-13:58:00.953 53da Delete type=2 #171
+2022/04/25-13:58:00.953 53da Delete type=2 #174
+2022/04/25-13:58:00.953 53da Delete type=2 #163
+2022/04/25-13:58:00.953 53da Delete type=2 #165
+2022/04/25-13:58:00.953 53da Delete type=2 #168

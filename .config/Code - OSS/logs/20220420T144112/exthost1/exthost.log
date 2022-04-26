@@ -1,0 +1,10 @@
+[2022-04-20 14:41:14.835] [exthost] [info] Extension host with pid 33533 started
+[2022-04-20 14:41:14.950] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-04-20 14:41:14.957] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-04-20 14:41:14.982] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-20 14:41:14.983] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-04-20 14:41:14.985] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-20 14:41:15.335] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-20 14:41:15.377] [exthost] [info] Eager extensions activated
+[2022-04-20 14:41:15.433] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-04-20 14:41:15.440] [exthost] [info] Extension host with pid 33533 exiting with code 0

@@ -1,0 +1,32 @@
+{
+   "description": "Ride the Wave: By Janelle Cummins",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhDE6EdUNFvDvYZkMi+c13fy7AnZpfla+cc085cldfDBvIlSLzQK/AAglWeNdm52UDV1RXn2VgWGMT+f47Mr51oA+iQSRUDQOGqw6ISublR3tpn+B1BqCIWWW2RUKYkKw+vjxF3ijLgTJ4HIBbZ4uxlWV74Z+IZlgpKFYn5pIHUigxwM86kote3ZrgFRMtYLpfkon1DGnxcK1UenzWyqsENOymCm2QBs5jwe5RMBGxmIwRtygBxiMv1rEUPnUSO26buonWJfaRlVczpxJ+EfTN92F5T/J7TdEDGEyn6Dr6MFIuJHWIH6BMbUQayJS5039gizsf7JU5iwBzq78G6tL5QIDAQAB",
+   "manifest_version": 2,
+   "name": "Ride the Wave",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 255, 255, 255 ],
+         "frame": [ 30, 0, 45 ],
+         "ntp_background": [ 30, 0, 45 ],
+         "tab_background_text": [ 255, 255, 255 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 53, 35, 169 ]
+      },
+      "images": {
+         "theme_ntp_background": "ride_the_wave_1920x1080.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "bottom",
+         "ntp_background_repeat": "repeat-x",
+         "ntp_logo_alternate": 1
+      },
+      "tints": {
+         "buttons": [ -1, 0.57, 0.9605 ],
+         "frame_inactive": [ -1, -1, -1 ],
+         "frame_incognito": [ -1, -1, -1 ],
+         "frame_incognito_inactive": [ -1, -1, -1 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

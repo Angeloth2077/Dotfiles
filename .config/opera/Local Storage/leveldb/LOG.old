@@ -1,0 +1,6 @@
+2022/04/22-15:00:54.771 3 Reusing MANIFEST /home/angel/.config/opera/Local Storage/leveldb/MANIFEST-000001
+2022/04/22-15:00:54.771 3 Recovering log #26
+2022/04/22-15:00:54.771 3 Reusing old log /home/angel/.config/opera/Local Storage/leveldb/000026.log 
+2022/04/22-15:17:20.927 f Level-0 table #31: started
+2022/04/22-15:17:20.930 f Level-0 table #31: 17765 bytes OK
+2022/04/22-15:17:20.932 f Delete type=0 #26

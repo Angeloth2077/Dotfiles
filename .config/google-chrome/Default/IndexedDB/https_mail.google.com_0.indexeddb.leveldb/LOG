@@ -1,3 +1,33 @@
-2022/03/31-22:30:10.868 74de Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/03/31-22:30:10.868 74de Recovering log #26
-2022/03/31-22:30:10.872 74de Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000026.log 
+2022/04/19-17:41:06.977 9322 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/19-17:41:06.977 9322 Recovering log #33
+2022/04/19-17:41:06.987 9322 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000033.log 
+2022/04/19-17:41:37.839 a0f0 Level-0 table #38: started
+2022/04/19-17:41:37.856 a0f0 Level-0 table #38: 1933693 bytes OK
+2022/04/19-17:41:37.860 a0f0 Delete type=0 #33
+2022/04/19-17:41:57.987 a03b Compacting 1@1 + 1@2 files
+2022/04/19-17:41:57.996 a03b Generated table #39@1: 233 keys, 425089 bytes
+2022/04/19-17:41:57.996 a03b Compacted 1@1 + 1@2 files => 425089 bytes
+2022/04/19-17:41:57.997 a03b compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/19-17:41:57.998 a03b Delete type=2 #35
+2022/04/19-17:41:57.998 a03b Delete type=2 #38
+2022/04/19-17:43:10.060 9e24 Level-0 table #41: started
+2022/04/19-17:43:10.076 9e24 Level-0 table #41: 1873276 bytes OK
+2022/04/19-17:43:10.079 9e24 Delete type=0 #37
+2022/04/19-17:43:41.533 a03c Compacting 1@1 + 1@2 files
+2022/04/19-17:43:41.539 a03c Generated table #42@1: 148 keys, 201049 bytes
+2022/04/19-17:43:41.539 a03c Compacted 1@1 + 1@2 files => 201049 bytes
+2022/04/19-17:43:41.541 a03c compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/19-17:43:41.541 a03c Delete type=2 #41
+2022/04/19-17:43:41.541 a03c Delete type=2 #39
+2022/04/19-17:47:04.019 9322 Level-0 table #44: started
+2022/04/19-17:47:04.035 9322 Level-0 table #44: 1015601 bytes OK
+2022/04/19-17:47:04.038 9322 Delete type=0 #40
+2022/04/19-17:47:04.038 9322 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/04/19-17:47:04.038 9322 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x000\x00/' @ 23788 : 1
+2022/04/19-17:47:04.038 9322 Compacting 1@1 + 1@2 files
+2022/04/19-17:47:04.043 9322 Generated table #45@1: 94 keys, 117948 bytes
+2022/04/19-17:47:04.043 9322 Compacted 1@1 + 1@2 files => 117948 bytes
+2022/04/19-17:47:04.044 9322 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/19-17:47:04.044 9322 Delete type=2 #44
+2022/04/19-17:47:04.044 9322 Delete type=2 #42
+2022/04/19-17:47:04.045 9322 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x000\x00/' @ 23788 : 1 .. (end); will stop at (end)

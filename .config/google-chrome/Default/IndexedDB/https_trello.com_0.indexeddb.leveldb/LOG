@@ -1,0 +1,17 @@
+2022/04/19-10:25:41.759 1877 Creating DB /home/angel/.config/google-chrome/Default/IndexedDB/https_trello.com_0.indexeddb.leveldb since it was missing.
+2022/04/19-10:25:41.764 1877 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_trello.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/19-15:09:45.755 6e0f Level-0 table #5: started
+2022/04/19-15:09:45.775 6e0f Level-0 table #5: 1617920 bytes OK
+2022/04/19-15:09:45.780 6e0f Delete type=0 #3
+2022/04/19-18:17:26.961 abc4 Level-0 table #7: started
+2022/04/19-18:17:26.966 abc4 Level-0 table #7: 259781 bytes OK
+2022/04/19-18:17:26.968 abc4 Delete type=0 #4
+2022/04/19-18:17:26.968 abc4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/04/19-18:17:26.968 abc4 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01"\x04\x02\x01\x06\x00t\x00r\x00e\x00l\x00l\x00o\x03\x00\xc0\xb6m>\x04xB\x00\x01$\x00b\x004\x003\x00e\x005\x00e\x004\x008\x00-\x000\x00f\x008\x00e\x00-\x004\x000\x005\x006\x00-\x00b\x001\x005\x00d\x00-\x000\x00e\x002\x007\x00a\x00a\x001\x00c\x00f\x00c\x00a\x00b' @ 23000 : 1
+2022/04/19-18:17:26.968 abc4 Compacting 1@1 + 1@2 files
+2022/04/19-18:17:26.976 abc4 Generated table #8@1: 1165 keys, 82903 bytes
+2022/04/19-18:17:26.976 abc4 Compacted 1@1 + 1@2 files => 82903 bytes
+2022/04/19-18:17:26.978 abc4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/19-18:17:26.978 abc4 Delete type=2 #5
+2022/04/19-18:17:26.978 abc4 Delete type=2 #7
+2022/04/19-18:17:26.978 abc4 Manual compaction at level-1 from '\x00\x01\x01"\x04\x02\x01\x06\x00t\x00r\x00e\x00l\x00l\x00o\x03\x00\xc0\xb6m>\x04xB\x00\x01$\x00b\x004\x003\x00e\x005\x00e\x004\x008\x00-\x000\x00f\x008\x00e\x00-\x004\x000\x005\x006\x00-\x00b\x001\x005\x00d\x00-\x000\x00e\x002\x007\x00a\x00a\x001\x00c\x00f\x00c\x00a\x00b' @ 23000 : 1 .. (end); will stop at (end)

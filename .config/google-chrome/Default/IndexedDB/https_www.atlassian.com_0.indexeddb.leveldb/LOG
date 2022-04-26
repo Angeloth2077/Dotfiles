@@ -1,2 +1,7 @@
-2022/03/20-13:07:15.782 af5 Creating DB /home/angel/.config/google-chrome/Default/IndexedDB/https_www.atlassian.com_0.indexeddb.leveldb since it was missing.
-2022/03/20-13:07:15.786 af5 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.atlassian.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/18-12:42:02.517 6e4c Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.atlassian.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/18-12:42:02.517 6e4c Recovering log #3
+2022/04/18-12:42:02.518 6e4c Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.atlassian.com_0.indexeddb.leveldb/000003.log 
+2022/04/18-14:08:37.548 9970 Level-0 table #5: started
+2022/04/18-14:08:37.553 9970 Level-0 table #5: 159299 bytes OK
+2022/04/18-14:08:37.555 9970 Delete type=0 #3
+2022/04/18-14:08:37.555 9970 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

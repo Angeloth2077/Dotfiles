@@ -1,0 +1,85 @@
+21:24:31.430: CPU Name: AMD Ryzen 5 3400G with Radeon Vega Graphics
+21:24:31.430: CPU Speed: 1400.000MHz
+21:24:31.431: Physical Cores: 4, Logical Cores: 8
+21:24:31.431: Physical Memory: 13991MB Total, 2782MB Free
+21:24:31.431: Kernel Version: Linux 5.17.1-arch1-1
+21:24:31.431: Distribution: "Arch Linux" Unknown
+21:24:31.431: Session Type: x11
+21:24:31.431: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+21:24:31.432: Qt Version: 5.15.3 (runtime), 5.15.3 (compiled)
+21:24:31.432: Portable mode: false
+21:24:31.471: OBS 27.2.3-1 (linux)
+21:24:31.471: ---------------------------------
+21:24:31.471: ---------------------------------
+21:24:31.471: audio settings reset:
+21:24:31.471: 	samples per sec: 48000
+21:24:31.471: 	speakers:        2
+21:24:31.472: ---------------------------------
+21:24:31.472: Initializing OpenGL...
+21:24:31.542: Loading up OpenGL on adapter AMD AMD Radeon Vega 11 Graphics (raven, LLVM 13.0.1, DRM 3.44, 5.17.1-arch1-1)
+21:24:31.542: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 22.0.1, shading language 4.60
+21:24:31.553: ---------------------------------
+21:24:31.553: video settings reset:
+21:24:31.553: 	base resolution:   1920x1080
+21:24:31.553: 	output resolution: 1920x1080
+21:24:31.553: 	downscale filter:  Bicubic
+21:24:31.553: 	fps:               60/1
+21:24:31.553: 	format:            NV12
+21:24:31.553: 	YUV mode:          709/Partial
+21:24:31.554: NV12 texture support not available
+21:24:31.558: Audio monitoring device:
+21:24:31.558: 	name: Default
+21:24:31.558: 	id: default
+21:24:31.558: ---------------------------------
+21:24:31.559: Failed to load 'en-US' text for module: 'decklink-captions.so'
+21:24:31.560: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+21:24:31.630: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+21:24:31.630: No blackmagic support
+21:24:31.640: v4l2loopback not installed, virtual camera disabled
+21:24:31.643: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+21:24:31.643: 
+21:24:31.643: FFMPEG VAAPI supported
+21:24:31.649: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+21:24:31.649: 
+21:24:31.649: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+21:24:31.650: ---------------------------------
+21:24:31.650:   Loaded Modules:
+21:24:31.650:     text-freetype2.so
+21:24:31.650:     rtmp-services.so
+21:24:31.650:     obs-x264.so
+21:24:31.650:     obs-transitions.so
+21:24:31.650:     obs-outputs.so
+21:24:31.650:     obs-libfdk.so
+21:24:31.650:     obs-filters.so
+21:24:31.650:     obs-ffmpeg.so
+21:24:31.650:     linux-v4l2.so
+21:24:31.650:     linux-pulseaudio.so
+21:24:31.650:     linux-jack.so
+21:24:31.650:     linux-decklink.so
+21:24:31.650:     linux-capture.so
+21:24:31.650:     linux-alsa.so
+21:24:31.650:     image-source.so
+21:24:31.650:     frontend-tools.so
+21:24:31.650:     decklink-ouput-ui.so
+21:24:31.650:     decklink-captions.so
+21:24:31.650: ---------------------------------
+21:24:31.650: ==== Startup complete ===============================================
+21:24:31.661: All scene data cleared
+21:24:31.661: ------------------------------------------------
+21:24:31.663: pulse-input: Server name: 'pulseaudio 15.0'
+21:24:31.663: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+21:24:31.663: pulse-input: Started recording from 'alsa_output.usb-C-Media_Electronics_Inc._dreamGEAR_GRX-670_Headset-00.analog-stereo.monitor'
+21:24:31.663: [Loaded global audio device]: 'Desktop Audio'
+21:24:31.664: pulse-input: Server name: 'pulseaudio 15.0'
+21:24:31.664: pulse-input: Audio format: s16le, 44100 Hz, 1 channels
+21:24:31.664: pulse-input: Started recording from 'alsa_input.usb-C-Media_Electronics_Inc._dreamGEAR_GRX-670_Headset-00.mono-fallback'
+21:24:31.664: [Loaded global audio device]: 'Mic/Aux'
+21:24:31.664: xshm-input: Geometry 1920x1080 @ 0,0
+21:24:31.666: Switched to scene 'Scene'
+21:24:31.666: ------------------------------------------------
+21:24:31.666: Loaded scenes:
+21:24:31.666: - scene 'Scene':
+21:24:31.666:     - source: 'Screen Capture (XSHM)' (xshm_input)
+21:24:31.666: ------------------------------------------------
+21:24:32.209: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+21:24:32.209: 

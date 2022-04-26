@@ -1,0 +1,9 @@
+[2022-04-20 14:40:06.367] [sharedprocess] [info] Starting worker process with pid 33151 (type: fileWatcher, window: 1).
+[2022-04-20 14:40:06.444] [sharedprocess] [info] Deleted from disk ms-toolsai.jupyter /home/angel/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054
+[2022-04-20 14:40:09.690] [sharedprocess] [info] Getting Manifest... ms-python.python
+[2022-04-20 14:40:11.961] [sharedprocess] [info] Installing extension: ms-python.python
+[2022-04-20 14:40:16.903] [sharedprocess] [info] Downloaded extension: ms-python.python /home/angel/.config/Code - OSS/CachedExtensionVSIXs/ms-python.python-2022.4.1
+[2022-04-20 14:40:18.396] [sharedprocess] [info] Extracted extension to /home/angel/.vscode-oss/extensions/.def6b3b6-b7c2-4a23-9823-6e27caa47fec: ms-python.python
+[2022-04-20 14:40:18.406] [sharedprocess] [info] Renamed to /home/angel/.vscode-oss/extensions/ms-python.python-2022.4.1
+[2022-04-20 14:40:18.408] [sharedprocess] [info] Extracting completed. ms-python.python
+[2022-04-20 14:40:18.412] [sharedprocess] [info] Extension installed successfully: ms-python.python

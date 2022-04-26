@@ -1,0 +1,6 @@
+2022/04/22-14:59:08.028 991f Creating DB /home/angel/.config/opera/IndexedDB/https_www.ghacks.net_0.indexeddb.leveldb since it was missing.
+2022/04/22-14:59:08.031 991f Reusing MANIFEST /home/angel/.config/opera/IndexedDB/https_www.ghacks.net_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/22-14:59:11.075 9e8d Level-0 table #5: started
+2022/04/22-14:59:11.077 9e8d Level-0 table #5: 1909 bytes OK
+2022/04/22-14:59:11.078 9e8d Delete type=0 #3
+2022/04/22-14:59:11.078 9e8d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

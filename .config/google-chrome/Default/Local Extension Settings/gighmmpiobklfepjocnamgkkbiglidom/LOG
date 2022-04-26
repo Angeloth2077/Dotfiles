@@ -1,36 +1,66 @@
-2022/04/11-09:55:32.294 436 Reusing MANIFEST /home/angel/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
-2022/04/11-09:55:32.295 436 Recovering log #1840
-2022/04/11-09:55:32.295 436 Reusing old log /home/angel/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/001840.log 
-2022/04/11-10:25:43.872 3dc Level-0 table #1846: started
-2022/04/11-10:25:43.987 3dc Level-0 table #1846: 7574894 bytes OK
-2022/04/11-10:25:43.989 3dc Delete type=0 #1840
-2022/04/11-10:26:22.291 432 Level-0 table #1848: started
-2022/04/11-10:26:22.370 432 Level-0 table #1848: 7574725 bytes OK
-2022/04/11-10:26:22.373 432 Delete type=0 #1845
-2022/04/11-11:25:43.614 cf5 Level-0 table #1850: started
-2022/04/11-11:25:43.637 f47 Current memtable full; waiting...
-2022/04/11-11:25:43.694 cf5 Level-0 table #1850: 7574919 bytes OK
-2022/04/11-11:25:43.697 cf5 Delete type=0 #1847
-2022/04/11-11:25:43.700 cf5 Level-0 table #1852: started
-2022/04/11-11:25:43.797 cf5 Level-0 table #1852: 7574725 bytes OK
-2022/04/11-11:25:43.800 cf5 Delete type=0 #1849
-2022/04/11-11:25:43.803 cf5 Compacting 4@0 + 2@1 files
-2022/04/11-11:25:43.974 cf5 Generated table #1853@0: 3 keys, 7575064 bytes
-2022/04/11-11:25:43.978 cf5 Generated table #1854@0: 8 keys, 477 bytes
-2022/04/11-11:25:43.978 cf5 Compacted 4@0 + 2@1 files => 7575541 bytes
-2022/04/11-11:25:43.980 cf5 compacted to: files[ 0 2 0 0 0 0 0 ]
-2022/04/11-11:25:43.980 cf5 Delete type=2 #1850
-2022/04/11-11:25:43.980 cf5 Delete type=2 #1848
-2022/04/11-11:25:43.980 cf5 Delete type=2 #1843
-2022/04/11-11:25:43.980 cf5 Delete type=2 #1852
-2022/04/11-11:25:43.980 cf5 Delete type=2 #1842
-2022/04/11-11:25:43.980 cf5 Delete type=2 #1846
-2022/04/11-12:07:49.171 1253 Level-0 table #1856: started
-2022/04/11-12:07:49.260 1253 Level-0 table #1856: 7575097 bytes OK
-2022/04/11-12:07:49.263 1253 Delete type=0 #1851
-2022/04/11-12:25:43.575 1253 Level-0 table #1858: started
-2022/04/11-12:25:43.690 1253 Level-0 table #1858: 7574965 bytes OK
-2022/04/11-12:25:43.693 1253 Delete type=0 #1855
-2022/04/11-12:57:09.609 1253 Level-0 table #1860: started
-2022/04/11-12:57:09.717 1253 Level-0 table #1860: 7574905 bytes OK
-2022/04/11-12:57:09.720 1253 Delete type=0 #1857
+2022/04/26-07:52:01.788 50f Reusing MANIFEST /home/angel/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2022/04/26-07:52:01.789 50f Recovering log #2599
+2022/04/26-07:52:01.873 50f Level-0 table #2602: started
+2022/04/26-07:52:01.946 50f Level-0 table #2602: 7615466 bytes OK
+2022/04/26-07:52:01.950 50f Delete type=0 #2599
+2022/04/26-07:53:05.164 50e Level-0 table #2605: started
+2022/04/26-07:53:05.181 50d Current memtable full; waiting...
+2022/04/26-07:53:05.234 50e Level-0 table #2605: 7615656 bytes OK
+2022/04/26-07:53:05.238 50e Delete type=0 #2603
+2022/04/26-07:53:05.241 50e Compacting 4@0 + 2@1 files
+2022/04/26-07:53:05.295 50e Level-0 table #2607: started
+2022/04/26-07:53:05.370 50e Level-0 table #2607: 7615477 bytes OK
+2022/04/26-07:53:05.373 50e Delete type=0 #2604
+2022/04/26-07:53:05.450 50e Generated table #2608@0: 3 keys, 7616060 bytes
+2022/04/26-07:53:05.453 50e Generated table #2609@0: 8 keys, 480 bytes
+2022/04/26-07:53:05.453 50e Compacted 4@0 + 2@1 files => 7616540 bytes
+2022/04/26-07:53:05.457 50e compacted to: files[ 1 2 0 0 0 0 0 ]
+2022/04/26-07:53:05.457 50e Delete type=2 #2602
+2022/04/26-07:53:05.457 50e Delete type=2 #2596
+2022/04/26-07:53:05.457 50e Delete type=2 #2598
+2022/04/26-07:53:05.457 50e Delete type=2 #2605
+2022/04/26-07:53:05.457 50e Delete type=2 #2595
+2022/04/26-07:53:05.457 50e Delete type=2 #2600
+2022/04/26-07:54:28.066 50e Level-0 table #2611: started
+2022/04/26-07:54:28.160 50e Level-0 table #2611: 7615691 bytes OK
+2022/04/26-07:54:28.162 50e Delete type=0 #2606
+2022/04/26-08:53:04.999 15b8 Level-0 table #2613: started
+2022/04/26-08:53:05.102 15b8 Level-0 table #2613: 7616015 bytes OK
+2022/04/26-08:53:05.105 15b8 Delete type=0 #2610
+2022/04/26-08:55:31.927 1878 Level-0 table #2615: started
+2022/04/26-08:55:31.997 1878 Level-0 table #2615: 7615499 bytes OK
+2022/04/26-08:55:31.999 1878 Delete type=0 #2612
+2022/04/26-08:55:32.001 1878 Compacting 4@0 + 2@1 files
+2022/04/26-08:55:32.141 1878 Generated table #2616@0: 3 keys, 7616080 bytes
+2022/04/26-08:55:32.144 1878 Generated table #2617@0: 8 keys, 480 bytes
+2022/04/26-08:55:32.144 1878 Compacted 4@0 + 2@1 files => 7616560 bytes
+2022/04/26-08:55:32.146 1878 compacted to: files[ 0 2 0 0 0 0 0 ]
+2022/04/26-08:55:32.146 1878 Delete type=2 #2608
+2022/04/26-08:55:32.146 1878 Delete type=2 #2613
+2022/04/26-08:55:32.146 1878 Delete type=2 #2607
+2022/04/26-08:55:32.146 1878 Delete type=2 #2609
+2022/04/26-08:55:32.146 1878 Delete type=2 #2615
+2022/04/26-08:55:32.146 1878 Delete type=2 #2611
+2022/04/26-09:53:05.043 35b5 Level-0 table #2619: started
+2022/04/26-09:53:05.160 35b5 Level-0 table #2619: 7615653 bytes OK
+2022/04/26-09:53:05.162 35b5 Delete type=0 #2614
+2022/04/26-09:53:05.332 35b5 Level-0 table #2621: started
+2022/04/26-09:53:05.486 35b5 Level-0 table #2621: 7615495 bytes OK
+2022/04/26-09:53:05.488 35b5 Delete type=0 #2618
+2022/04/26-09:53:06.826 35b6 Level-0 table #2623: started
+2022/04/26-09:53:06.947 35b6 Level-0 table #2623: 7615689 bytes OK
+2022/04/26-09:53:06.949 35b6 Delete type=0 #2620
+2022/04/26-10:03:31.332 3c33 Level-0 table #2625: started
+2022/04/26-10:03:31.401 3c33 Level-0 table #2625: 7615494 bytes OK
+2022/04/26-10:03:31.403 3c33 Delete type=0 #2622
+2022/04/26-10:03:31.405 3c33 Compacting 4@0 + 2@1 files
+2022/04/26-10:03:31.590 3c33 Generated table #2626@0: 3 keys, 7616075 bytes
+2022/04/26-10:03:31.594 3c33 Generated table #2627@0: 8 keys, 480 bytes
+2022/04/26-10:03:31.595 3c33 Compacted 4@0 + 2@1 files => 7616555 bytes
+2022/04/26-10:03:31.596 3c33 compacted to: files[ 0 2 0 0 0 0 0 ]
+2022/04/26-10:03:31.596 3c33 Delete type=2 #2619
+2022/04/26-10:03:31.596 3c33 Delete type=2 #2617
+2022/04/26-10:03:31.596 3c33 Delete type=2 #2623
+2022/04/26-10:03:31.596 3c33 Delete type=2 #2621
+2022/04/26-10:03:31.596 3c33 Delete type=2 #2625
+2022/04/26-10:03:31.596 3c33 Delete type=2 #2616

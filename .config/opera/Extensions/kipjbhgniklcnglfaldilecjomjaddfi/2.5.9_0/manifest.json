@@ -1,0 +1,35 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "/api/api.js", "/api/installer.js", "/api/event.js", "/api/management.js", "/api/webstore.js", "/api/webstore_private.js", "/background/content_proxy.js", "/background/app.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "content/store.css" ],
+      "js": [ "content/callback_registry.js", "content/channel.js", "content/proxy.js", "content/store_proxy.js" ],
+      "matches": [ "http://chrome.google.com/webstore/*", "https://chrome.google.com/webstore/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "developer": {
+      "name": "Opera Software"
+   },
+   "icons": {
+      "128": "icons/128.png",
+      "64": "icons/64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCt/tsRdghZ66G3BpCJIXJSd6f6ORL/2aLzRJoRVJYztsWCnUlxw7DWRnldIe7/d52+eQ7YVeuUYNmF+whEWYYjmPf5W0wYrBX1Tlkra074vm8AjwmlK41ctwKUm8kTwQ3LAe1mOSlZ5Z+P2NbhThYJrsfEv6JVCXhVvboFrSH9fQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "page_action": {
+      "default_icon": {
+         "16": "icons/16.png",
+         "24": "icons/24.png",
+         "32": "icons/32.png"
+      },
+      "default_title": "__MSG_buttonTitle__"
+   },
+   "permissions": [ "tabs", "management", "downloads", "https://clients2.google.com/service/update2/*", "*://chrome.google.com/webstore/*" ],
+   "update_url": "https://extension-updates.opera.com/api/omaha/update/",
+   "version": "2.5.9"
+}

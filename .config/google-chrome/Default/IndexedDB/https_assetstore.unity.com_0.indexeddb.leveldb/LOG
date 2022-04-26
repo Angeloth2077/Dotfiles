@@ -1,0 +1,6 @@
+2022/04/19-10:04:35.252 14ec Creating DB /home/angel/.config/google-chrome/Default/IndexedDB/https_assetstore.unity.com_0.indexeddb.leveldb since it was missing.
+2022/04/19-10:04:35.257 14ec Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_assetstore.unity.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/19-10:05:07.343 1501 Level-0 table #5: started
+2022/04/19-10:05:07.345 1501 Level-0 table #5: 2522 bytes OK
+2022/04/19-10:05:07.346 1501 Delete type=0 #3
+2022/04/19-10:05:07.346 1501 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

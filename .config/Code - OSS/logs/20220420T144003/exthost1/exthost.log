@@ -1,0 +1,15 @@
+[2022-04-20 14:40:06.263] [exthost] [info] Extension host with pid 33100 started
+[2022-04-20 14:40:06.380] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-04-20 14:40:06.403] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-04-20 14:40:06.490] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-20 14:40:06.507] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-04-20 14:40:06.513] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-20 14:40:06.798] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-20 14:40:06.905] [exthost] [info] Eager extensions activated
+[2022-04-20 14:40:06.906] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-04-20 14:40:06.916] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-20 14:40:06.936] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-20 14:40:51.807] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-04-20 14:40:51.882] [exthost] [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: '*'
+[2022-04-20 14:41:01.091] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-04-20 14:41:01.099] [exthost] [info] Extension host with pid 33100 exiting with code 0

@@ -2,13 +2,13 @@
     "telemetry.machineId": "133342fab6b9877c0e744d0cd6a17b00c750c6caba1581ddb88996fd8c1a305d",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/angel/.config/Code - OSS/Backups/1649204294083",
+            "backupPath": "/home/angel/.config/Code - OSS/Backups/1650645404387",
             "uiState": {
                 "mode": 1,
                 "x": 965,
                 "y": 29,
                 "width": 950,
-                "height": 518
+                "height": 1046
             }
         },
         "openedWindows": []
@@ -69,6 +69,61 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/angel/.themes/Qogir-dark/gtk-4.0/gtk.css",
+                                        "path": "/home/angel/.themes/Qogir-dark/gtk-4.0/gtk.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.themes/Qogir-dark/gtk-4.0/gtk.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/angel/default.txt",
+                                        "path": "/home/angel/default.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/default.txt"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/angel/documents/Projects/Game/Lore/World/World-Timeline.md",
+                                        "path": "/home/angel/documents/Projects/Game/Lore/World/World-Timeline.md",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/documents/Projects/Game/Lore/World/World-Timeline.md"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/angel/documents/Projects/Game/Lore/World/Timeline-show.md",
+                                        "path": "/home/angel/documents/Projects/Game/Lore/World/Timeline-show.md",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/documents/Projects/Game/Lore/World/Timeline-show.md"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/angel/documents/Projects/Game/Lore/World/event.md",
+                                        "path": "/home/angel/documents/Projects/Game/Lore/World/event.md",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/documents/Projects/Game/Lore/World/event.md"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -648,8 +703,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",

@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html data-lt-adjust-appearance="true" data-lt-force-appearance="default">
+	<head>
+		<meta charset="utf-8" />
+		<!-- Use relative paths here for Safari extension -->
+		<link rel="stylesheet" href="../common/base.css" />
+		<link rel="stylesheet" href="options.css" />
+		<link rel="shortcut icon" href="../assets/images/favicon.ico" />
+		<title data-t="settingsHeadline"></title>
+	</head>
+
+	<body>
+		<div class="lt-options__header">
+			<div class="lt-options__headerLogo lt-icon__lt"></div>
+			<div class="lt-options__headerTitle">
+				<strong>LanguageTool</strong> - <span data-t="privacyNoteSlogan">Proofreading Software</span>
+			</div>
+		</div>
+
+		<div class="lt-options__wrapper">
+			<h1 data-t="settingsHeadline"></h1>
+			<div class="lt-options__banner" id="banner">
+				<h3 data-t="settingsPremiumHeadline"></h3>
+				<p data-t="settingsPremiumText"></p>
+				<a
+					class="lt-btn lt-btn__white"
+					data-t="settingsPremiumButton"
+					data-premium-link
+					href="https://languagetool.org/premium?pk_campaign=addon2-options"
+					target="_blank"
+				></a>
+				<span class="lt-options__discount" id="lt-options-discount">
+					<span id="lt-options-dicount-percent"></span>
+					<span id="lt-options-discount-expires"></span>
+				</span>
+			</div>
+
+			<div class="lt-options-static lt-icon__lt" id="login">
+				<span data-t="settingsAccountHeadline"></span>
+				<a
+					class="lt-options__badge"
+					id="lt-options__package-badge-container"
+					target="_blank"
+					data-premium-link
+					href="https://languagetool.org/premium?pk_campaign=addon2-options"
+				></a>
+			</div>
+
+			<form id="login-options" class="lt-static-box lt-static-box--offset-top">
+				<div class="lt-options__success" id="login-success"></div>
+				<div class="lt-options__error" id="login-error"></div>
+
+				<div id="lt-login">
+					<h2 class="lt-section-headline" data-t="settingsAccountSubheadline"></h2>
+					<p class="lt-paragraph--2" data-t="settingsAccountDescription"></p>
+					<ul class="lt-bullet-points">
+						<li class="lt-bullet-points__item" data-t="settingsAccountBulletListSync"></li>
+						<li class="lt-bullet-points__item" data-t="settingsAccountBulletListEditor"></li>
+						<li class="lt-bullet-points__item" data-t="settingsAccountBulletListSave"></li>
+					</ul>
+					<div class="lt-btn-wrapper">
+						<div id="haveAccountDesc" class="lt-login__description"></div>
+						<button
+							class="lt-btn lt-btn__blue"
+							data-t="settingsLoginButton"
+							type="submit"
+							id="login-popup-button"
+						></button>
+					</div>
+				</div>
+
+				<div id="lt-account">
+					<div class="lt-settings-info lt-icon__info">
+						<span id="account-text"></span>
+						<span class="lt-account__premium-hint" data-t-html="settingsPremiumFeaturesActivated"></span>
+					</div>
+					<button
+						class="lt-btn lt-btn__secondary"
+						id="manage-account-button"
+						data-t="settingsManageAccountButton"
+						type="button"
+					></button>
+					<button
+						class="lt-btn lt-btn-destructive"
+						id="logout-button"
+						data-t="settingsLogoutButton"
+						type="button"
+					></button>
+				</div>
+			</form>
+
+			<div class="lt-options-static lt-icon__lt" id="managed-login" style="display: none">
+				<span>Account</span>
+			</div>
+
+			<div id="managed-login-options" class="lt-static-box lt-static-box--offset-top" style="display: none">
+				<div id="managed-login-box">
+					<button
+						class="lt-btn lt-btn__blue"
+						id="managed-login-button"
+						type="button"
+						data-t="managedLoginButton2"
+					></button>
+				</div>
+				<div id="managed-logout-box">
+					<div class="lt-account__text">
+						<span id="managed-account-text"></span>
+					</div>
+					<button
+						class="lt-btn lt-btn-destructive"
+						id="managed-logout-button"
+						data-t="settingsLogoutButton"
+						type="button"
+					></button>
+				</div>
+			</div>
+
+			<div class="lt-options-static lt-icon__options" id="generalSettings" data-t="generalSettingsHeadline"></div>
+
+			<div id="generalSettings-options" class="lt-static-box--offset-top lt-static-box">
+				<div class="lt-static-box__row">
+					<div class="lt-toggle-wrapper">
+						<div class="lt-options__toggle__description">
+							<label class="lt-options__toggle__headline" data-t="popupOptionPickyMode"></label>
+							<span class="lt-options__toggle__subline" data-t="popupOptionPickyModeDescription"></span>
+						</div>
+						<div id="togglePickyModeSwitch" class="lt-toggle"><div class="lt-toggle__dot"></div></div>
+					</div>
+					<div class="lt-toggle-wrapper" id="synonyms-toggle-wrapper">
+						<div class="lt-options__toggle__description">
+							<label class="lt-options__toggle__headline" data-t="popupOptionSynonyms"></label>
+							<span class="lt-options__toggle__subline" data-t="popupOptionSynonymsDescription"></span>
+						</div>
+						<div id="toggleSynonymsSwitch" class="lt-toggle"><div class="lt-toggle__dot"></div></div>
+					</div>
+				</div>
+			</div>
+
+			<div
+				class="lt-options-toggle lt-icon__dictionary"
+				id="personalDictionary"
+				data-t="settingsDictionaryHeadline"
+			></div>
+
+			<div id="personalDictionary-options" class="lt-toggle-box lt-static-box">
+				<div class="lt-add-input-wrapper">
+					<input
+						id="personalDictionaryInput"
+						type="text"
+						name="fname"
+						data-t-placeholder="settingsAddOrFilterWords"
+						autocomplete="off"
+					/>
+					<button id="addToPersonalDictionary" class="lt-btn-add lt-icon__add" disabled></button>
+				</div>
+
+				<div
+					id="personalDictionary-options__emptyState"
+					class="lt-emptyState"
+					data-t="settingsEmptyDictionary"
+				></div>
+
+				<div
+					id="personalDictionary-options__emptySearch"
+					class="lt-emptySearch"
+					data-t="settingsAddWordHint"
+				></div>
+
+				<div id="personalDictionary-optionsInside">
+					<ul id="personalDictionaryList" class="lt-personal-dictionary"></ul>
+					<div class="lt-btn-wrapper">
+						<div
+							id="personalDictionary-options__copyMessage"
+							class="lt-options__message"
+							data-t="settingsCopyDictionarySuccessful"
+						></div>
+						<button
+							id="personalDictionary-options__copy"
+							class="lt-btn lt-btn__secondary"
+							data-t="settingsCopyDictionary"
+						></button>
+						<button
+							id="personalDictionary-options__clearAll"
+							class="lt-btn lt-btn-destructive"
+							data-t="settingsClearAll"
+						></button>
+					</div>
+				</div>
+			</div>
+
+			<div class="lt-options-toggle lt-icon__globe" id="language" data-t="languageOptionsLink"></div>
+
+			<div id="language-options" class="lt-toggle-box lt-static-box lt-static-box--offset-top">
+				<div class="lt-static-box__row">
+					<label for="motherTongue" data-t="motherTongueDesc" class="lt-static-box__headline"></label>
+					<p class="lt-static-box__text" data-t="motherTongueExpl"></p>
+					<div class="lt-language-select" data-lt-nice-select>
+						<select id="motherTongue">
+							<option value="">-</option>
+							<!-- This list only contains languages for which LT has false friend hints (see false-friends.xml in LT): -->
+							<option value="ar" data-t="ar"></option>
+							<option value="ca" data-t="ca"></option>
+							<option value="zh" data-t="zh"></option>
+							<option value="da" data-t="da"></option>
+							<option value="de" data-t="de"></option>
+							<option value="en" data-t="en"></option>
+							<option value="fr" data-t="fr"></option>
+							<option value="gl" data-t="gl"></option>
+							<option value="it" data-t="it"></option>
+							<option value="ja" data-t="ja"></option>
+							<option value="nl" data-t="nl"></option>
+							<option value="pl" data-t="pl"></option>
+							<option value="pt" data-t="pt"></option>
+							<option value="ru" data-t="ru"></option>
+							<option value="es" data-t="es"></option>
+							<option value="sv" data-t="sv"></option>
+							<option value="uk" data-t="uk"></option>
+						</select>
+					</div>
+				</div>
+
+				<div class="lt-static-box__row">
+					<label for="new-preferred-languages" class="lt-static-box__headline">
+						<span data-t="settingsPreferredLanguagesHeadline"></span>
+						<i class="lt-static-box__headline__suffix" id="preferred-languages-count"></i>
+					</label>
+					<p class="lt-static-box__text" data-t="settingsPreferredLanguagesDescription"></p>
+					<div id="preferred-languages" class="lt-pill-box">
+						<div
+							class="lt-pill-box__item lt-pill-box__item--select lt-icon lt-icon__add-circle"
+							data-t-title="addLanguage"
+						>
+							<select id="new-preferred-languages">
+								<option data-t="addLanguage"></option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+				<div class="lt-static-box__row lt-static-box__row--subtle">
+					<h3
+						for="new-preferred-languages"
+						class="lt-static-box__headline"
+						data-t="settingsLanguageVariantsHeadline"
+					></h3>
+					<p class="lt-static-box__text" data-t="settingsLanguageVariantsDescription"></p>
+				</div>
+
+				<div class="lt-static-box__row lt-static-box__row--grid">
+					<div class="lt-static-box__col">
+						<label for="variant-en" data-t="variantEnDesc"></label>
+						<div class="lt-language-variant-select" data-lt-nice-select>
+							<select id="variant-en">
+								<option value="en-US" data-t="en_US"></option>
+								<option value="en-GB" data-t="en_GB"></option>
+								<option value="en-AU" data-t="en_AU"></option>
+								<option value="en-CA" data-t="en_CA"></option>
+								<option value="en-NZ" data-t="en_NZ"></option>
+								<option value="en-ZA" data-t="en_ZA"></option>
+							</select>
+						</div>
+					</div>
+					<div class="lt-static-box__col">
+						<label for="variant-de" data-t="variantDeDesc"></label>
+						<div class="lt-language-variant-select" data-lt-nice-select>
+							<select id="variant-de">
+								<option value="de-DE" data-t="de_DE"></option>
+								<option value="de-AT" data-t="de_AT"></option>
+								<option value="de-CH" data-t="de_CH"></option>
+							</select>
+						</div>
+					</div>
+					<div class="lt-static-box__col">
+						<label for="variant-pt" data-t="variantPtDesc"></label>
+						<div class="lt-language-variant-select" data-lt-nice-select>
+							<select id="variant-pt">
+								<option value="pt-PT" data-t="pt_PT"></option>
+								<option value="pt-BR" data-t="pt_BR"></option>
+								<option value="pt-AO" data-t="pt_AO"></option>
+								<option value="pt-MZ" data-t="pt_MZ"></option>
+							</select>
+						</div>
+					</div>
+					<div class="lt-static-box__col">
+						<label for="variant-ca" data-t="variantCaDesc"></label>
+						<div class="lt-language-variant-select" data-lt-nice-select>
+							<select id="variant-ca">
+								<option value="ca-ES" data-t="ca"></option>
+								<option value="ca-ES-valencia" data-t="ca_ES_valencia"></option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="lt-options-toggle lt-icon__ignore" id="ignoredRules" data-t="ignoredRulesDesc"></div>
+
+			<div id="ignoredRules-options" class="lt-toggle-box lt-static-box">
+				<div
+					id="ignoredRules-options__emptyState"
+					class="lt-emptyState"
+					data-t="settingsEmptyIgnoredRules"
+				></div>
+				<div id="ignoredRules-optionsInside">
+					<ul id="ignoredRulesList" class="lt-options__rules"></ul>
+					<div class="lt-btn-wrapper">
+						<button
+							id="ignoredRules-options__clearAll"
+							class="lt-btn lt-btn-destructive"
+							data-t="settingsEnableAllRules"
+						></button>
+					</div>
+				</div>
+			</div>
+
+			<div class="lt-options-toggle lt-icon__disabled_website" id="disabledDomains" data-t="domainsDesc"></div>
+
+			<div id="disabledDomains-options" class="lt-toggle-box lt-static-box">
+				<div class="lt-add-input-wrapper">
+					<input
+						id="disabledDomainsInput"
+						type="text"
+						name="fname"
+						data-t-placeholder="settingsAddOrFilterDomains"
+						autocomplete="off"
+					/>
+					<button id="addToDisabledDomains" class="lt-btn-add lt-icon__add" disabled></button>
+				</div>
+
+				<div
+					id="disabledDomains-options__emptyState"
+					class="lt-emptyState"
+					data-t="settingsEmptyDomainList"
+				></div>
+
+				<div
+					id="disabledDomains-options__emptySearch"
+					class="lt-emptySearch"
+					data-t="settingsAddDomainHint"
+				></div>
+
+				<div id="disabledDomains-optionsInside">
+					<ul id="disabledDomainsList" class="lt-options__rules"></ul>
+					<div class="lt-btn-wrapper">
+						<button
+							id="disabledDomains-options__clearAll"
+							class="lt-btn lt-btn-destructive"
+							data-t="settingsClearAll"
+						></button>
+					</div>
+				</div>
+			</div>
+
+			<div
+				class="lt-options__experimental-toggle lt-options-toggle lt-icon__experimental_settings"
+				id="experimental"
+				data-t="experimentalLink"
+			></div>
+
+			<div id="experimental-options" class="lt-toggle-box lt-static-box lt-static-box--offset-top">
+				<form id="serverUrl" class="lt-static-box__row">
+					<fieldset id="serverUrlFieldset" class="lt-fieldset">
+						<div class="lt-options__error" id="serverUrl-error" data-t="settingsUnknownError"></div>
+						<div
+							class="lt-options__success"
+							id="serverUrl-success"
+							data-t="settingsExperimentalSuccess"
+						></div>
+						<div
+							class="lt-options__disabled-message"
+							id="serverUrl-disabled"
+							data-t="settingsServerUrlDisabled"
+						></div>
+
+						<div class="lt-input-label lt-static-box__headline" data-t="serverText"></div>
+						<label class="lt-checkbox-label"
+							><input type="radio" name="serverType" id="serverType-cloud" /><span
+								class="lt-checkbox-label__description"
+							>
+								<span data-t="cloudServer"></span>
+								(<span id="privacyPolicy"></span>)
+							</span>
+						</label>
+						<label class="lt-checkbox-label"
+							><input type="radio" name="serverType" id="serverType-local" /><span
+								class="lt-checkbox-label__description"
+								><span data-t="localServer"></span> (<a
+									href="https://dev.languagetool.org/http-server"
+									target="_blank"
+									><span data-t="localServerDocs"></span></a
+								>)</span
+							></label
+						>
+						<div id="localServerAvailabilityWarning" style="display: none">
+							<span data-t="serverNotAvailable"></span> -
+							<a href="" id="retryLocalServer"><span data-t="tryAgain"></span></a><br />
+						</div>
+						<label class="lt-checkbox-label"
+							><input type="radio" name="serverType" id="serverType-custom" /><span
+								class="lt-checkbox-label__description"
+								data-t="otherServer"
+							></span
+						></label>
+						<input
+							id="customServerUrl"
+							type="url"
+							placeholder="https://your-server.com/v2"
+							spellcheck="false"
+							style="display: none"
+						/>
+
+						<div class="lt-save-btn-wrapper">
+							<button class="lt-btn lt-btn__blue" id="saveServerUrl" data-t="save" type="submit"></button>
+						</div>
+					</fieldset>
+				</form>
+
+				<div class="lt-static-box__row lt-thunderbird-hidden">
+					<input id="autoCheckAllDomains" type="checkbox" /><label for="autoCheckAllDomains"
+						><span data-t="autoCheckDesc"></span
+					></label>
+				</div>
+				<div class="lt-static-box__row lt-thunderbird-hidden">
+					<div id="autoCheckDomains-options">
+						<div data-t="autoCheckOnDomainsDesc"></div>
+						<div class="lt-add-input-wrapper">
+							<input
+								id="autoCheckDomainInput"
+								type="text"
+								data-t-placeholder="settingsAddOrFilterAutoCheckDomains"
+								autocomplete="off"
+							/>
+							<button id="addToAutoCheckDomains" class="lt-btn-add lt-icon__add" disabled></button>
+						</div>
+
+						<div
+							id="autoCheckDomains-options__emptyState"
+							class="lt-emptyState"
+							data-t="settingsEmptyAutoCheckDomains"
+						></div>
+
+						<div
+							id="autoCheckDomains-options__emptySearch"
+							class="lt-emptySearch"
+							data-t="settingsAddAutoCheckDomainHint"
+						></div>
+
+						<div id="autoCheckDomains-optionsInside">
+							<ul id="autoCheckDomains" class="lt-options__rules"></ul>
+							<div class="lt-btn-wrapper">
+								<button
+									id="autoCheckDomains-options__clearAll"
+									class="lt-btn lt-btn-destructive"
+									data-t="settingsClearAll"
+								></button>
+							</div>
+						</div>
+					</div>
+
+					<div id="ignoredDomains-options">
+						<div data-t="ignoreDomainsCheckDesc"></div>
+						<div class="lt-add-input-wrapper">
+							<input
+								id="ignoredDomainInput"
+								type="text"
+								data-t-placeholder="settingsAddOrFilterIgnoredDomains"
+								autocomplete="off"
+							/>
+							<button id="addToIgnoredDomains" class="lt-btn-add lt-icon__add" disabled></button>
+						</div>
+
+						<div
+							id="ignoredDomains-options__emptyState"
+							class="lt-emptyState"
+							data-t="settingsEmptyIgnoredDomains"
+						></div>
+
+						<div
+							id="ignoredDomains-options__emptySearch"
+							class="lt-emptySearch"
+							data-t="settingsAddIgnoredDomainHint"
+						></div>
+
+						<div id="ignoredDomains-optionsInside">
+							<ul id="ignoredDomains" class="lt-options__rules"></ul>
+							<div class="lt-btn-wrapper">
+								<button
+									id="ignoredDomains-options__clearAll"
+									class="lt-btn lt-btn-destructive"
+									data-t="settingsClearAll"
+								></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<a class="lt-options__footer" href="https://languagetool.org/dev" target="_blank" id="copyright-link">
+				&copy; 2021 LanguageTooler GmbH – We <span id="heart">&hearts;</span> Open Source<span
+					class="lt-options__footer__made-in"
+					id="made-in-potsdam"
+				>
+					– Made in Germany, Spain, France, the UK and the Netherlands</span
+				>
+			</a>
+		</div>
+
+		<!-- use relative paths here, for Safari -->
+		<script src="../common/browser-polyfill.min.js"></script>
+		<script src="../config/config.js"></script>
+		<script src="../common/loadFonts.js"></script>
+		<script src="../common/browserDetector.js"></script>
+		<script src="../core/utils.js"></script>
+		<script src="../common/utils.js"></script>
+		<script src="../common/eventBus.js"></script>
+		<script src="../common/domMeasurement.js"></script>
+		<script src="../common/messages.js"></script>
+		<script src="../common/i18nManager.js"></script>
+		<script src="../common/extensioni18nManager.js"></script>
+		<script src="../common/languageManager.js"></script>
+		<script src="../common/storageController.js"></script>
+		<script src="../common/extensionStorageController.js"></script>
+		<script src="../common/environmentAdapter.js"></script>
+		<script src="../common/extensionEnvironmentAdapter.js"></script>
+		<script src="../common/extension-init.js"></script>
+		<script src="../common/tracker.js"></script>
+		<script src="../common/dictionary.js"></script>
+		<script src="../components/packageBadge/packageBadge.js"></script>
+		<script src="options.js"></script>
+	</body>
+</html>

@@ -1,0 +1,12 @@
+2022/04/11-20:05:19.522 5dba Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/11-20:05:19.523 5dba Recovering log #19
+2022/04/11-20:05:19.530 5dba Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000019.log 
+2022/04/11-20:13:36.775 610f Level-0 table #24: started
+2022/04/11-20:13:36.798 610f Level-0 table #24: 3063983 bytes OK
+2022/04/11-20:13:36.802 610f Delete type=0 #19
+2022/04/11-20:20:24.783 6980 Compacting 1@1 + 1@2 files
+2022/04/11-20:20:24.798 6980 Generated table #25@1: 53 keys, 16372 bytes
+2022/04/11-20:20:24.798 6980 Compacted 1@1 + 1@2 files => 16372 bytes
+2022/04/11-20:20:24.799 6980 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/11-20:20:24.800 6980 Delete type=2 #21
+2022/04/11-20:20:24.800 6980 Delete type=2 #24

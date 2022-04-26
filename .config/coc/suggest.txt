@@ -1,3 +1,139 @@
+De|Desktop|file|
+lau|launcher.sh|file|
+blurry|blurry_full.rasi|tabnine|
+blu|blurry.rasi|tabnine|
+|appdrawer.rasi|file|
+misc|misc|tabnine|
+|misc|tabnine|
+ra|rasi|buffer|
+color|colors.rasi|tabnine|
+|launcher.sh|file|
+|colorful|file|
+lau|launchers|file|
+rofi|rofi|file|
+con|config|tabnine|
+laun|launcher|buffer|
+lau|launchers|file|
+rofi|rofi|file|
+con|config/|tabnine|
+impo|import ""|tabnine|S
+confi|config/spotify|tabnine|
+|prefs|file|
+spo|spotify|file|
+confi|config|tabnine|
+Gam|GameCenterIconsPack.psd|file|
+res|result =|tabnine|
+V|Variables|tabnine|
+re|result|tabnine|
+retu|return 0|tabnine|
+return|return 0;|tabnine|
+res|result|tabnine|
+res|result|tabnine|
+result|result = 0;|tabnine|
+b|b = 0;|tabnine|
+a|a = 0;|tabnine|
+V|Variables|tabnine|
+|bin|file|
+return|return 0;|tabnine|
+int|int i;|tabnine|
+|bin|file|
+return|return 0;|tabnine|
+els|else|tabnine|
+print|printf("")|tabnine|S
+else|else if|tabnine|
+nu|number is|tabnine|
+print|printf("")|tabnine|S
+sum|sum = 0;|tabnine|
+|bin|file|
+scanf|scanf("%d",&x);|tabnine|
+print|printf("Enter 2 numbers, i' give you the upper one");|tabnine|
+print|printf("")|tabnine|S
+|bin|file|
+Vari|Variables|tabnine|
+x|x = 0;|tabnine|
+math|math.h>|languageserver.ccls|F
+string|string.h>|languageserver.ccls|F
+stdio|stdio.h>|languageserver.ccls|F
+print|printf("")|tabnine|S
+|bin|file|
+string|string.h>|languageserver.ccls|F
+math|math.h>|languageserver.ccls|F
+stdio|stdio.h>|languageserver.ccls|F
+Fahre|Fahrenheit|tabnine|
+Celci|Celcius: ");|tabnine|
+cel|celsius|tabnine|
+fa|fahrenheit|tabnine|
+print|printf("The result is %f", result);|tabnine|
+print|printf("The result is %f", result);|tabnine|
+resu|result = f *|tabnine|
+resu|result|tabnine|
+resul|result is|tabnine|
+resu|result =|tabnine|
+print|printf("")|tabnine|S
+strcmp|strcmp(choices)|tabnine|S
+string|string.h>|languageserver.ccls|F
+str|strcmp(choices)|tabnine|S
+e|either|tabnine|
+Plea|Please select|tabnine|
+print|printf("Temperature in")|tabnine|S
+fah|fahrenheit|tabnine|
+if|if(choose == "C"){}|tabnine|S
+choos|choose ==|tabnine|
+scanf|scanf("%f", &c);|tabnine|
+conve|convert|tabnine|
+print|printf("")|tabnine|S
+Choose|Choose the|tabnine|
+Choose|Choose the|tabnine|
+fahren|fahrenheit|tabnine|
+print|printf("")|tabnine|S
+return|return 0|tabnine|
+scan|scanf("%f", &c);|tabnine|
+celsi|celsius)|tabnine|
+Temperatu|Temperature|tabnine|
+prin|printf("")|tabnine|S
+stdio|stdio.h>|languageserver.ccls|F
+inclu|include|languageserver.ccls|S
+1|1415 * h *|tabnine|
+retur|return 0;|tabnine|
+print|printf("")|tabnine|S
+math|math.h>|languageserver.ccls|F
+M|M_PI|tabnine|
+cyli|cylinder|tabnine|
+cyl|cylinder|tabnine|
+height|height of the|tabnine|
+print|printf("")|tabnine|S
+scan|scanf("%f",&r);|tabnine|
+print|printf("")|tabnine|S
+area|area = 0|tabnine|
+i|int|tabnine|
+stdio|stdio.h>|languageserver.ccls|F
+sa|swap|tabnine|
+swap|swap = 0;|tabnine|
+print|printf("")|tabnine|S
+printf|printf("")|tabnine|S
+return|return 0;|tabnine|
+scan|scanf("%d",)|tabnine|S
+std|stdio.h>|languageserver.ccls|F
+i|i < numbers.size(); i++){}|tabnine|S
+3|3, 4, 5, 6, 7, 8, 9, 10|tabnine|
+ios|iostream>|languageserver.ccls|F
+includ|include|languageserver.ccls|S
+Sorry|Sorry, you are|tabnine|
+cout|cout << "Please enter"|tabnine|S
+cin|cin >> name|tabnine|
+Pleas|Please enter|tabnine|
+else|else{}|tabnine|S
+else|else{}|tabnine|S
+iostre|iostream>|languageserver.ccls|F
+age|ages[0] << endl;|tabnine|
+patien|patient of|tabnine|
+|20, 21, 22, 23, 24, 25|tabnine|
+19|19, 20, 21, 22, 23, 24, 25|tabnine|
+iost|iostream>|tabnine|
+nam|namespace std;|tabnine|
+ios|iostream>|tabnine|
+include|include|languageserver.ccls|S
+iostre|iostream>|languageserver.ccls|F
 |Destop screeshot.png|tabnine|
 Des|Desktop|tabnine|
 |2022-04-08_12-36.png|tabnine|

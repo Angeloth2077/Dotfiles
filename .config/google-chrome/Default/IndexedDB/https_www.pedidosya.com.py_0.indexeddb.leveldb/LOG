@@ -1,6 +1,15 @@
-2022/04/06-21:19:23.865 e56a Creating DB /home/angel/.config/google-chrome/Default/IndexedDB/https_www.pedidosya.com.py_0.indexeddb.leveldb since it was missing.
-2022/04/06-21:19:23.869 e56a Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.pedidosya.com.py_0.indexeddb.leveldb/MANIFEST-000001
-2022/04/06-21:19:28.153 e681 Level-0 table #5: started
-2022/04/06-21:19:28.156 e681 Level-0 table #5: 62719 bytes OK
-2022/04/06-21:19:28.158 e681 Delete type=0 #3
-2022/04/06-21:19:28.159 e681 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/04/22-17:43:21.946 e673 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.pedidosya.com.py_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/22-17:43:21.947 e673 Recovering log #4
+2022/04/22-17:43:21.947 e673 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.pedidosya.com.py_0.indexeddb.leveldb/000004.log 
+2022/04/22-18:26:11.311 f512 Level-0 table #8: started
+2022/04/22-18:26:11.315 f512 Level-0 table #8: 127438 bytes OK
+2022/04/22-18:26:11.317 f512 Delete type=0 #4
+2022/04/22-18:26:11.317 f512 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/04/22-18:26:11.317 f512 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x01\x08\x00t\x00m\x00x\x00-\x00s\x00i\x00d\x001' @ 6425 : 1
+2022/04/22-18:26:11.317 f512 Compacting 1@1 + 1@2 files
+2022/04/22-18:26:11.320 f512 Generated table #9@1: 268 keys, 16503 bytes
+2022/04/22-18:26:11.320 f512 Compacted 1@1 + 1@2 files => 16503 bytes
+2022/04/22-18:26:11.322 f512 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/22-18:26:11.322 f512 Delete type=2 #8
+2022/04/22-18:26:11.322 f512 Delete type=2 #5
+2022/04/22-18:26:11.322 f512 Manual compaction at level-1 from '\x00\x03\x01\x02\x01\x08\x00t\x00m\x00x\x00-\x00s\x00i\x00d\x001' @ 6425 : 1 .. (end); will stop at (end)

@@ -1,8 +1,24 @@
-2022/04/11-07:46:28.534 392 Creating DB /home/angel/.config/google-chrome/Default/Sync Data/LevelDB since it was missing.
-2022/04/11-07:46:28.560 392 Reusing MANIFEST /home/angel/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2022/04/11-08:02:24.880 393 Level-0 table #5: started
-2022/04/11-08:02:24.884 393 Level-0 table #5: 192459 bytes OK
-2022/04/11-08:02:24.886 393 Delete type=0 #3
-2022/04/11-09:44:08.308 3c98 Level-0 table #7: started
-2022/04/11-09:44:08.311 3c98 Level-0 table #7: 96001 bytes OK
-2022/04/11-09:44:08.313 3c98 Delete type=0 #4
+2022/04/25-09:31:03.498 eb3 Reusing MANIFEST /home/angel/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/04/25-09:31:03.499 eb3 Recovering log #85
+2022/04/25-09:31:03.503 eb3 Reusing old log /home/angel/.config/google-chrome/Default/Sync Data/LevelDB/000085.log 
+2022/04/25-11:51:25.197 3081 Level-0 table #89: started
+2022/04/25-11:51:25.202 3081 Level-0 table #89: 112645 bytes OK
+2022/04/25-11:51:25.204 3081 Delete type=0 #85
+2022/04/25-13:10:48.584 439e Level-0 table #91: started
+2022/04/25-13:10:48.591 439e Level-0 table #91: 91306 bytes OK
+2022/04/25-13:10:48.593 439e Delete type=0 #88
+2022/04/25-13:10:48.593 439e Compacting 4@0 + 1@1 files
+2022/04/25-13:10:48.598 439e Generated table #92@0: 117 keys, 19542 bytes
+2022/04/25-13:10:48.598 439e Compacted 4@0 + 1@1 files => 19542 bytes
+2022/04/25-13:10:48.600 439e compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/04/25-13:10:48.600 439e Delete type=2 #80
+2022/04/25-13:10:48.600 439e Delete type=2 #89
+2022/04/25-13:10:48.600 439e Delete type=2 #91
+2022/04/25-13:10:48.600 439e Delete type=2 #83
+2022/04/25-13:10:48.600 439e Delete type=2 #86
+2022/04/25-14:07:57.542 5805 Level-0 table #94: started
+2022/04/25-14:07:57.546 5805 Level-0 table #94: 97211 bytes OK
+2022/04/25-14:07:57.549 5805 Delete type=0 #90
+2022/04/25-18:45:00.630 9cb6 Level-0 table #96: started
+2022/04/25-18:45:00.636 9cb6 Level-0 table #96: 109883 bytes OK
+2022/04/25-18:45:00.638 9cb6 Delete type=0 #93

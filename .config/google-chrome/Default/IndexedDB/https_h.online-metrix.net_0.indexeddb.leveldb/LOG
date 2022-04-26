@@ -1,0 +1,6 @@
+2022/04/22-17:57:11.044 ef66 Creating DB /home/angel/.config/google-chrome/Default/IndexedDB/https_h.online-metrix.net_0.indexeddb.leveldb since it was missing.
+2022/04/22-17:57:11.048 ef66 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_h.online-metrix.net_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/22-17:57:21.237 ee8e Level-0 table #5: started
+2022/04/22-17:57:21.238 ee8e Level-0 table #5: 1269 bytes OK
+2022/04/22-17:57:21.240 ee8e Delete type=0 #3
+2022/04/22-17:57:21.240 ee8e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

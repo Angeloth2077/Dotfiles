@@ -1,0 +1,29 @@
+{
+   "background": {
+      "scripts": [ "browser-polyfill.min.js", "background.js" ]
+   },
+   "browser_action": {
+      "browser_style": true,
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_title": "Refined Prime Video"
+   },
+   "content_scripts": [ {
+      "css": [ "content.css" ],
+      "js": [ "browser-polyfill.min.js", "content.js" ],
+      "matches": [ "https://*.primevideo.com/*", "https://*.amazon.com/*", "https://*.amazon.co.uk/*", "https://*.amazon.de/*", "https://*.amazon.co.jp/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Adds small tweaks and useful new features to Amazon Prime Video.",
+   "homepage_url": "https://github.com/shroudedcode/refined-prime-video#readme",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhSVJneeYvQJ4Y0Rd+R7XNFDFdHBFag6oIwbsBhsTDpPT+G0/oer1nSe9AmwEm8WTPuleerPyophV6BzhuFr/pM21eK56N6B6NwvVTzQ/h5PZBNYwHnpIJDzTqfk06g3cbet0Ww5lMQEvhCnRZFCXdNH+v/uUpSm7X8EAfujEGsIHgkSwdtm+pZ6XgF4wXttGzGNm86vFiUb7/ZqYPkZxDz0OEvl1Tx583ULqLsZ6qqm5Kb0vQC6KjmXPY36iA1d6H6ORlBWzGiG5QafE7yjUuqLwZbdPIYv308z5PrveFLyw76Xwxg5TbhpRTglJs7apGWTS+5ObZElIvggCa4DFtQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "58",
+   "name": "Refined Prime Video",
+   "permissions": [ "storage", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "21.6.25.2057"
+}

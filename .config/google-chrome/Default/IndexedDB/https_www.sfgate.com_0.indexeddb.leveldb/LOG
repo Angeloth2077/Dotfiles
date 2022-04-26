@@ -1,0 +1,6 @@
+2022/04/20-14:55:48.691 8920 Creating DB /home/angel/.config/google-chrome/Default/IndexedDB/https_www.sfgate.com_0.indexeddb.leveldb since it was missing.
+2022/04/20-14:55:48.694 8920 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.sfgate.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/20-15:04:31.312 8a27 Level-0 table #5: started
+2022/04/20-15:04:31.317 8a27 Level-0 table #5: 708756 bytes OK
+2022/04/20-15:04:31.319 8a27 Delete type=0 #3
+2022/04/20-15:04:31.319 8a27 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

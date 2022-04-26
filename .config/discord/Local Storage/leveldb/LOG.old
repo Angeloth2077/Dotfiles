@@ -1,8 +1,33 @@
-2022/04/11-07:50:06.359 7d2 Creating DB /home/angel/.config/discord/Local Storage/leveldb since it was missing.
-2022/04/11-07:50:06.367 7d2 Reusing MANIFEST /home/angel/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2022/04/11-07:51:21.670 7c0 Level-0 table #5: started
-2022/04/11-07:51:21.677 7c0 Level-0 table #5: 371225 bytes OK
-2022/04/11-07:51:21.679 7c0 Delete type=0 #3
-2022/04/11-09:28:56.021 7c1 Level-0 table #7: started
-2022/04/11-09:28:56.023 7c1 Level-0 table #7: 12906 bytes OK
-2022/04/11-09:28:56.024 7c1 Delete type=0 #4
+2022/04/25-09:10:56.285 87f Reusing MANIFEST /home/angel/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/04/25-09:10:56.285 87f Recovering log #96
+2022/04/25-09:10:56.287 87f Reusing old log /home/angel/.config/discord/Local Storage/leveldb/000096.log 
+2022/04/25-16:04:49.388 87e Level-0 table #101: started
+2022/04/25-16:04:49.390 87e Level-0 table #101: 16581 bytes OK
+2022/04/25-16:04:49.392 87e Delete type=0 #96
+2022/04/25-16:28:49.388 87f Level-0 table #103: started
+2022/04/25-16:28:49.390 87f Level-0 table #103: 31624 bytes OK
+2022/04/25-16:28:49.392 87f Delete type=0 #100
+2022/04/25-17:13:37.991 87f Level-0 table #105: started
+2022/04/25-17:13:37.994 87f Level-0 table #105: 13821 bytes OK
+2022/04/25-17:13:37.996 87f Delete type=0 #102
+2022/04/25-17:59:30.148 87f Level-0 table #107: started
+2022/04/25-17:59:30.150 87f Level-0 table #107: 12781 bytes OK
+2022/04/25-17:59:30.152 87f Delete type=0 #104
+2022/04/25-17:59:30.152 87f Compacting 4@0 + 1@1 files
+2022/04/25-17:59:30.161 87f Generated table #108@0: 60 keys, 400805 bytes
+2022/04/25-17:59:30.161 87f Compacted 4@0 + 1@1 files => 400805 bytes
+2022/04/25-17:59:30.163 87f compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/04/25-17:59:30.163 87f Delete type=2 #107
+2022/04/25-17:59:30.163 87f Delete type=2 #101
+2022/04/25-17:59:30.163 87f Delete type=2 #103
+2022/04/25-17:59:30.163 87f Delete type=2 #105
+2022/04/25-17:59:30.163 87f Delete type=2 #98
+2022/04/25-18:50:41.057 87e Level-0 table #110: started
+2022/04/25-18:50:41.060 87e Level-0 table #110: 13150 bytes OK
+2022/04/25-18:50:41.062 87e Delete type=0 #106
+2022/04/25-19:38:55.007 87f Level-0 table #112: started
+2022/04/25-19:38:55.010 87f Level-0 table #112: 12708 bytes OK
+2022/04/25-19:38:55.012 87f Delete type=0 #109
+2022/04/25-20:15:23.478 b719 Level-0 table #114: started
+2022/04/25-20:15:23.480 b719 Level-0 table #114: 14046 bytes OK
+2022/04/25-20:15:23.482 b719 Delete type=0 #111

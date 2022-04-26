@@ -1,0 +1,8 @@
+2022/04/22-15:00:54.956 3 Reusing MANIFEST /home/angel/.config/opera/Session Storage/MANIFEST-000001
+2022/04/22-15:00:54.957 3 Recovering log #12
+2022/04/22-15:00:54.957 3 Level-0 table #15: started
+2022/04/22-15:00:54.960 3 Level-0 table #15: 17561 bytes OK
+2022/04/22-15:00:54.960 3 Recovering log #15
+2022/04/22-15:00:54.960 3 Reusing old log /home/angel/.config/opera/Session Storage/000015.log 
+2022/04/22-15:00:54.963 3 Delete type=2 #16
+2022/04/22-15:00:54.963 3 Delete type=0 #12

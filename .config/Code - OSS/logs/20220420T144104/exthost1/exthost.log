@@ -1,0 +1,13 @@
+[2022-04-20 14:41:06.442] [exthost] [info] Extension host with pid 33347 started
+[2022-04-20 14:41:06.583] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-04-20 14:41:06.592] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-04-20 14:41:06.616] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-20 14:41:06.618] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-04-20 14:41:06.620] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-20 14:41:06.877] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-20 14:41:06.907] [exthost] [info] Eager extensions activated
+[2022-04-20 14:41:06.918] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-04-20 14:41:06.923] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-20 14:41:06.928] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-20 14:41:09.952] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-04-20 14:41:09.959] [exthost] [info] Extension host with pid 33347 exiting with code 0

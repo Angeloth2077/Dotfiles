@@ -139,7 +139,7 @@ bg = "#0c1a27"
 bg_widget = "#13263a"
 fg_group = "#254b74"
 fg = "#78a4d3"
-accent = "#93BFB3"
+accent = "#99ccff"
 fg = accent
 
 layouts = [
@@ -166,7 +166,7 @@ screens = [
            
                 widget.Image(
                     background = bg_widget,
-                    filename = "~/Images/clipart3216004.png",
+                    filename = "~/Desktop/Images/clipart3216004.png",
                     mouse_callbacks = {'Button1': open_rofi},
                     margin_x = 5,
 
@@ -328,7 +328,6 @@ mouse = [
     Drag([mod], "Button3", lazy.window.set_size_floating(), start=lazy.window.get_size()),
     Click([mod], "Button2", lazy.window.bring_to_front()),
 ]
-Key([mod], "t", lazy.window.toggle_floating(), desc='Toggle floating'),
 
 dgroups_key_binder = None
 dgroups_app_rules = []  # type: list

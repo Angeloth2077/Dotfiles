@@ -1,0 +1,8 @@
+# GIMP parasiterc
+# 
+# This file will be entirely rewritten each time you exit.
+
+(parasite "jpeg-save-defaults" 1 46 "\67\65\56\60\60\60\60\60\60\40\60\56\60\60\60\60\60\60\40\61\40\61\40\60\40\61\40\60\40\60\40\60\40\61\40\61\40\61\40\61\40\60\40\60\40\61")
+
+
+# end of parasiterc

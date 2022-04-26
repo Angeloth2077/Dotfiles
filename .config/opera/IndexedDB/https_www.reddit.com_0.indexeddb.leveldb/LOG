@@ -1,0 +1,6 @@
+2022/04/22-14:45:31.412 9767 Creating DB /home/angel/.config/opera/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb since it was missing.
+2022/04/22-14:45:31.417 9767 Reusing MANIFEST /home/angel/.config/opera/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/22-14:46:44.353 95ab Level-0 table #5: started
+2022/04/22-14:46:44.354 95ab Level-0 table #5: 1854 bytes OK
+2022/04/22-14:46:44.356 95ab Delete type=0 #3
+2022/04/22-14:46:44.356 95ab Manual compaction at level-0 from (begin) .. (end); will stop at (end)

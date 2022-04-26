@@ -1,0 +1,11 @@
+[2022-04-22 12:36:46.066] [exthost] [info] Extension host with pid 16296 started
+[2022-04-22 12:36:46.151] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-04-22 12:36:46.215] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-22 12:36:46.217] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-04-22 12:36:46.218] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-22 12:36:46.318] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-22 12:36:46.357] [exthost] [info] Eager extensions activated
+[2022-04-22 12:36:46.390] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-22 12:36:46.397] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-22 12:37:03.536] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-04-22 12:37:03.542] [exthost] [info] Extension host with pid 16296 exiting with code 0

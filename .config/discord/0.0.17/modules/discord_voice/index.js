@@ -35,7 +35,7 @@ const releaseChannel = isElectronRenderer ? window.DiscordNative.app.getReleaseC
 const useLegacyAudioDevice = appSettings ? appSettings.getSync('useLegacyAudioDevice') : false;
 const audioSubsystemSelected = appSettings ? appSettings.getSync('audioSubsystem') : 'standard';
 const audioSubsystem = useLegacyAudioDevice || audioSubsystemSelected;
-const debugLogging = appSettings ? appSettings.getSync('debugLogging') : false;
+const debugLogging = appSettings ? appSettings.getSync('debugLogging', true) : true;
 
 const argv = yargs(mainArgv.slice(1))
   .describe('log-level', 'Logging level.')
@@ -169,8 +169,7 @@ function bindConnectionInstance(instance) {
     getStats: (callback) => instance.getStats(callback),
     getFilteredStats: (filter, callback) => instance.getFilteredStats(filter, callback),
     startReplay: () => instance.startReplay(),
-    startSamplesPlayback: (sampleRate, channels, callback) =>
-      instance.startSamplesPlayback(sampleRate, channels, callback),
+    startSamplesPlayback: (options, channels, callback) => instance.startSamplesPlayback(options, channels, callback),
     stopSamplesPlayback: () => instance.stopSamplesPlayback(),
   };
 }

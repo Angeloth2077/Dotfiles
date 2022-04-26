@@ -89,16 +89,16 @@ colors:
 
   cursor:
     text:   '#94d2eb'
-    cursor: '#00ffcc'
+    cursor: '#99ccff'
 
   normal:
     black:   '#01000D'
     red:     '#CC3E92'
-    green:   '#93BFB3'
+    green:   '#99ccff'
     yellow:  '#ffcc00'
     blue:    '#0C46F2'
     magenta: '#D959C3'
-    cyan:    '#93BFB3'
+    cyan:    '#99ccff'
     white:   '#cccccc'
 
   bright:

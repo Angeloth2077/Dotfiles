@@ -1,90 +1,9 @@
-2022/04/11-09:55:31.595 3 Reusing MANIFEST /home/angel/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
-2022/04/11-09:55:31.596 3 Recovering log #44
-2022/04/11-09:55:31.599 3 Reusing old log /home/angel/.config/google-chrome/Default/Local Storage/leveldb/000044.log 
-2022/04/11-10:26:14.988 3 Level-0 table #48: started
-2022/04/11-10:26:14.990 3 Level-0 table #48: 28314 bytes OK
-2022/04/11-10:26:14.993 3 Delete type=0 #44
-2022/04/11-10:37:14.988 d Level-0 table #50: started
-2022/04/11-10:37:14.991 d Level-0 table #50: 10980 bytes OK
-2022/04/11-10:37:14.995 d Delete type=0 #47
-2022/04/11-10:49:14.988 19 Level-0 table #52: started
-2022/04/11-10:49:14.990 19 Level-0 table #52: 9259 bytes OK
-2022/04/11-10:49:14.994 19 Delete type=0 #49
-2022/04/11-10:49:14.995 19 Compacting 4@0 + 1@1 files
-2022/04/11-10:49:15.006 19 Generated table #53@0: 106 keys, 773122 bytes
-2022/04/11-10:49:15.006 19 Compacted 4@0 + 1@1 files => 773122 bytes
-2022/04/11-10:49:15.008 19 compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/04/11-10:49:15.008 19 Delete type=2 #45
-2022/04/11-10:49:15.009 19 Delete type=2 #43
-2022/04/11-10:49:15.009 19 Delete type=2 #50
-2022/04/11-10:49:15.009 19 Delete type=2 #52
-2022/04/11-10:49:15.009 19 Delete type=2 #48
-2022/04/11-10:59:14.988 23 Level-0 table #55: started
-2022/04/11-10:59:14.990 23 Level-0 table #55: 9302 bytes OK
-2022/04/11-10:59:14.996 23 Delete type=0 #51
-2022/04/11-11:08:15.147 23 Level-0 table #57: started
-2022/04/11-11:08:15.149 23 Level-0 table #57: 9851 bytes OK
-2022/04/11-11:08:15.153 23 Delete type=0 #54
-2022/04/11-11:19:15.147 23 Level-0 table #59: started
-2022/04/11-11:19:15.149 23 Level-0 table #59: 9234 bytes OK
-2022/04/11-11:19:15.152 23 Delete type=0 #56
-2022/04/11-11:29:15.147 23 Level-0 table #61: started
-2022/04/11-11:29:15.150 23 Level-0 table #61: 9350 bytes OK
-2022/04/11-11:29:15.153 23 Delete type=0 #58
-2022/04/11-11:29:15.153 23 Compacting 4@0 + 1@1 files
-2022/04/11-11:29:15.167 23 Generated table #62@0: 110 keys, 773169 bytes
-2022/04/11-11:29:15.167 23 Compacted 4@0 + 1@1 files => 773169 bytes
-2022/04/11-11:29:15.170 23 compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/04/11-11:29:15.171 23 Delete type=2 #59
-2022/04/11-11:29:15.171 23 Delete type=2 #55
-2022/04/11-11:29:15.171 23 Delete type=2 #61
-2022/04/11-11:29:15.171 23 Delete type=2 #53
-2022/04/11-11:29:15.171 23 Delete type=2 #57
-2022/04/11-11:39:15.148 23 Level-0 table #64: started
-2022/04/11-11:39:15.150 23 Level-0 table #64: 9344 bytes OK
-2022/04/11-11:39:15.152 23 Delete type=0 #60
-2022/04/11-11:50:14.988 55 Level-0 table #66: started
-2022/04/11-11:50:14.992 55 Level-0 table #66: 9317 bytes OK
-2022/04/11-11:50:14.994 55 Delete type=0 #63
-2022/04/11-12:00:15.148 5d Level-0 table #68: started
-2022/04/11-12:00:15.150 5d Level-0 table #68: 9295 bytes OK
-2022/04/11-12:00:15.153 5d Delete type=0 #65
-2022/04/11-12:10:15.147 66 Level-0 table #70: started
-2022/04/11-12:10:15.150 66 Level-0 table #70: 9431 bytes OK
-2022/04/11-12:10:15.153 66 Delete type=0 #67
-2022/04/11-12:10:15.153 66 Compacting 4@0 + 1@1 files
-2022/04/11-12:10:15.169 66 Generated table #71@0: 110 keys, 773192 bytes
-2022/04/11-12:10:15.169 66 Compacted 4@0 + 1@1 files => 773192 bytes
-2022/04/11-12:10:15.171 66 compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/04/11-12:10:15.171 66 Delete type=2 #70
-2022/04/11-12:10:15.171 66 Delete type=2 #68
-2022/04/11-12:10:15.171 66 Delete type=2 #62
-2022/04/11-12:10:15.171 66 Delete type=2 #66
-2022/04/11-12:10:15.172 66 Delete type=2 #64
-2022/04/11-12:20:15.147 66 Level-0 table #73: started
-2022/04/11-12:20:15.149 66 Level-0 table #73: 9349 bytes OK
-2022/04/11-12:20:15.152 66 Delete type=0 #69
-2022/04/11-12:30:14.987 66 Level-0 table #75: started
-2022/04/11-12:30:14.990 66 Level-0 table #75: 9308 bytes OK
-2022/04/11-12:30:14.993 66 Delete type=0 #72
-2022/04/11-12:40:15.147 66 Level-0 table #77: started
-2022/04/11-12:40:15.150 66 Level-0 table #77: 9453 bytes OK
-2022/04/11-12:40:15.153 66 Delete type=0 #74
-2022/04/11-12:52:14.987 66 Level-0 table #79: started
-2022/04/11-12:52:14.990 66 Level-0 table #79: 9224 bytes OK
-2022/04/11-12:52:14.994 66 Delete type=0 #76
-2022/04/11-12:52:14.994 66 Compacting 4@0 + 1@1 files
-2022/04/11-12:52:15.020 66 Generated table #80@0: 110 keys, 773195 bytes
-2022/04/11-12:52:15.020 66 Compacted 4@0 + 1@1 files => 773195 bytes
-2022/04/11-12:52:15.023 66 compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/04/11-12:52:15.024 66 Delete type=2 #79
-2022/04/11-12:52:15.024 66 Delete type=2 #71
-2022/04/11-12:52:15.024 66 Delete type=2 #75
-2022/04/11-12:52:15.024 66 Delete type=2 #73
-2022/04/11-12:52:15.024 66 Delete type=2 #77
-2022/04/11-13:02:29.064 91 Level-0 table #82: started
-2022/04/11-13:02:29.067 91 Level-0 table #82: 9350 bytes OK
-2022/04/11-13:02:29.070 91 Delete type=0 #78
-2022/04/11-13:06:15.147 91 Level-0 table #84: started
-2022/04/11-13:06:15.150 91 Level-0 table #84: 13265 bytes OK
-2022/04/11-13:06:15.153 91 Delete type=0 #81
+2022/04/26-07:52:01.191 3 Reusing MANIFEST /home/angel/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2022/04/26-07:52:01.192 3 Recovering log #777
+2022/04/26-07:52:01.193 3 Reusing old log /home/angel/.config/google-chrome/Default/Local Storage/leveldb/000777.log 
+2022/04/26-08:56:04.081 3b Level-0 table #781: started
+2022/04/26-08:56:04.084 3b Level-0 table #781: 16547 bytes OK
+2022/04/26-08:56:04.087 3b Delete type=0 #777
+2022/04/26-10:26:38.888 44 Level-0 table #783: started
+2022/04/26-10:26:38.891 44 Level-0 table #783: 18708 bytes OK
+2022/04/26-10:26:38.893 44 Delete type=0 #780

@@ -1,6 +1,18 @@
-2022/04/11-09:55:31.640 3d3 Reusing MANIFEST /home/angel/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2022/04/11-09:55:31.642 3d3 Recovering log #6
-2022/04/11-09:55:31.651 3d3 Reusing old log /home/angel/.config/google-chrome/Default/Sync Data/LevelDB/000006.log 
-2022/04/11-13:08:16.352 15da Level-0 table #10: started
-2022/04/11-13:08:16.358 15da Level-0 table #10: 107052 bytes OK
-2022/04/11-13:08:16.360 15da Delete type=0 #6
+2022/04/26-07:52:01.211 50d Reusing MANIFEST /home/angel/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/04/26-07:52:01.211 50d Recovering log #95
+2022/04/26-07:52:01.222 50d Reusing old log /home/angel/.config/google-chrome/Default/Sync Data/LevelDB/000095.log 
+2022/04/26-07:52:07.418 52f Level-0 table #99: started
+2022/04/26-07:52:07.423 52f Level-0 table #99: 122475 bytes OK
+2022/04/26-07:52:07.425 52f Delete type=0 #95
+2022/04/26-10:04:16.430 3f24 Level-0 table #101: started
+2022/04/26-10:04:16.434 3f24 Level-0 table #101: 99738 bytes OK
+2022/04/26-10:04:16.436 3f24 Delete type=0 #98
+2022/04/26-10:04:16.436 3f24 Compacting 4@0 + 1@1 files
+2022/04/26-10:04:16.440 3f24 Generated table #102@0: 125 keys, 29207 bytes
+2022/04/26-10:04:16.440 3f24 Compacted 4@0 + 1@1 files => 29207 bytes
+2022/04/26-10:04:16.441 3f24 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/04/26-10:04:16.441 3f24 Delete type=2 #92
+2022/04/26-10:04:16.441 3f24 Delete type=2 #96
+2022/04/26-10:04:16.441 3f24 Delete type=2 #94
+2022/04/26-10:04:16.441 3f24 Delete type=2 #99
+2022/04/26-10:04:16.441 3f24 Delete type=2 #101

@@ -1,0 +1,12 @@
+2022/04/22-15:00:58.347 a3c8 Reusing MANIFEST /home/angel/.config/opera/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/22-15:00:58.347 a3c8 Recovering log #46
+2022/04/22-15:00:58.364 a3c8 Reusing old log /home/angel/.config/opera/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000046.log 
+2022/04/22-15:11:59.416 c317 Level-0 table #51: started
+2022/04/22-15:11:59.430 c317 Level-0 table #51: 1094448 bytes OK
+2022/04/22-15:11:59.432 c317 Delete type=0 #46
+2022/04/22-15:20:47.176 c68d Compacting 1@1 + 1@2 files
+2022/04/22-15:20:47.183 c68d Generated table #52@1: 477 keys, 38895 bytes
+2022/04/22-15:20:47.183 c68d Compacted 1@1 + 1@2 files => 38895 bytes
+2022/04/22-15:20:47.185 c68d compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/22-15:20:47.185 c68d Delete type=2 #51
+2022/04/22-15:20:47.185 c68d Delete type=2 #48

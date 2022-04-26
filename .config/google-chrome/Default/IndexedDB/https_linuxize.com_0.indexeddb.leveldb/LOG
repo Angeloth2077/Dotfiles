@@ -1,6 +1,15 @@
-2022/03/27-14:08:04.873 7587 Creating DB /home/angel/.config/google-chrome/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb since it was missing.
-2022/03/27-14:08:04.879 7587 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/03/27-14:09:27.648 73be Level-0 table #5: started
-2022/03/27-14:09:27.650 73be Level-0 table #5: 3222 bytes OK
-2022/03/27-14:09:27.652 73be Delete type=0 #3
-2022/03/27-14:09:27.652 73be Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/04/13-16:08:07.702 c9b5 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/13-16:08:07.702 c9b5 Recovering log #7
+2022/04/13-16:08:07.702 c9b5 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/000007.log 
+2022/04/13-16:10:32.721 cef4 Level-0 table #12: started
+2022/04/13-16:10:32.723 cef4 Level-0 table #12: 11027 bytes OK
+2022/04/13-16:10:32.724 cef4 Delete type=0 #7
+2022/04/13-16:10:32.724 cef4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/04/13-16:10:32.725 cef4 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00pd\xa7H\x02xB\x00\x01V\x00i\x00m\x00g\x00-\x00c\x00a\x00c\x00h\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00l\x00i\x00n\x00u\x00x\x00i\x00z\x00e\x00.\x00c\x00o\x00m\x00/\x00i\x00c\x00o\x00n\x00s\x00/\x00i\x00c\x00o\x00n\x00_\x001\x009\x002\x00x\x001\x009\x002\x00.\x006\x00b\x005\x009\x009\x007\x00d\x002\x005\x005\x003\x008\x001\x00a\x00e\x002\x007\x004\x007\x002\x00b\x007\x008\x00f\x00c\x004\x00e\x00e\x00f\x007\x000\x002\x00.\x00p\x00n\x00g' @ 498 : 1
+2022/04/13-16:10:32.725 cef4 Compacting 1@1 + 1@2 files
+2022/04/13-16:10:32.726 cef4 Generated table #13@1: 71 keys, 5435 bytes
+2022/04/13-16:10:32.726 cef4 Compacted 1@1 + 1@2 files => 5435 bytes
+2022/04/13-16:10:32.727 cef4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/13-16:10:32.727 cef4 Delete type=2 #9
+2022/04/13-16:10:32.727 cef4 Delete type=2 #12
+2022/04/13-16:10:32.728 cef4 Manual compaction at level-1 from '\x00\x01\x01 \x03\x00pd\xa7H\x02xB\x00\x01V\x00i\x00m\x00g\x00-\x00c\x00a\x00c\x00h\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00l\x00i\x00n\x00u\x00x\x00i\x00z\x00e\x00.\x00c\x00o\x00m\x00/\x00i\x00c\x00o\x00n\x00s\x00/\x00i\x00c\x00o\x00n\x00_\x001\x009\x002\x00x\x001\x009\x002\x00.\x006\x00b\x005\x009\x009\x007\x00d\x002\x005\x005\x003\x008\x001\x00a\x00e\x002\x007\x004\x007\x002\x00b\x007\x008\x00f\x00c\x004\x00e\x00e\x00f\x007\x000\x002\x00.\x00p\x00n\x00g' @ 498 : 1 .. (end); will stop at (end)

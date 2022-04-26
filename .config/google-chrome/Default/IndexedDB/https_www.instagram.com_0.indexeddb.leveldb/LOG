@@ -1,3 +1,37 @@
-2022/03/29-20:01:56.147 30eb Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/03/29-20:01:56.147 30eb Recovering log #9
-2022/03/29-20:01:56.147 30eb Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000009.log 
+2022/04/21-17:35:53.297 e4fe Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/21-17:35:53.297 e4fe Recovering log #16
+2022/04/21-17:35:53.301 e4fe Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000016.log 
+2022/04/21-17:37:34.110 e50d Level-0 table #22: started
+2022/04/21-17:37:34.120 e50d Level-0 table #22: 711741 bytes OK
+2022/04/21-17:37:34.123 e50d Delete type=0 #16
+2022/04/21-17:41:37.339 e51c Compacting 1@1 + 1@2 files
+2022/04/21-17:41:37.339 e51c Level-0 table #25: started
+2022/04/21-17:41:37.376 e51c Level-0 table #25: 723490 bytes OK
+2022/04/21-17:41:37.379 e51c Delete type=0 #21
+2022/04/21-17:41:37.383 e51c Generated table #23@1: 59 keys, 26407 bytes
+2022/04/21-17:41:37.383 e51c Compacted 1@1 + 1@2 files => 26407 bytes
+2022/04/21-17:41:37.384 e51c compacted to: files[ 1 0 1 0 0 0 0 ]
+2022/04/21-17:41:37.385 e51c Delete type=2 #22
+2022/04/21-17:41:37.385 e51c Delete type=2 #19
+2022/04/21-18:12:18.776 e9d1 Moved #25 to level-1 723490 bytes OK: files[ 0 1 1 0 0 0 0 ]
+2022/04/21-18:12:22.079 e9d1 Level-0 table #27: started
+2022/04/21-18:12:22.087 e9d1 Level-0 table #27: 725486 bytes OK
+2022/04/21-18:12:22.091 e9d1 Delete type=0 #24
+2022/04/21-18:14:53.598 f0a2 Compacting 1@0 + 1@1 files
+2022/04/21-18:14:53.601 f0a2 Level-0 table #30: started
+2022/04/21-18:14:53.623 f0a2 Level-0 table #30: 723524 bytes OK
+2022/04/21-18:14:53.625 f0a2 Delete type=0 #26
+2022/04/21-18:14:53.629 f0a2 Generated table #28@0: 1119 keys, 34800 bytes
+2022/04/21-18:14:53.629 f0a2 Compacted 1@0 + 1@1 files => 34800 bytes
+2022/04/21-18:14:53.630 f0a2 compacted to: files[ 1 1 1 0 0 0 0 ]
+2022/04/21-18:14:53.630 f0a2 Delete type=2 #25
+2022/04/21-18:14:53.630 f0a2 Delete type=2 #27
+2022/04/21-18:32:01.992 f4da Compacting 1@0 + 1@1 files
+2022/04/21-18:32:01.997 f4da Generated table #31@0: 1652 keys, 49773 bytes
+2022/04/21-18:32:01.997 f4da Compacted 1@0 + 1@1 files => 49773 bytes
+2022/04/21-18:32:02.000 f4da compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/04/21-18:32:02.000 f4da Delete type=2 #28
+2022/04/21-18:32:02.000 f4da Delete type=2 #30
+2022/04/21-18:32:13.392 f4da Level-0 table #33: started
+2022/04/21-18:32:13.401 f4da Level-0 table #33: 716046 bytes OK
+2022/04/21-18:32:13.405 f4da Delete type=0 #29

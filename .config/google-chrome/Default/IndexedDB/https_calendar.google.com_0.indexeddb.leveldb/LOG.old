@@ -1,7 +1,3 @@
-2022/03/29-16:37:20.432 202b Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/03/29-16:37:20.432 202b Recovering log #3
-2022/03/29-16:37:20.432 202b Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb/000003.log 
-2022/03/29-16:37:35.404 1fdd Level-0 table #5: started
-2022/03/29-16:37:35.405 1fdd Level-0 table #5: 1317 bytes OK
-2022/03/29-16:37:35.407 1fdd Delete type=0 #3
-2022/03/29-16:37:35.407 1fdd Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/04/11-07:46:32.139 3fc Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/11-07:46:32.139 3fc Recovering log #4
+2022/04/11-07:46:32.139 3fc Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb/000004.log 

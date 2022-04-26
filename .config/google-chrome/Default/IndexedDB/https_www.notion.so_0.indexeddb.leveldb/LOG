@@ -1,14 +1,14 @@
-2022/04/11-10:25:16.171 7f6 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
-2022/04/11-10:25:16.172 7f6 Recovering log #9
-2022/04/11-10:25:16.172 7f6 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000009.log 
-2022/04/11-10:25:16.172 7f6 Delete type=2 #7
-2022/04/11-10:25:17.802 7f7 Level-0 table #14: started
-2022/04/11-10:25:17.804 7f7 Level-0 table #14: 3374 bytes OK
-2022/04/11-10:25:17.806 7f7 Delete type=0 #9
-2022/04/11-10:25:17.806 7f7 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 3825 : 1
-2022/04/11-10:25:17.806 7f7 Compacting 1@0 + 1@1 files
-2022/04/11-10:25:17.810 7f7 Generated table #15@0: 1443 keys, 19618 bytes
-2022/04/11-10:25:17.811 7f7 Compacted 1@0 + 1@1 files => 19618 bytes
-2022/04/11-10:25:17.813 7f7 compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/04/11-10:25:17.814 7f7 Delete type=2 #14
-2022/04/11-10:25:17.814 7f7 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 3825 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/04/21-07:27:34.314 4c5 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/21-07:27:34.314 4c5 Recovering log #41
+2022/04/21-07:27:34.315 4c5 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000041.log 
+2022/04/21-07:27:34.315 4c5 Delete type=2 #39
+2022/04/21-07:27:35.366 4c4 Level-0 table #46: started
+2022/04/21-07:27:35.367 4c4 Level-0 table #46: 2821 bytes OK
+2022/04/21-07:27:35.369 4c4 Delete type=0 #41
+2022/04/21-07:27:35.369 4c4 Manual compaction at level-0 from '\x00\x0d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0d\x00\x00\x05' @ 5444 : 1
+2022/04/21-07:27:35.369 4c4 Compacting 1@0 + 1@1 files
+2022/04/21-07:27:35.372 4c4 Generated table #47@0: 1993 keys, 26602 bytes
+2022/04/21-07:27:35.372 4c4 Compacted 1@0 + 1@1 files => 26602 bytes
+2022/04/21-07:27:35.374 4c4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/04/21-07:27:35.374 4c4 Delete type=2 #46
+2022/04/21-07:27:35.374 4c4 Manual compaction at level-0 from '\x00\x0d\x00\x00\x05' @ 5444 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at (end)
