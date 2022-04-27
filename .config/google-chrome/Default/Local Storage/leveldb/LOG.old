@@ -1,27 +1,8 @@
-2022/04/25-09:31:03.489 3 Reusing MANIFEST /home/angel/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
-2022/04/25-09:31:03.490 3 Recovering log #764
-2022/04/25-09:31:03.495 3 Reusing old log /home/angel/.config/google-chrome/Default/Local Storage/leveldb/000764.log 
-2022/04/25-09:57:35.811 9 Level-0 table #769: started
-2022/04/25-09:57:35.813 9 Level-0 table #769: 18693 bytes OK
-2022/04/25-09:57:35.816 9 Delete type=0 #764
-2022/04/25-13:11:54.729 60 Level-0 table #771: started
-2022/04/25-13:11:54.732 60 Level-0 table #771: 19973 bytes OK
-2022/04/25-13:11:54.735 60 Delete type=0 #768
-2022/04/25-14:07:57.728 89 Level-0 table #773: started
-2022/04/25-14:07:57.732 89 Level-0 table #773: 19650 bytes OK
-2022/04/25-14:07:57.734 89 Delete type=0 #770
-2022/04/25-18:39:31.856 9e Level-0 table #775: started
-2022/04/25-18:39:31.859 9e Level-0 table #775: 15539 bytes OK
-2022/04/25-18:39:31.862 9e Delete type=0 #772
-2022/04/25-18:39:31.863 9e Compacting 4@0 + 1@1 files
-2022/04/25-18:39:31.886 9e Generated table #776@0: 2340 keys, 1443403 bytes
-2022/04/25-18:39:31.886 9e Compacted 4@0 + 1@1 files => 1443403 bytes
-2022/04/25-18:39:31.888 9e compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/04/25-18:39:31.889 9e Delete type=2 #775
-2022/04/25-18:39:31.889 9e Delete type=2 #769
-2022/04/25-18:39:31.889 9e Delete type=2 #773
-2022/04/25-18:39:31.889 9e Delete type=2 #771
-2022/04/25-18:39:31.889 9e Delete type=2 #766
-2022/04/25-20:32:56.936 b0 Level-0 table #778: started
-2022/04/25-20:32:56.938 b0 Level-0 table #778: 15719 bytes OK
-2022/04/25-20:32:56.941 b0 Delete type=0 #774
+2022/04/27-08:02:06.082 3 Reusing MANIFEST /home/angel/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2022/04/27-08:02:06.082 3 Recovering log #800
+2022/04/27-08:02:06.083 3 Level-0 table #803: started
+2022/04/27-08:02:06.085 3 Level-0 table #803: 15120 bytes OK
+2022/04/27-08:02:06.088 3 Delete type=0 #800
+2022/04/27-09:36:18.986 46 Level-0 table #806: started
+2022/04/27-09:36:18.988 46 Level-0 table #806: 16313 bytes OK
+2022/04/27-09:36:18.991 46 Delete type=0 #804

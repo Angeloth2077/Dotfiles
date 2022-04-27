@@ -16,7 +16,7 @@ configuration {
 	sidebar-mode: 					false;
 }
 
-@import "styles/colors.rasi"
+@import "styles/berry.rasi"
 
 window {
     transparency:                   "real";

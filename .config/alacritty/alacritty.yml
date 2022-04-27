@@ -84,7 +84,7 @@ font:
 # Colors (Tomorrow Night Bright)
 colors:
   primary:
-    background: "#0c1a27"
+    background: "#0d0d0d"
     foreground: '#a6a6a6'
 
   cursor:

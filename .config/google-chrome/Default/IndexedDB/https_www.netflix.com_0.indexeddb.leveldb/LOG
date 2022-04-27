@@ -1,3 +1,15 @@
-2022/04/12-08:34:33.988 734 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/04/12-08:34:33.989 734 Recovering log #23
-2022/04/12-08:34:34.002 734 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000023.log 
+2022/04/27-14:49:08.758 9bda Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/27-14:49:08.758 9bda Recovering log #23
+2022/04/27-14:49:08.769 9bda Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000023.log 
+2022/04/27-14:49:10.930 9f28 Level-0 table #28: started
+2022/04/27-14:49:10.950 9f28 Level-0 table #28: 1752682 bytes OK
+2022/04/27-14:49:10.951 9f28 Delete type=0 #23
+2022/04/27-14:49:10.952 9f28 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/04/27-14:49:10.952 9f28 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x0e\x00u\x00n\x00s\x00e\x00n\x00t\x00p\x00l\x00a\x00y\x00d\x00a\x00t\x00a' @ 60474 : 1
+2022/04/27-14:49:10.952 9f28 Compacting 1@1 + 1@2 files
+2022/04/27-14:49:10.955 9f28 Generated table #29@1: 50 keys, 9738 bytes
+2022/04/27-14:49:10.955 9f28 Compacted 1@1 + 1@2 files => 9738 bytes
+2022/04/27-14:49:10.957 9f28 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/27-14:49:10.957 9f28 Delete type=2 #28
+2022/04/27-14:49:10.957 9f28 Delete type=2 #25
+2022/04/27-14:49:10.957 9f28 Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x0e\x00u\x00n\x00s\x00e\x00n\x00t\x00p\x00l\x00a\x00y\x00d\x00a\x00t\x00a' @ 60474 : 1 .. (end); will stop at (end)

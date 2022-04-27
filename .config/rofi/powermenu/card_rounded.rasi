@@ -16,7 +16,7 @@ configuration {
 	sidebar-mode: 					false;
 }
 
-@import "styles/colors.rasi"
+@import "styles/nightly.rasi"
 
 window {
     transparency:                   "real";

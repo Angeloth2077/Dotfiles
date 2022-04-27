@@ -24,10 +24,10 @@ configuration {
 window {
     transparency:                   "real";
     border-radius:                  0px;
-    location:                       southeast;
+    location:                       northeast;
 	width:							250px;
     x-offset:                       -15px;
-    y-offset:                       -45px;
+    y-offset:                       24px;
 }
 
 prompt {

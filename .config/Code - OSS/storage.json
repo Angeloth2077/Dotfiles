@@ -2,7 +2,7 @@
     "telemetry.machineId": "133342fab6b9877c0e744d0cd6a17b00c750c6caba1581ddb88996fd8c1a305d",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/angel/.config/Code - OSS/Backups/1650645404387",
+            "backupPath": "/home/angel/.config/Code - OSS/Backups/1651091115206",
             "uiState": {
                 "mode": 1,
                 "x": 965,
@@ -69,6 +69,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/angel/README.md",
+                                        "path": "/home/angel/README.md",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/README.md"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -675,7 +686,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "checked": true
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -703,7 +715,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",

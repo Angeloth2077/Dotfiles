@@ -1,15 +1,6 @@
-2022/04/26-07:52:06.427 3 Reusing MANIFEST /home/angel/.config/google-chrome/Default/Session Storage/MANIFEST-000001
-2022/04/26-07:52:06.428 3 Recovering log #39
-2022/04/26-07:52:06.430 3 Reusing old log /home/angel/.config/google-chrome/Default/Session Storage/000039.log 
-2022/04/26-10:10:58.242 44 Level-0 table #43: started
-2022/04/26-10:10:58.245 44 Level-0 table #43: 20967 bytes OK
-2022/04/26-10:10:58.247 44 Delete type=0 #39
-2022/04/26-10:10:58.247 44 Compacting 4@0 + 1@1 files
-2022/04/26-10:10:58.253 44 Generated table #44@0: 2038 keys, 50622 bytes
-2022/04/26-10:10:58.253 44 Compacted 4@0 + 1@1 files => 50622 bytes
-2022/04/26-10:10:58.255 44 compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/04/26-10:10:58.255 44 Delete type=2 #31
-2022/04/26-10:10:58.255 44 Delete type=2 #43
-2022/04/26-10:10:58.255 44 Delete type=2 #37
-2022/04/26-10:10:58.255 44 Delete type=2 #40
-2022/04/26-10:10:58.255 44 Delete type=2 #34
+2022/04/27-10:30:15.993 3 Reusing MANIFEST /home/angel/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2022/04/27-10:30:15.994 3 Recovering log #49
+2022/04/27-10:30:15.994 3 Reusing old log /home/angel/.config/google-chrome/Default/Session Storage/000049.log 
+2022/04/27-11:25:14.125 a Level-0 table #53: started
+2022/04/27-11:25:14.128 a Level-0 table #53: 19073 bytes OK
+2022/04/27-11:25:14.130 a Delete type=0 #49

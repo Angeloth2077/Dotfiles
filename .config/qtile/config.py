@@ -24,6 +24,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+from libqtile import qtile
 from libqtile import bar, layout, widget
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
@@ -48,7 +49,7 @@ def autostart():
     subprocess.run([home])
 
 def open_rofi(qtile):
-    qtile.cmd_spawn("rofi -show drun")
+    qtile.cmd_spawn("~/.config/rofi/launchers/misc/launcher.sh")
 
 
 mod = "mod4"
@@ -59,8 +60,8 @@ keys = [
     ###Setting media keys###
 
     Key([], "XF86AudioMute", lazy.spawn("amixer -q sset PCM toggle")),
-    Key([], "XF86AudioLowerVolume", lazy.spawn("amixer -q sset PCM 5%-")),
-    Key([], "XF86AudioRaiseVolume", lazy.spawn("amixer -q sset PCM 5%+")),
+    Key([], "XF86AudioLowerVolume", lazy.spawn("sh /home/angel/volume/volume.sh down")),
+    Key([], "XF86AudioRaiseVolume", lazy.spawn("sh /home/angel/volume/volume.sh up")),
     Key([], "XF86AudioPlay", lazy.spawn("playerctl --player spotify play-pause")),
     Key([], "XF86AudioPrev", lazy.spawn("playerctl previous")),
     Key([], "XF86AudioNext", lazy.spawn("playerctl next")),
@@ -114,8 +115,11 @@ keys = [
     Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
+    Key([], "Alt_L", lazy.spawn("rofi -show window"), desc="change window"),
+    Key([], "F1", lazy.spawn("sh /home/angel/.config/rofi/powermenu/powermenu.sh"), desc="Shows emojis"),
     Key([mod], "p", lazy.spawn("rofi -show emoji"), desc="Shows emojis"),
-    Key([mod], "r", lazy.spawn("rofi -show drun"), desc="Spawn a command using a prompt widget"),
+    Key([mod], "r", lazy.spawn("sh /home/angel/.config/rofi/launchers/misc/launcher.sh"), desc="Spawn a command using a prompt widget"),
+    Key([mod, "shift"], "s", lazy.spawn("sh /home/angel/.config/rofi/applets/applets/screenshot.sh") )
 ]
 
 ##### GROUPS #####
@@ -134,13 +138,16 @@ for i, (name, kwargs) in enumerate(group_names, 1):
     keys.append(Key([mod], str(i), lazy.group[name].toscreen()))        # Switch to another group
     keys.append(Key([mod, "shift"], str(i), lazy.window.togroup(name))) # Send current window to another group	
 
+    ####mouse callbacks####
+def clock_menu():
+    qtile.cmd_spawn("sh /home/angel/.config/rofi/applets/applets/time.sh")
+
      ####colors####
-bg = "#0c1a27"
-bg_widget = "#13263a"
-fg_group = "#254b74"
-fg = "#78a4d3"
-accent = "#99ccff"
-fg = accent
+bg = "#21232cbf"
+bg_widget = "#80808000"
+fg_group = "#737373"
+fg = "#d9d9d9"
+accent = "#ff0066"
 
 layouts = [
     layout.Max(),
@@ -164,16 +171,7 @@ screens = [
         top=bar.Bar(    
             [
            
-                widget.Image(
-                    background = bg_widget,
-                    filename = "~/Desktop/Images/clipart3216004.png",
-                    mouse_callbacks = {'Button1': open_rofi},
-                    margin_x = 5,
-
-                ),
-
                 widget.GroupBox(
-                    background = bg_widget,
                     block_highlight_text_color = "#000000",
                     fontsize = 18,
                     margin_x = 20,
@@ -183,12 +181,8 @@ screens = [
                     active = fg,
                     inactive = fg_group,
                 ),
-                widget.TextBox(
-                    text = ' ',     
-                    foreground = bg_widget,
-                    fontsize = 30,
-                    padding = -5,
-                ),
+
+                widget.Spacer(length=20),
 
                 widget.CurrentLayoutIcon(
                     foregrount = fg,
@@ -219,103 +213,37 @@ screens = [
                 ), 
 
 
-                widget.Systray(),
+                widget.Systray(padding = 17),
+                widget.Spacer(length=25),
 
-
-                widget.TextBox(
-                    text = ' ',
-                    fontsize = 30,
-                    padding = 0,
-                    foreground = bg_widget,
-                    ),
-                widget.Wttr(
-                    background = bg_widget,
-                    foreground = fg,
-                    location={'Asuncion': 'Home'},
-                    format = '%t | %c| %m'
-                ),
-                widget.TextBox(
-                    text = ' ',
-                    fontsize = 30,
-                    padding = -4,
-                    foreground = bg_widget,
-                ),               
-                widget.Spacer(length=2),
-
-
-                widget.TextBox(
-                    text = '',
-                    fontsize = 30,
-                    padding = 0,
-                    foreground = bg_widget,
-                    background = bg,
-                    ),
                 widget.CheckUpdates(
-                   update_interval = 1800,
+                   update_interval = 180,
                    colour_no_updates = fg,
                    colour_have_updates = accent,
+                   display_format = 'ﮮ{updates}',
                    distro = "Arch",
                    execute = "sudo pacman -Syu &",
-                   no_update_string = 'ﮮ 更新なし',
-                   background = bg_widget,
+                   fontsize = 17,
+                   no_update_string = 'ﮮ',
                 ),
-                 widget.TextBox(
-                    text = ' ',
-                    fontsize = 30,
-                    padding = -4,
-                    foreground = bg_widget,
-                    background = bg,
-                ),
-                widget.Spacer(length=2),
-                
+                widget.Spacer(length = 10),
 
-                widget.TextBox(
-                    text = '',
-                    fontsize = 30,
-                    padding = 0,
-                    foreground = bg_widget,
-                    background = bg,
-                ),
-                widget.PulseVolume(
-                    channel = 'PWM',
-                    cardid = 2,
-                    emoji = True,
-                    background = bg_widget,
-                ),
-                widget.PulseVolume(
-                    channel = 'PWM',
-                    cardid = 2,
-                    background = bg_widget,
-                    foreground = fg,
-                ),
-                widget.TextBox(
-                    text = ' ',
-                    fontsize = 30,
-                    padding = -4,
-                    foreground = bg_widget,
-                    background = bg,
-                ),
-                widget.Spacer(length = 2),
+                widget.TextBox(text = "", fontsize = 17, mouse_callbacks = {'Button1': lazy.spawn("sh /home/angel/.config/rofi/applets/applets/network.sh")}),
+                widget.Spacer(length = 10),
 
+                widget.TextBox(text = "", fontsize = 17),
+                widget.Spacer(length = 10),
+
+                widget.TextBox(fontsize = 17, text = "", mouse_callbacks = {'Button1': lazy.spawn("sh /home/angel/.config/rofi/applets/applets/screenshot.sh")}),
+
+                widget.Spacer(length=25),
                 
-                widget.TextBox(
-                    text = '',
-                    fontsize = 30,
-                    padding = 0,
-                    foreground = bg_widget,
-                    background = bg,
-                ),
                 widget.Clock(
-                    format="%Y/%m/%d %a | %I:%M %p",
+                    format="%I:%M %p",
                     foreground = fg,
-                    background = bg_widget,
+                    mouse_callbacks = {'Button1': clock_menu},
                 ),
-                widget.TextBox(
-                    text = ' ',
-                    fontsize = 30,
-                    padding = -4,
-                    foreground = bg_widget,
-                ),
+                widget.Spacer(length=10),
                 
                 
             ], 24, background = bg),
