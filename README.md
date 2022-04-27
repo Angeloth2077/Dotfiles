@@ -1,5 +1,7 @@
 # Dotfiles
-Just my dotfiles :/
+My personal config files
+
+Basically Arch linux with Qtile
 
 Here some cool screenshots:
 
