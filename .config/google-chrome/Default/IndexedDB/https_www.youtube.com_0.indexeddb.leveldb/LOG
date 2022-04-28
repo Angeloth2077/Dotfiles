@@ -1,3 +1,15 @@
-2022/04/27-14:19:47.096 8828 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/04/27-14:19:47.096 8828 Recovering log #96
-2022/04/27-14:19:47.106 8828 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000096.log 
+2022/04/28-18:52:03.059 9d79 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/28-18:52:03.059 9d79 Recovering log #106
+2022/04/28-18:52:03.060 9d79 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000106.log 
+2022/04/28-19:14:24.877 a710 Level-0 table #111: started
+2022/04/28-19:14:24.886 a710 Level-0 table #111: 296410 bytes OK
+2022/04/28-19:14:24.887 a710 Delete type=0 #106
+2022/04/28-19:14:24.888 a710 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/04/28-19:14:24.888 a710 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x09\x01\x1f\x03f\x8e\x18\xdc\x9b|xB\x00\x01\x1c\x00y\x00t\x00-\x00m\x00i\x00n\x00i\x00p\x00l\x00a\x00y\x00e\x00r\x00-\x00s\x00h\x00o\x00w\x00n\x00-\x00v\x00i\x00d\x00e\x00o\x00-\x00i\x00d' @ 314932 : 0
+2022/04/28-19:14:24.888 a710 Compacting 1@1 + 1@2 files
+2022/04/28-19:14:24.892 a710 Generated table #112@1: 369 keys, 28099 bytes
+2022/04/28-19:14:24.892 a710 Compacted 1@1 + 1@2 files => 28099 bytes
+2022/04/28-19:14:24.893 a710 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/28-19:14:24.893 a710 Delete type=2 #108
+2022/04/28-19:14:24.893 a710 Delete type=2 #111
+2022/04/28-19:14:24.894 a710 Manual compaction at level-1 from '\x00\x09\x01\x1f\x03f\x8e\x18\xdc\x9b|xB\x00\x01\x1c\x00y\x00t\x00-\x00m\x00i\x00n\x00i\x00p\x00l\x00a\x00y\x00e\x00r\x00-\x00s\x00h\x00o\x00w\x00n\x00-\x00v\x00i\x00d\x00e\x00o\x00-\x00i\x00d' @ 314932 : 0 .. (end); will stop at (end)

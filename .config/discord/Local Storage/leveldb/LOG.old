@@ -1,3 +1,6 @@
-2022/04/26-09:43:10.401 33d2 Reusing MANIFEST /home/angel/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2022/04/26-09:43:10.402 33d2 Recovering log #113
-2022/04/26-09:43:10.404 33d2 Reusing old log /home/angel/.config/discord/Local Storage/leveldb/000113.log 
+2022/04/28-09:37:26.744 164f Reusing MANIFEST /home/angel/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/04/28-09:37:26.744 164f Recovering log #134
+2022/04/28-09:37:26.745 164f Reusing old log /home/angel/.config/discord/Local Storage/leveldb/000134.log 
+2022/04/28-09:55:05.763 164f Level-0 table #139: started
+2022/04/28-09:55:05.768 164f Level-0 table #139: 403966 bytes OK
+2022/04/28-09:55:05.770 164f Delete type=0 #134

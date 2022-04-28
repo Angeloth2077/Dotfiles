@@ -1,3 +1,30 @@
-2022/04/27-11:45:08.292 56b2 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/04/27-11:45:08.292 56b2 Recovering log #96
-2022/04/27-11:45:08.301 56b2 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000096.log 
+2022/04/28-10:33:11.847 283e Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/28-10:33:11.847 283e Recovering log #96
+2022/04/28-10:33:11.890 283e Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000096.log 
+2022/04/28-10:40:53.639 2944 Level-0 table #101: started
+2022/04/28-10:40:53.652 2944 Level-0 table #101: 1116907 bytes OK
+2022/04/28-10:40:53.656 2944 Delete type=0 #96
+2022/04/28-10:42:47.400 2a0a Compacting 1@1 + 1@2 files
+2022/04/28-10:42:47.407 2a0a Generated table #102@1: 491 keys, 41317 bytes
+2022/04/28-10:42:47.407 2a0a Compacted 1@1 + 1@2 files => 41317 bytes
+2022/04/28-10:42:47.408 2a0a compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/28-10:42:47.409 2a0a Delete type=2 #101
+2022/04/28-10:42:47.409 2a0a Delete type=2 #98
+2022/04/28-12:14:48.244 3ae3 Level-0 table #104: started
+2022/04/28-12:14:48.259 3ae3 Level-0 table #104: 1229381 bytes OK
+2022/04/28-12:14:48.261 3ae3 Delete type=0 #100
+2022/04/28-12:18:22.708 3a11 Compacting 1@1 + 1@2 files
+2022/04/28-12:18:22.723 3a11 Generated table #105@1: 490 keys, 34009 bytes
+2022/04/28-12:18:22.723 3a11 Compacted 1@1 + 1@2 files => 34009 bytes
+2022/04/28-12:18:22.725 3a11 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/28-12:18:22.725 3a11 Delete type=2 #104
+2022/04/28-12:18:22.725 3a11 Delete type=2 #102
+2022/04/28-18:42:26.676 80e9 Level-0 table #107: started
+2022/04/28-18:42:26.692 80e9 Level-0 table #107: 1412014 bytes OK
+2022/04/28-18:42:26.695 80e9 Delete type=0 #103
+2022/04/28-18:47:34.670 889f Compacting 1@1 + 1@2 files
+2022/04/28-18:47:34.680 889f Generated table #108@1: 1629 keys, 64641 bytes
+2022/04/28-18:47:34.680 889f Compacted 1@1 + 1@2 files => 64641 bytes
+2022/04/28-18:47:34.681 889f compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/28-18:47:34.681 889f Delete type=2 #107
+2022/04/28-18:47:34.681 889f Delete type=2 #105

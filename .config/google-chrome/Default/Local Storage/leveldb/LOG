@@ -1,21 +1,3 @@
-2022/04/27-10:30:15.906 3 Reusing MANIFEST /home/angel/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
-2022/04/27-10:30:15.908 3 Recovering log #805
-2022/04/27-10:30:15.908 3 Reusing old log /home/angel/.config/google-chrome/Default/Local Storage/leveldb/000805.log 
-2022/04/27-11:46:08.491 a Level-0 table #809: started
-2022/04/27-11:46:08.493 a Level-0 table #809: 21575 bytes OK
-2022/04/27-11:46:08.495 a Delete type=0 #805
-2022/04/27-11:46:08.496 a Compacting 4@0 + 1@1 files
-2022/04/27-11:46:08.528 a Generated table #810@0: 2564 keys, 1452817 bytes
-2022/04/27-11:46:08.528 a Compacted 4@0 + 1@1 files => 1452817 bytes
-2022/04/27-11:46:08.530 a compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/04/27-11:46:08.531 a Delete type=2 #803
-2022/04/27-11:46:08.531 a Delete type=2 #801
-2022/04/27-11:46:08.531 a Delete type=2 #809
-2022/04/27-11:46:08.531 a Delete type=2 #806
-2022/04/27-11:46:08.531 a Delete type=2 #799
-2022/04/27-14:34:44.446 2e Level-0 table #812: started
-2022/04/27-14:34:44.448 2e Level-0 table #812: 30653 bytes OK
-2022/04/27-14:34:44.450 2e Delete type=0 #808
-2022/04/27-16:59:52.104 49 Level-0 table #814: started
-2022/04/27-16:59:52.106 49 Level-0 table #814: 23656 bytes OK
-2022/04/27-16:59:52.109 49 Delete type=0 #811
+2022/04/28-19:59:12.125 3 Reusing MANIFEST /home/angel/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2022/04/28-19:59:12.126 3 Recovering log #826
+2022/04/28-19:59:12.127 3 Reusing old log /home/angel/.config/google-chrome/Default/Local Storage/leveldb/000826.log 

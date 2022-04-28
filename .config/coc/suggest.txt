@@ -1,3 +1,62 @@
+acce|accent2|tabnine|
+acce|accent2|tabnine|
+424657|424657e"|tabnine|
+paddin|padding = 0|tabnine|
+font|fontsize = 18,|tabnine|
+fore|foreground|tabnine|
+bg|bg_widget|tabnine|
+fore|foregrount|tabnine|
+te|text=""|tabnine|S
+Tex|TextBox()|tabnine|S
+widge|widget|jedi|M
+ba_wi|ba_widget,|tabnine|
+fore|foregrount|tabnine|
+text|text_color =|tabnine|
+widge|widget.GroupBox()|tabnine|S
+bg_|bg_widget|tabnine|
+back|background|tabnine|
+wfram|wframe|tabnine|
+wframe|wframe = "#"|tabnine|S
+stdio|stdio.h>|languageserver.ccls|F
+res|result|tabnine|
+va|values[5];|tabnine|
+val|values[4];|tabnine|
+2|2] * values[3]|tabnine|S
+value|values[1] + values[]|tabnine|S
+resu|result =|tabnine|
+resu|result;|tabnine|
+Multiplyin|Multiplying values|tabnine|
+print|printf("")|tabnine|S
+pritf|printf|tabnine|
+retur|return 0;|tabnine|
+scanf|scanf("%d", values[i])|tabnine|S
+print|printf("")|tabnine|S
+print|printf("")|tabnine|S
+numb|numbers|tabnine|
+print|printf("")|tabnine|S
+|bin|file|
+stdio|stdio.h>|tabnine|
+inclu|include|languageserver.ccls|S
+retur|return 0;|tabnine|
+print|printf("")|tabnine|S
+while|while(0);|tabnine|
+strin|string.h>|tabnine|
+stdio|stdio.h>|tabnine|
+res|result|tabnine|
+resu|result|tabnine|
+resu|result =|tabnine|
+rs|result|tabnine|
+resu|result = 0;|tabnine|
+print|printf("")|tabnine|S
+prin|printf("")|tabnine|S
+pri|printf("")|tabnine|S
+else{|else if(i == 2){}|tabnine|S
+print|printf("%d \n", b);|tabnine|
+else|else if|tabnine|
+pri|printf("\n");|tabnine|
+print|printf("")|tabnine|S
+resu|result|tabnine|
+resul|result =|tabnine|
 s|spawn|tabnine|
 la|lazy|tabnine|
 But|Button1|tabnine|

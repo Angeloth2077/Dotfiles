@@ -1,15 +1,3 @@
-2022/04/26-10:08:39.399 40bd Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_wchat.freshchat.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/04/26-10:08:39.399 40bd Recovering log #25
-2022/04/26-10:08:39.406 40bd Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_wchat.freshchat.com_0.indexeddb.leveldb/000025.log 
-2022/04/26-10:10:39.482 3f36 Level-0 table #31: started
-2022/04/26-10:10:39.493 3f36 Level-0 table #31: 1766057 bytes OK
-2022/04/26-10:10:39.495 3f36 Delete type=0 #25
-2022/04/26-10:10:39.496 3f36 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2022/04/26-10:10:39.496 3f36 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0f\x001\x009\x008\x004\x008\x004\x008\x003\x000\x006\x007\x002\x009\x003\x001' @ 4924 : 1
-2022/04/26-10:10:39.496 3f36 Compacting 1@1 + 1@2 files
-2022/04/26-10:10:39.499 3f36 Generated table #32@1: 30 keys, 21658 bytes
-2022/04/26-10:10:39.499 3f36 Compacted 1@1 + 1@2 files => 21658 bytes
-2022/04/26-10:10:39.500 3f36 compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/04/26-10:10:39.500 3f36 Delete type=2 #31
-2022/04/26-10:10:39.500 3f36 Delete type=2 #28
-2022/04/26-10:10:39.501 3f36 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0f\x001\x009\x008\x004\x008\x004\x008\x003\x000\x006\x007\x002\x009\x003\x001' @ 4924 : 1 .. (end); will stop at (end)
+2022/04/26-10:35:29.372 4a92 Reusing MANIFEST /home/angel/.config/google-chrome/Default/IndexedDB/https_wchat.freshchat.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/26-10:35:29.372 4a92 Recovering log #30
+2022/04/26-10:35:29.372 4a92 Reusing old log /home/angel/.config/google-chrome/Default/IndexedDB/https_wchat.freshchat.com_0.indexeddb.leveldb/000030.log 

@@ -144,14 +144,15 @@ def clock_menu():
 
      ####colors####
 bg = "#21232cbf"
-bg_widget = "#80808000"
+bg_widget = "#2c2e3a"
 fg_group = "#737373"
 fg = "#d9d9d9"
 accent = "#ff0066"
+accent2 = "#00ffcc"
 
 layouts = [
     layout.Max(),
-    layout.Columns(border_focus = accent , border_width = 1, margin = 4)
+    layout.Columns(border_focus = accent2 , border_width = 1, margin = 4)
 ]
 
 widget_defaults = dict(
@@ -177,19 +178,20 @@ screens = [
                     margin_x = 20,
                     highlight_method='line',
                     borderwidth = 0,
+                    background = bg_widget,
                     highlight_color = [accent, accent],
                     active = fg,
                     inactive = fg_group,
                 ),
+                widget.TextBox(text=" ", foreground = bg_widget, fontsize = 37, padding = -7),
 
-                widget.Spacer(length=20),
 
                 widget.CurrentLayoutIcon(
-                    foregrount = fg,
+                    foregrount = accent2,
                     scale = 0.6,
                 ),              
                 widget.CurrentLayout(
-                    foregrount = fg,
+                    foregrount = accent2,
                     ),
 
                                 
@@ -219,7 +221,7 @@ screens = [
                 widget.CheckUpdates(
                    update_interval = 180,
                    colour_no_updates = fg,
-                   colour_have_updates = accent,
+                   colour_have_updates = accent2,
                    display_format = 'ﮮ{updates}',
                    distro = "Arch",
                    execute = "sudo pacman -Syu &",

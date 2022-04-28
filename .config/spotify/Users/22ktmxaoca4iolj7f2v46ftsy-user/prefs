@@ -1,4 +1,6 @@
-gaia.attached_device_id="f4883f7ea840aa60292b6710f8988348ea353e73"
 audio.play_bitrate_non_metered_migrated=true
+gaia.attached_device_id="f4883f7ea840aa60292b6710f8988348ea353e73"
+audio.play_bitrate_enumeration=4
 ui.hide_hpto=true
+audio.play_bitrate_non_metered_enumeration=4
 app.player.volume=28891
